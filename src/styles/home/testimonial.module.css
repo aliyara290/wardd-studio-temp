@@ -1,0 +1,128 @@
+.content {
+  width: 100%;
+  padding-bottom: 150px;
+  overflow: hidden;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+.bold_heading {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slice {
+  display: flex;
+  font-size: 7rem;
+  font-family: "Thunder";
+  font-weight: 600;
+  line-height: 0.9;
+  color: var(--dark);
+  letter-spacing: 2px;
+  margin: 0 auto;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1vw;
+}
+.horizontal_cards {
+  display: none;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.card {
+  width: 25vw;
+  height: 40vh;
+  padding: 30px;
+  /* background-color: var(--dark); */
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card_hor {
+  width: 100%;
+  height: 40vh;
+  padding: 30px;
+  background-color: var(--dark);
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 10px ;
+}
+.stars {
+  display: flex;
+}
+.stars span {
+  padding-right: 4px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.picture {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+  box-shadow: 0 5px 20px #bcbcbc;
+}
+.client h4 {
+  font-size: var(--fz-sm);
+  font-weight: 700;
+}
+.feedback p {
+  font-size: var(--fz-sm);
+  font-weight: 600;
+}
+@media (max-width: 1050px) {
+  .cards {
+    display: none;
+  }
+  .horizontal_cards {
+    display: flex;
+  }
+}
+@media (max-width: 570px) {
+  .heading {
+    padding-bottom: 50px;
+}
+  .content {
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+  .slice {
+    font-size: 5rem;
+  }
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 400px) {
+  .slice {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 330px) {
+  .slice {
+    font-size: 3rem;
+  }
+  .card {
+    width: 280px;
+  }
+}

@@ -1,0 +1,113 @@
+.content {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 150px;
+    padding-top: 100px;
+    font-family: 'Manrope';
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+.rules_cards {
+    width: 100%;
+}
+.rules_cards__content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    align-items: center;
+    gap:40px;
+}
+.rule_card {
+    background-color: var(--dark);
+    color: aliceblue;
+    padding: 30px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 10px;
+    transition: transform .4s ease;
+    overflow: hidden;
+    position: relative;
+}
+.rule_card:hover {
+    transform: scale(1.02);
+}
+.rule_card:hover .o_spider {
+    top: 0;
+}
+.o_spider {
+    position: absolute;
+    top: -100%;
+    right: 10%;
+    opacity: .3;
+    z-index: 4;
+    transition: top .2s ease;
+}
+.rule_id {
+    padding-bottom: 15px;
+    font-family: "Manrope";
+    font-size: var(--fz-xs);
+    font-weight: var(--semi-bold);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    color: var(--dark);
+}
+
+.rule_number {
+    /* color: var(--dark-grey); */
+    font-weight: var(--black);
+    padding-left: 5px;
+}
+.point {
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: var(--blue);
+    border-radius: var(--radius-circle);
+    margin-right: 10px;
+    position: relative;
+}
+.point::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: var(--radius-circle);
+    border: 1px solid var(--dark);
+}
+.rule_title {
+    font-family: 'Thunder';
+    font-size: 3rem;
+    font-weight: var(--bold);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--dark);
+    width: max-content;
+}
+.rule_description {
+    font-family: 'Manrope', sans-serif;
+    font-size: var(--fz-sm);
+    color: var(--dark);
+}
+
+
+@media (max-width:  570px) {
+    .content {
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+  }
+@media (max-width:  400px) {
+      .rule_title {
+        font-size: 2.8rem;
+    }
+  }

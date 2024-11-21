@@ -1,0 +1,126 @@
+.content {
+  width: 100%;
+  height: 100svh;
+  position: relative;
+  font-family: "Manrope";
+  margin-bottom: 100px;
+  background: url('/images/bg/studio_bg.svg');
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.absolute_text {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.absolute_text h1 {
+  width: max-content;
+  font-size: 10rem;
+  font-weight: 600;
+  font-family: "Thunder";
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 2px;
+  transform: translateY(100%);
+}
+.service_bio {
+  padding: 30px 0;
+  border-top: 1px solid var(--dark-slate);
+  overflow: hidden;
+}
+.service_bio_content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  transform: translateY(150%);
+}
+.bio_header {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.bio_header h4 {
+  color: var(--dark);
+  font-size: var(--fz-xs);
+  font-weight: var(--medium);
+}
+.heading_point {
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-circle);
+  background-color: var(--blue);
+  position: relative;
+  margin-right: 8px;
+}
+.heading_point::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 13px;
+  height: 13px;
+  border-radius: var(--radius-circle);
+  border: 0.7px solid var(--dark-slate);
+}
+
+.bio_text {
+  width: 70%;
+  color: var(--dark);
+  font-size: var(--fz-sm);
+  font-weight: 500;
+  text-transform: none;
+}
+
+@media (max-width: 700px) {
+  .absolute_text h1 {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 600px) {
+  .absolute_text h1 {
+    font-size: 7rem;
+  }
+}
+@media (max-width: 500px) {
+  .absolute_text h1 {
+    font-size: 6rem;
+  }
+}
+@media (max-width: 450px) {
+  .absolute_text h1 {
+    font-size: 4.8rem;
+  }
+}
+@media (max-width: 350px) {
+  .absolute_text h1 {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 340px) {
+  .service_bio {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    padding: 10px 0;
+    border-top: 1px solid var(--dark-slate);
+    border-bottom: 1px solid var(--dark-slate);
+    background-color: var(--dark);
+  }
+}

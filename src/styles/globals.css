@@ -1,0 +1,393 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[data-scroll-container] {
+  height: 100%;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+:root {
+  /* --blue: #6C8FFF;
+  --dark-grey: #212121;
+  --light-grey: rgb(52, 52, 52);
+  --dark: #FCFCFC;
+  --lightest-grey: rgb(52, 52, 52);
+  --dark-slate: #323232;
+  --slate: #6C8FFF;
+  --dark: #FCFCFC;
+  --load: #1A223D; */
+
+  --blue: #6C8FFF;
+  --dark-grey: #212121;
+  --light-grey: rgb(52, 52, 52);
+  --white: #fcfcfc;
+  --lightest-grey: rgb(52, 52, 52);
+  --dark-slate: #323232;
+  --slate: #b0b1b1;
+  --dark: #161616;
+  --load: #0000002a;
+
+
+  --fz-xxxs: 11px;
+  --fz-xxs: 12px;
+  --fz-xs: 13px;
+  --fz-sm: 14px;
+  --fz-md: 16px;
+  --fz-lg: 18px;
+  --fz-xl: 20px;
+  --fz-2xl: 22px;
+  --fz-3xl: 2rem;
+  --fz-4xl: 4rem;
+  --fz-5xl: 7rem;
+  --fz-6xl: 12rem;
+
+  --thin: 100;
+  --extra-light: 200;
+  --light: 300;
+  --normal: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
+  --extra-bold: 800;
+  --black: 900;
+
+  --radius-sm: 7px;
+  --radius: 10px;
+  --radius-lg: 15px;
+  --radius-circle: 50%;
+  --radius-full: 30px;
+
+  --text-height: 22px;
+  --bold-height: 4.2rem;
+  --black-height: 6.5rem;
+
+  --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
+  --transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Fonts faces */
+
+/* Manrope font */
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Bold.eot");
+  src: url("../fonts/Manrope/Manrope-Bold.woff2") format("woff2"),
+    url("../fonts/Manrope/Manrope-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-ExtraBold.eot");
+  src: url("../fonts/Manrope/Manrope-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Manrope/Manrope-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-SemiBold.eot");
+  src: url("../fonts/Manrope/Manrope-SemiBold.woff2") format("woff2"),
+    url("../fonts/Manrope/Manrope-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Regular.eot");
+  src: url("../fonts/Manrope/Manrope-Regular.woff2") format("woff2"),
+    url("../fonts/Manrope/Manrope-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-ExtraLight.eot");
+  src: url("../fonts/Manrope/Manrope-ExtraLight.woff2") format("woff2"),
+    url("../fonts/Manrope/Manrope-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Light.eot");
+  src: url("../fonts/Manrope/Manrope-Light.woff2") format("woff2"),
+    url("../fonts/Manrope/Manrope-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../fonts/Manrope/Manrope-Medium.eot");
+  src: url("../fonts/Manrope/Manrope-Medium.woff2") format("woff2"),
+    url("../fonts/Manrope/Manrope-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Thunder */
+
+@font-face {
+  font-family: "Thunder";
+  src: url("../fonts/Thunder/Thunder-BlackLC.woff2") format("woff2"),
+    url("../fonts/Thunder/Thunder-BlackLC.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thunder";
+  src: url("../fonts/Thunder/Thunder-BoldLC.woff2") format("woff2"),
+    url("../fonts/Thunder/Thunder-BoldLC.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thunder";
+  src: url("../fonts/Thunder/Thunder-ExtraBoldLC.woff2") format("woff2"),
+    url("../fonts/Thunder/Thunder-ExtraBoldLC.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thunder";
+  src: url("../fonts/Thunder/Thunder-LC.woff2") format("woff2"),
+    url("../fonts/Thunder/Thunder-LC.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thunder";
+  src: url("../fonts/Thunder/Thunder-LightLC.woff2") format("woff2"),
+    url("../fonts/Thunder/Thunder-LightLC.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thunder";
+  src: url("../fonts/Thunder/Thunder-MediumLC.woff2") format("woff2"),
+    url("../fonts/Thunder/Thunder-MediumLC.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Thunder";
+  src: url("../fonts/Thunder/Thunder-SemiBoldLC.woff2") format("woff2"),
+    url("../fonts/Thunder/Thunder-SemiBoldLC.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+/* Alexandria */
+@font-face {
+  font-family: 'Alexandria';
+  src: url('../fonts/alexandria/Alexandria-ExtraLight.eot');
+  src: url('../fonts/alexandria/Alexandria-ExtraLight.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/alexandria/Alexandria-ExtraLight.woff2') format('woff2'),
+      url('../fonts/alexandria/Alexandria-ExtraLight.woff') format('woff'),
+      url('../fonts/alexandria/Alexandria-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('../fonts/alexandria/Alexandria-Light.eot');
+  src: url('../fonts/alexandria/Alexandria-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/alexandria/Alexandria-Light.woff2') format('woff2'),
+      url('../fonts/alexandria/Alexandria-Light.woff') format('woff'),
+      url('../fonts/alexandria/Alexandria-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('../fonts/alexandria/Alexandria-Bold.eot');
+  src: url('../fonts/alexandria/Alexandria-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/alexandria/Alexandria-Bold.woff2') format('woff2'),
+      url('../fonts/alexandria/Alexandria-Bold.woff') format('woff'),
+      url('../fonts/alexandria/Alexandria-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('../fonts/alexandria/Alexandria-Medium.eot');
+  src: url('../fonts/alexandria/Alexandria-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/alexandria/Alexandria-Medium.woff2') format('woff2'),
+      url('../fonts/alexandria/Alexandria-Medium.woff') format('woff'),
+      url('../fonts/alexandria/Alexandria-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('../fonts/alexandria/Alexandria-ExtraBold.eot');
+  src: url('../fonts/alexandria/Alexandria-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/alexandria/Alexandria-ExtraBold.woff2') format('woff2'),
+      url('../fonts/alexandria/Alexandria-ExtraBold.woff') format('woff'),
+      url('../fonts/alexandria/Alexandria-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('../fonts/alexandria/Alexandria-Black.eot');
+  src: url('../fonts/alexandria/Alexandria-Black.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/alexandria/Alexandria-Black.woff2') format('woff2'),
+      url('../fonts/alexandria/Alexandria-Black.woff') format('woff'),
+      url('../fonts/alexandria/Alexandria-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('../fonts/alexandria/Alexandria-Thin.eot');
+  src: url('../fonts/alexandria/Alexandria-Thin.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/alexandria/Alexandria-Thin.woff2') format('woff2'),
+      url('../fonts/alexandria/Alexandria-Thin.woff') format('woff'),
+      url('../fonts/alexandria/Alexandria-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('../fonts/alexandria/Alexandria-Regular.eot');
+  src: url('../fonts/alexandria/Alexandria-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/alexandria/Alexandria-Regular.woff2') format('woff2'),
+      url('../fonts/alexandria/Alexandria-Regular.woff') format('woff'),
+      url('../fonts/alexandria/Alexandria-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Alexandria';
+  src: url('../fonts/alexandria/Alexandria-SemiBold.eot');
+  src: url('../fonts/alexandria/Alexandria-SemiBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/alexandria/Alexandria-SemiBold.woff2') format('woff2'),
+      url('../fonts/alexandria/Alexandria-SemiBold.woff') format('woff'),
+      url('../fonts/alexandria/Alexandria-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: var(--white);
+  font-family: "Alexandria";
+  /* cursor: none; */
+}
+
+/* body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/images/bg/noise.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  z-index: 1067676878900;
+  opacity: 0.2;
+  pointer-events: none;
+} */
+@media (min-width: 800px) {
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("/images/bg/lines_bg.svg");
+    background-repeat: repeat;
+    background-size: cover;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+.banner_bg {
+  background-color: var(--dark);
+  z-index: 20000;
+}
+.t-active {
+  color: var(--blue);
+}
+.b-active {
+  color: var(--dark);
+}
+::-moz-selection {
+  color: var(--black);
+  background: var(--blue);
+}
+
+::selection {
+  color: var(--black);
+  background: var(--blue);
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  box-shadow: none;
+}
+::-webkit-scrollbar-thumb {
+  background: #000;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+::-webkit-scrollbar-track-piece {
+  border: none;
+}

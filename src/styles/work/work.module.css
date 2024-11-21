@@ -1,0 +1,235 @@
+.content {
+  width: 100%;
+  position: relative;
+  background-color: var(--dark);
+  
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 130px 0 100px;
+}
+.work_lists {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.project {
+  width: 100%;
+  position: relative;
+  transform: translateY(-100%);
+}
+
+.project_details {
+  width: 100%;
+  padding: 25px 0 25px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+.project_left_part {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column: span 5 / span 5;
+}
+.project_id {
+  grid-column: span 2 / span 2;
+  display: grid;
+  align-items: center;
+}
+.project_id span {
+  color: var(--slate);
+  text-transform: uppercase;
+  font-size: var(--fz-xxs);
+  font-family: monospace;
+}
+.project_name {
+  grid-column: span 6 / span 6;
+}
+.project_name h1 {
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 500;
+  font-family: "Manrope";
+  position: relative;
+  overflow: hidden;
+}
+.project_name h1::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--slate);
+  transition: top 0.4s ease;
+}
+.project_name h1::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--dark);
+  transition: top 0.4s ease;
+}
+.project_inner:hover h1::before {
+  top: 0;
+}
+.project_inner:hover h1::after {
+  top: -100%;
+}
+.project_right_part {
+  grid-column: span 5 / span 5;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.project_material {
+  grid-column: span 5 / span 5;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.project_material span {
+  color: var(--slate);
+  text-transform: uppercase;
+  font-size: var(--fz-xxs);
+  font-family: monospace;
+}
+.project_arrow {
+  grid-column: span 1 / span 1;
+  display: grid;
+  justify-content: end;
+  text-align: right;
+  align-items: center;
+}
+.project_arrow span {
+  font-size: 2rem;
+  padding-bottom: 3px;
+  position: relative;
+  color: transparent;
+  overflow: hidden;
+}
+.project_arrow span::after {
+  content: "→";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--slate);
+  transition: left 0.3s ease;
+}
+.project_arrow span::before {
+  content: "→";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  color: var(--dark);
+  transition: left 0.3s ease;
+}
+.project_inner:hover span::before {
+  left: 0;
+}
+.project_inner:hover span::after {
+  left: 100%;
+}
+.project_external {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  opacity: 0;
+}
+.project_gallery div {
+  width: max-content;
+  position: absolute;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  border-radius: var(--radius);
+  overflow: hidden;
+  opacity: 0;
+  z-index: -1;
+}
+.project_inner:hover .project_gallery div {
+  transform: scale(1.4);
+  opacity: 1;
+  z-index: 1;
+}
+
+.image_one {
+  top: 20%;
+  left: 20%;
+}
+.image_two {
+  top: 10%;
+  right: 5%;
+}
+.image_three {
+  bottom: 13%;
+  left: 0%;
+}
+.image_four {
+  bottom: 8%;
+  right: 20%;
+}
+
+@media (max-width: 1000px) {
+  .project_gallery {
+    display: none;
+  }
+}
+@media (max-width: 990px) {
+
+  .project_material {
+    display: none;
+  }
+  .project_details {
+    display: grid;
+  }
+  .project_left_part {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: span 9 / span 9;
+  }
+  .project_name {
+    padding-top: 10px;
+  }
+  .project_right_part {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column: span 1 / span 1;
+  align-items: flex-end;
+
+
+  }
+  .project_arrow span {
+    line-height: 0.8;
+  }
+}
+@media (max-width: 600px) {
+    .container {
+        padding: 100px 0 100px;
+        /* position: relative; */
+      }
+}
+@media (max-width: 500px) {
+    .project_name h1 {
+        font-size: 2rem;
+      }
+}
+@media (max-width: 360px) {
+    .project_name h1 {
+        font-size: 1.6rem;
+      }
+}

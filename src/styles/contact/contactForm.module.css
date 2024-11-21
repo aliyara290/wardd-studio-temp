@@ -1,0 +1,316 @@
+.content {
+  width: 100%;
+  padding-top: 170px;
+  background-color: var(--dark);
+  font-family: "Manrope";
+}
+.container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  position: relative;
+  z-index: 2;
+}
+.form_content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.form_left_part {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.splite {
+  display: flex;
+}
+.splite div {
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 0.9;
+  font-family: "Thunder";
+  color: var(--dark);
+  letter-spacing: 2px;
+}
+.drop_line button {
+  width: 180px;
+  height: 70px;
+  background-color: var(--dark-slate);
+  border-radius: var(--radius-sm);
+  font-size: var(--fz-sm);
+  color: var(--dark);
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  z-index: 4;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.drop_line button a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  z-index: 2;
+}
+.drop_line button::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--blue);
+  border-radius: 50%;
+  transition: top 0.4s ease, border-radius 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.drop_line button:hover::before {
+  border-radius: 0;
+  top: 0;
+}
+.form_right_part {
+  width: 100%;
+}
+.bs_grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.bs_grid input {
+  line-height: 60px;
+  border-radius: var(--radius-sm);
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  background-color: var(--lightest-grey);
+  color: var(--dark);
+}
+.bs_grid input::placeholder {
+  color: #b2b2b2;
+  font-weight: 600;
+}
+.ms_sb {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+.ms_sb textarea {
+  /* width: 100%; */
+  border-radius: var(--radius-sm);
+  padding: 20px;
+  border: none;
+  outline: none;
+  display: flex;
+  background-color: var(--lightest-grey);
+  resize: none;
+  color: var(--dark);
+}
+.ms_sb textarea::placeholder {
+  color: #b2b2b2;
+  font-weight: 600;
+}
+.ms_sb:last-child {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.ms_sb .submit {
+  width: 180px;
+  height: 70px;
+  background-color: var(--blue);
+  border-radius: var(--radius-sm);
+  font-size: var(--fz-sm);
+  color: var(--dark);
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  z-index: 4;
+  margin-top: 20px;
+  float: right;
+  cursor: pointer;
+}
+.ms_sb .submit span {
+  position: relative;
+  z-index: 3;
+}
+.ms_sb .submit::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 110%;
+  height: 110%;
+  background-color: var(--dark);
+  border-radius: 50%;
+  transition: top 0.4s ease, border-radius 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ms_sb .submit:hover::before {
+  border-radius: 0;
+  top: 0;
+}
+.ms_sb .submit:hover span {
+  color: var(--dark);
+}
+.success_message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+.message_content {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.message_content h1 {
+  font-size: 7rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--dark);
+  font-family: "Thunder";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.message_content p {
+  font-size: var(--fz-md);
+  color: var(--dark);
+  margin: 30px 0 50px;
+  text-align: center;
+}
+.message_content button {
+  width: 180px;
+  height: 70px;
+  background-color: var(--dark-slate);
+  border-radius: var(--radius-sm);
+  font-size: var(--fz-sm);
+  color: var(--dark);
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  z-index: 4;
+  cursor: pointer;
+}
+.message_content button span {
+  position: relative;
+  z-index: 3;
+}
+.message_content button::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--blue);
+  border-radius: 50%;
+  transition: top 0.4s ease, border-radius 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.message_content button:hover::before {
+  border-radius: 0;
+  top: 0;
+}
+
+@media (max-width: 1050px) {
+  .form_content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .form_left_part {
+    padding-bottom: 50px;
+  }
+  .form_heading {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 570px) {
+  .content {
+    /* padding-top: 130px; */
+    padding-bottom: 60px;
+
+  }
+  .heading {
+    padding-bottom: 50px;
+  }
+  .splite div {
+    font-size: 5rem;
+  }
+  .bs_grid {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .ms_sb {
+    gap: 10px;
+  }
+  .ms_sb .submit {
+    margin-top: 10px;
+  }
+  .bs_grid input {
+    line-height: 50px;
+    border-radius: var(--radius-sm);
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    background-color: var(--lightest-grey);
+    color: var(--dark);
+  }
+  .message_content h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--dark);
+    font-family: "Thunder";
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .message_content p {
+    font-size: var(--fz-md);
+    color: var(--dark);
+    margin: 10px 20px 30px;
+    text-align: center;
+  }
+}
+@media (max-height: 880px) and (max-width: 900px)  {
+    .content {
+        height: 100%;
+        /* padding-top: 140px; */
+        padding-bottom: 60px;
+    }
+}
+@media (max-width: 400px) {
+  .splite div {
+    font-size: 3rem;
+  }
+}

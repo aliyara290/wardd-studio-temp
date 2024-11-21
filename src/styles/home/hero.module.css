@@ -1,0 +1,82 @@
+.content {
+  width: 100%;
+  height: 100svh;
+  position: relative;
+  font-family: "Manrope";
+  position: relative;
+  overflow: hidden;
+}
+.content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top,#2121219e, #21212123);
+}
+.hero_video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.hero_video video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.absolute_text {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  z-index: 2;
+  user-select: none;
+}
+.el {
+  overflow: hidden;
+}
+
+.absolute_text h1 {
+  transform: translateY(100%);
+  font-size: 6rem;
+  color: var(--dark);
+  font-weight: 800;
+  font-family: "Manrope";
+  text-transform: uppercase;
+  line-height: 1;
+}
+.el:last-child h1 {
+  color: var(--blue);
+}
+@media (max-width:  900px) {
+  .absolute_text h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width:  700px) {
+  .absolute_text h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width:  500px) {
+  .absolute_text h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width:  400px) {
+  .absolute_text h1 {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width:  340px) {
+  .absolute_text h1 {
+    font-size: 1.4rem;
+  }
+}
