@@ -262,7 +262,6 @@ const Lawyer = ({ deviceType }) => {
                     height={700}
                   />
                 </div>
-              
               </div>
             </div>
           </div>

@@ -35,100 +35,76 @@ const Footer = () => {
   return (
     <footer className={style.content}>
       <div className={style.container}>
-        <div className={style.contact_p}>
-          <div className={`${style.boldText} get__in`}>
-            <Link href={"/contact"}>
+        <div className={style.row}>
+          <div className={style.col}>
+            <div className={style.logo}>
               <svg
-                id="Layer_1"
                 data-name="Layer 1"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 193.11 21.11"
+                viewBox="0 0 239.87 93.31"
+                width={140}
+                fill="var(--blue)"
               >
                 <path
-                  className="cls-1"
-                  d="M26,35.5a9.73,9.73,0,0,1-3.64-.68,8.72,8.72,0,0,1-3.05-2,9.41,9.41,0,0,1-2.09-3.3A12.44,12.44,0,0,1,16.44,25a11.68,11.68,0,0,1,1.29-5.7,8.85,8.85,0,0,1,3.45-3.59A9.5,9.5,0,0,1,26,14.44a9.49,9.49,0,0,1,6.13,1.81,8.89,8.89,0,0,1,3,5.13l-3.9.56a5.88,5.88,0,0,0-1.79-2.83A4.77,4.77,0,0,0,26.24,18a5.4,5.4,0,0,0-3.2.83,5.15,5.15,0,0,0-1.91,2.42A9.68,9.68,0,0,0,20.49,25a9.42,9.42,0,0,0,.64,3.65A5.15,5.15,0,0,0,23,31a5.8,5.8,0,0,0,3.2.89,5.39,5.39,0,0,0,2.37-.45A4.43,4.43,0,0,0,30.4,30a6.71,6.71,0,0,0,1-2.63h-3.2V24.38h7.27a6.44,6.44,0,0,1,0,.65c0,.31,0,.49,0,.53a11,11,0,0,1-1.18,5.15,8.69,8.69,0,0,1-3.33,3.52A9.76,9.76,0,0,1,26,35.5Z"
-                  transform="translate(-16.44 -14.44)"
-                />
+                  d="M118.5,128.39,109.17,89.3h8.07l5.9,26.85,7.14-26.85h9.39l6.85,27.31,6-27.31h7.95L151,128.39H142.6l-7.78-29.22-7.76,29.22Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
                 <path
-                  className="cls-1"
-                  d="M38.37,35.08V14.86h13.2v3.57H42.19v4.33h7.69v3.56H42.19v5.2h9.38v3.56Z"
-                  transform="translate(-16.44 -14.44)"
-                />
+                  d="M196.73,128.39h-8.59l-3.41-8.88H169.1l-3.22,8.88h-8.37L172.73,89.3h8.35ZM182.2,112.93l-5.39-14.51-5.28,14.51Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
                 <path
-                  className="cls-1"
-                  d="M59.63,35.08V18.43H53.25V14.86H69.82v3.57H63.45V35.08Z"
-                  transform="translate(-16.44 -14.44)"
-                />
+                  d="M200.94,128.39V89.3h16.61c4.18,0,7.21.36,9.11,1.06a9,9,0,0,1,4.54,3.74,11.26,11.26,0,0,1,1.71,6.16,10.41,10.41,0,0,1-2.59,7.27q-2.58,2.86-7.73,3.61a18.49,18.49,0,0,1,4.23,3.28,44.34,44.34,0,0,1,4.49,6.35l4.77,7.62h-9.44l-5.7-8.5a55.23,55.23,0,0,0-4.16-5.75,6.21,6.21,0,0,0-2.37-1.63,13.16,13.16,0,0,0-4-.44h-1.6v16.32Zm7.89-22.55h5.84c3.79,0,6.15-.16,7.1-.48A4.26,4.26,0,0,0,224,103.7a5.11,5.11,0,0,0,.8-2.93,4.66,4.66,0,0,0-1.06-3.19,4.79,4.79,0,0,0-3-1.53c-.64-.09-2.56-.13-5.76-.13h-6.16Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
                 <path
-                  className="cls-1"
-                  d="M77.12,35.08V14.86h3.82V35.08Z"
-                  transform="translate(-16.44 -14.44)"
-                />
+                  d="M240.32,89.3h14.43a28.09,28.09,0,0,1,7.44.75,13.18,13.18,0,0,1,5.89,3.6,17.12,17.12,0,0,1,3.73,6.33,28.68,28.68,0,0,1,1.28,9.24,25.69,25.69,0,0,1-1.2,8.32,17.22,17.22,0,0,1-4.18,6.91,14,14,0,0,1-5.55,3.12,23.94,23.94,0,0,1-7,.82H240.32Zm7.9,6.62v25.89h5.89a21.35,21.35,0,0,0,4.77-.38,7.37,7.37,0,0,0,3.19-1.62,8.29,8.29,0,0,0,2.06-3.78,25.19,25.19,0,0,0,.8-7.15,23.07,23.07,0,0,0-.8-7,8.93,8.93,0,0,0-2.24-3.79,7.45,7.45,0,0,0-3.65-1.84,35.75,35.75,0,0,0-6.48-.37Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
                 <path
-                  className="cls-1"
-                  d="M85.15,35.08V14.86H89l8.79,13.48V14.86h3.87V35.08H97.82L89,21.6V35.08Z"
-                  transform="translate(-16.44 -14.44)"
-                />
+                  d="M279.76,89.3h14.42a28,28,0,0,1,7.44.75,13.16,13.16,0,0,1,5.9,3.6,17.12,17.12,0,0,1,3.73,6.33,29,29,0,0,1,1.28,9.24,25.69,25.69,0,0,1-1.2,8.32,17.24,17.24,0,0,1-4.19,6.91,14,14,0,0,1-5.54,3.12,24,24,0,0,1-7,.82H279.76Zm7.89,6.62v25.89h5.89a21.39,21.39,0,0,0,4.78-.38,7.27,7.27,0,0,0,3.18-1.62,8.21,8.21,0,0,0,2.07-3.78,25.56,25.56,0,0,0,.8-7.15,23.39,23.39,0,0,0-.8-7,8.93,8.93,0,0,0-2.24-3.79,7.5,7.5,0,0,0-3.65-1.84,35.9,35.9,0,0,0-6.48-.37Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
                 <path
-                  className="cls-1"
-                  d="M115.93,35.08V18.43h-6.38V14.86h16.57v3.57h-6.37V35.08Z"
-                  transform="translate(-16.44 -14.44)"
-                />
+                  d="M111,169.2l7.68-.74a9.4,9.4,0,0,0,2.81,5.68,8.56,8.56,0,0,0,5.72,1.81c2.55,0,4.46-.54,5.75-1.62a4.78,4.78,0,0,0,1.93-3.77,3.58,3.58,0,0,0-.81-2.36,6.48,6.48,0,0,0-2.84-1.69c-.93-.32-3-.89-6.32-1.71q-6.34-1.58-8.91-3.86a10.18,10.18,0,0,1-3.6-7.87,10.08,10.08,0,0,1,1.7-5.59,10.54,10.54,0,0,1,4.88-3.95,19.48,19.48,0,0,1,7.69-1.36q7.37,0,11.08,3.22a11.36,11.36,0,0,1,3.9,8.61l-7.89.35a6.7,6.7,0,0,0-2.17-4.33,8,8,0,0,0-5-1.32,9.06,9.06,0,0,0-5.39,1.41,2.86,2.86,0,0,0-1.25,2.43,3,3,0,0,0,1.17,2.37q1.5,1.26,7.26,2.61a38.34,38.34,0,0,1,8.52,2.82,11,11,0,0,1,4.31,4,12.33,12.33,0,0,1-.3,12.52,11.27,11.27,0,0,1-5.28,4.36,22.19,22.19,0,0,1-8.51,1.42q-7.41,0-11.38-3.42C113.05,176.9,111.47,173.58,111,169.2Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
                 <path
-                  className="cls-1"
-                  d="M159.77,35.5a9,9,0,0,1-4.3-1,7.29,7.29,0,0,1-2.89-2.78,8.34,8.34,0,0,1-1-4.23V14.89l3.88,0V27.47a4.56,4.56,0,0,0,.34,1.81,4.08,4.08,0,0,0,2.32,2.31,4.54,4.54,0,0,0,1.69.32,4.62,4.62,0,0,0,1.72-.32,4.18,4.18,0,0,0,2.3-2.32,4.73,4.73,0,0,0,.33-1.8V14.86H168V27.5a8.34,8.34,0,0,1-1,4.23,7.23,7.23,0,0,1-2.89,2.78A9,9,0,0,1,159.77,35.5Z"
-                  transform="translate(-16.44 -14.44)"
-                />
+                  d="M158.17,181.92V149.44h-11.6v-6.61h31.07v6.61H166.06v32.48Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
                 <path
-                  className="cls-1"
-                  d="M180.61,35.5a9.93,9.93,0,0,1-5.23-1.32A8.77,8.77,0,0,1,172,30.49,12.19,12.19,0,0,1,170.81,25,12.25,12.25,0,0,1,172,19.45a8.77,8.77,0,0,1,3.39-3.69,9.93,9.93,0,0,1,5.23-1.32,9.63,9.63,0,0,1,5.84,1.73,9.16,9.16,0,0,1,3.34,4.68l-3.85,1.06a5.49,5.49,0,0,0-1.89-2.86,5.57,5.57,0,0,0-3.44-1,5.64,5.64,0,0,0-3.21.85,5.19,5.19,0,0,0-1.93,2.42,9.53,9.53,0,0,0-.65,3.66,9.55,9.55,0,0,0,.65,3.67,5.16,5.16,0,0,0,1.93,2.41,5.64,5.64,0,0,0,3.21.86A5.15,5.15,0,0,0,185.94,28l3.85,1.07a9.1,9.1,0,0,1-3.34,4.67A9.56,9.56,0,0,1,180.61,35.5Z"
-                  transform="translate(-16.44 -14.44)"
-                />
+                  d="M182.68,142.83h7.89V164a45.08,45.08,0,0,0,.29,6.54,6.34,6.34,0,0,0,2.41,3.85,8.43,8.43,0,0,0,5.22,1.45,8,8,0,0,0,5.06-1.37,5.43,5.43,0,0,0,2.06-3.37,44.46,44.46,0,0,0,.34-6.64V142.83h7.9v20.53a53.35,53.35,0,0,1-.64,9.95,11.06,11.06,0,0,1-2.36,4.9,11.87,11.87,0,0,1-4.6,3.19,20,20,0,0,1-7.52,1.19c-3.73,0-6.57-.43-8.49-1.3a12.12,12.12,0,0,1-4.58-3.36,10.76,10.76,0,0,1-2.21-4.33,47.18,47.18,0,0,1-.77-9.92Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
                 <path
-                  className="cls-1"
-                  d="M192.88,35.08V14.86h3.82v8.32h9V14.86h3.82V35.08h-3.82V26.74h-9v8.34Z"
-                  transform="translate(-16.44 -14.44)"
-                />
-                <circle
-                  className="cls-2"
-                  fill="#f15a24"
-                  cx="121.97"
-                  cy="10.63"
-                  r="10.49"
-                />
+                  d="M222.14,142.83h14.42a28,28,0,0,1,7.44.75,13,13,0,0,1,5.9,3.6,17,17,0,0,1,3.73,6.33,29,29,0,0,1,1.28,9.24,25.69,25.69,0,0,1-1.2,8.32,17.31,17.31,0,0,1-4.19,6.9,13.76,13.76,0,0,1-5.54,3.12,23.61,23.61,0,0,1-7,.83H222.14Zm7.89,6.61v25.89h5.89a21.54,21.54,0,0,0,4.78-.37,7.27,7.27,0,0,0,3.18-1.62,8.26,8.26,0,0,0,2.07-3.78,25.58,25.58,0,0,0,.8-7.16,23.49,23.49,0,0,0-.8-7,8.89,8.89,0,0,0-2.24-3.78,7.5,7.5,0,0,0-3.65-1.84,35.6,35.6,0,0,0-6.48-.38Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
+                <path
+                  d="M261.36,181.92V142.83h7.89v39.09Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
+                <path
+                  d="M275.17,162.62a24.86,24.86,0,0,1,1.79-10,18.36,18.36,0,0,1,3.64-5.36,15.25,15.25,0,0,1,5-3.52,21.49,21.49,0,0,1,8.43-1.54q8.64,0,13.82,5.35t5.19,14.91q0,9.47-5.15,14.81t-13.76,5.35q-8.71,0-13.86-5.32T275.17,162.62Zm8.13-.27q0,6.65,3.07,10.07a10,10,0,0,0,7.79,3.42,9.89,9.89,0,0,0,7.74-3.4q3-3.39,3-10.2t-2.95-10a10.91,10.91,0,0,0-15.69,0Q283.31,155.61,283.3,162.35Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
+                <path
+                  d="M317.25,169.2l7.68-.74a9.4,9.4,0,0,0,2.81,5.68,8.55,8.55,0,0,0,5.72,1.81,8.78,8.78,0,0,0,5.75-1.62,4.81,4.81,0,0,0,1.93-3.77,3.58,3.58,0,0,0-.81-2.36,6.54,6.54,0,0,0-2.84-1.69q-1.39-.48-6.32-1.71-6.35-1.58-8.91-3.86a10.18,10.18,0,0,1-3.6-7.87,10.07,10.07,0,0,1,1.69-5.59,10.59,10.59,0,0,1,4.88-3.95,19.53,19.53,0,0,1,7.7-1.36q7.35,0,11.07,3.22a11.37,11.37,0,0,1,3.91,8.61l-7.89.35a6.66,6.66,0,0,0-2.18-4.33,7.93,7.93,0,0,0-5-1.32,9,9,0,0,0-5.39,1.41,2.84,2.84,0,0,0-1.25,2.43,3,3,0,0,0,1.17,2.37c1,.84,3.41,1.71,7.25,2.61a38.34,38.34,0,0,1,8.52,2.82,11,11,0,0,1,4.32,4,11.61,11.61,0,0,1,1.56,6.23,11.47,11.47,0,0,1-1.87,6.29,11.17,11.17,0,0,1-5.28,4.36,22.14,22.14,0,0,1-8.5,1.42q-7.41,0-11.39-3.42C319.34,176.9,317.76,173.58,317.25,169.2Z"
+                  transform="translate(-109.17 -89.3)"
+                ></path>
               </svg>
-            </Link>
-          </div>
-        </div>
-        <div className={style.footer_top}>
-          <div className={style.arrow}>
-            <a href="#hero" aria-label="Return">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="172"
-                height="188"
-                viewBox="0 0 172 188"
-                fill="var(--dark)"
-              >
-                <path
-                  id="_"
-                  data-name="↑"
-                  d="M101.545,188V58.091l48.637,48.636,20.909-21.091L86.182,0.727,1.091,85.636l21.273,21.091L70.818,58.091V188h30.727Z"
-                />
-              </svg>
-            </a>
-          </div>
-          <div className={style.right_part}>
-            <div className={style.social_links}>
+            </div>
+            <div className={style.description}>
+              <p>
+                We make sure that your website is available for every device
+                user!
+              </p>
+            </div>
+            <div className={style.social}>
               <ul>
                 <li>
-                  <a
-                    href="https://www.instagram.com/stretchedweb?igsh=Z2dlZ2xlanV6ZXF4&utm_source=qr"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={style.anchor}
-                    aria-label="Instagram"
-                  >
+                  <a href="">
                     <svg
                       id="Layer_1"
                       data-name="Layer 1"
@@ -152,17 +128,10 @@ const Footer = () => {
                         />
                       </g>
                     </svg>
-                    <span className={`${style.link} link`}>Instagram</span>
                   </a>
                 </li>
                 <li>
-                  <a
-                    href=""
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={style.anchor}
-                    aria-label="X"
-                  >
+                  <a href="">
                     <svg
                       id="Layer_1"
                       data-name="Layer 1"
@@ -180,16 +149,10 @@ const Footer = () => {
                         </g>
                       </g>
                     </svg>
-                    <span className={`${style.link} link`}>Linkedin</span>
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://x.com/Stretchedstudio"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={style.anchor}
-                  >
+                  <a href="">
                     <svg
                       id="Layer_1"
                       data-name="Layer 1"
@@ -207,17 +170,10 @@ const Footer = () => {
                         transform="translate(-4.75 -4.75)"
                       />
                     </svg>
-                    <span className={`${style.link} link`}>X</span>
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.facebook.com/profile.php?id=61557683626508&mibextid=LQQJ4d"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={style.anchor}
-                    aria-label="Instagram"
-                  >
+                  <a href="">
                     <svg
                       id="Layer_1"
                       data-name="Layer 1"
@@ -231,111 +187,162 @@ const Footer = () => {
                         transform="translate(-10.53 -10.53)"
                       />
                     </svg>
-                    <span className={`${style.link} link`}>Facebook</span>
                   </a>
                 </li>
               </ul>
             </div>
-            <div className={style.pages}>
-              <ul>
-                <li>
-                  <Link
-                    href={"/work"}
-                    className={style.anchor}
-                    aria-label="Work page"
-                  >
-                    <span className={`${style.link} link`}>Work</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={"/services"}
-                    className={style.anchor}
-                    aria-label="Services page"
-                  >
-                    <span className={`${style.link} link`}>Services</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={"/studio"}
-                    className={style.anchor}
-                    aria-label="Studio page"
-                  >
-                    <span className={`${style.link} link`}>Studio</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href={"/contact"}
-                    className={style.anchor}
-                    aria-label="Contact page"
-                  >
-                    <span className={`${style.link} link`}>Contact</span>
-                  </Link>
-                </li>
-              </ul>
+          </div>
+          <div className={style.col}>
+            <div className={style.list}>
+              <div className={style.heading}>
+                <h4>Our Company</h4>
+              </div>
+              <div className={style.links}>
+                <ul>
+                  <li>
+                    <a href="">Studio</a>
+                  </li>
+                  <li>
+                    <a href="">Works</a>
+                  </li>
+                  <li>
+                    <a href="">Services</a>
+                  </li>
+                  <li>
+                    <a href="">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={style.list}>
+              <div className={style.heading}>
+                <h4>Projects</h4>
+              </div>
+              <div className={style.links}>
+                <ul>
+                  <li>
+                    <a href="">Sulaiman Lawyer</a>
+                  </li>
+                  <li>
+                    <a href="">Smiley Dentist</a>
+                  </li>
+                  <li>
+                    <a href="">Crip</a>
+                  </li>
+                  <li>
+                    <a href="">Altajir</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className={style.col}>
+            <div className={style.list}>
+              <div className={style.heading}>
+                <h4>Services</h4>
+              </div>
+              <div className={style.links}>
+                <ul>
+                  <li>
+                    <a href="">UI/UX Design</a>
+                  </li>
+                  <li>
+                    <a href="">Web Development</a>
+                  </li>
+                  <li>
+                    <a href="">Marketing Digital</a>
+                  </li>
+                  <li>
+                    <a href="">Branding</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className={style.list}>
+              <div className={style.list_col}>
+                <div className={style.heading}>
+                  <h4>Contact us</h4>
+                </div>
+                <a href="mailto:contact@warddstudio.com">
+                  contact@warddstudio.com
+                </a>
+              </div>
+              <div className={style.list_col}>
+                <div className={style.heading}>
+                  <h4>Based in</h4>
+                </div>
+                <div className={style.description}>
+                  <p>Kenitra, Al istiqlal street, 7 floor Office 20</p>
+                </div>
+                <div className={style.direction}>
+                  <a href="#">
+                    <button>
+                      <span>
+                        <svg
+                          id="Layer_1"
+                          data-name="Layer 1"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 64.97 65"
+                          width={25}
+                          fill="white"
+                        >
+                          <path
+                            d="M82.48,48V52c-.09.77-.17,1.55-.28,2.32A32.6,32.6,0,0,1,55.65,82c-1.21.21-2.42.34-3.63.5H48a4.1,4.1,0,0,0-.48-.1,31.38,31.38,0,0,1-18.73-7.85A31.72,31.72,0,0,1,17.67,46.73,30.79,30.79,0,0,1,25.8,28.32,31.77,31.77,0,0,1,49.44,17.51,30.77,30.77,0,0,1,66.6,22.08,32,32,0,0,1,82,44.39C82.21,45.57,82.32,46.77,82.48,48ZM50,71.26c2.44-3,4.83-5.81,7.1-8.72A60.16,60.16,0,0,0,64.5,50.88,14.16,14.16,0,0,0,65.83,42a16.1,16.1,0,0,0-29.06-6.24A14.89,14.89,0,0,0,34,46.2,19.42,19.42,0,0,0,36.52,53a83.67,83.67,0,0,0,9.31,13.34C47.16,68,48.55,69.52,50,71.26Z"
+                            transform="translate(-17.52 -17.5)"
+                          />
+                          <path
+                            d="M56.08,44.65A6.1,6.1,0,1,1,50,38.57,6.09,6.09,0,0,1,56.08,44.65Z"
+                            transform="translate(-17.52 -17.5)"
+                          />
+                        </svg>
+                      </span>
+                      <span>Get Direction</span>
+                    </button>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div className={style.footer_bottom}>
+        <div className={style.ticker}>
+          <ul aria-hidden="true">
+            {Array.from({ length: 7 }, (_, i) => (
+              <li key={i}>
+                WARDD STUDIO <span>¤</span>
+              </li>
+            ))}
+          </ul>
+          <ul>
+            {Array.from({ length: 7 }, (_, i) => (
+              <li key={i}>
+                WARDD STUDIO <span>¤</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className={style.bottom}>
           <div className={style.copyright}>
+            <p>
+              Copyright&copy; 2024 Wardd Studio <sup>TM</sup>
+            </p>
+          </div>
+          <div className={style.privacy}>
             <ul>
-              <li>&copy; copyright 2024</li>
               <li>
-                <a
-                  href="mailto:hello@stretchedweb.com"
-                  className={style.anchor}
-                  aria-label="Email us"
-                >
-                  <span className={`${style.link} link text-3xl font-bold`}>
-                    hello@stretchedweb.com
-                  </span>
-                </a>
+                <a href="">Cookies</a>
+              </li>
+              <li>
+                <a href="">Privacy Policy</a>
+              </li>
+              <li>
+                <a href="">Terms of service</a>
               </li>
             </ul>
           </div>
         </div>
-      </div>
-      <div className={style.fixed_link} title="Contact Us">
-        <Link href={"/contact"} aria-label="Contact us">
-          <svg
-            id="pencil"
-            width="80"
-            height="80"
-            viewBox="0 0 80 80"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M27.4142 29.9237C26.6332 30.7047 26.6332 31.9711 27.4142 32.7521L43.5938 48.9316C43.8613 49.1992 44.1993 49.3854 44.5684 49.4685L50.8933 50.8933L49.4685 44.5685C49.3854 44.1993 49.1992 43.8613 48.9316 43.5938L32.7521 27.4142C31.971 26.6332 30.7047 26.6332 29.9237 27.4142L27.4142 29.9237Z"
-              stroke="white"
-              strokeWidth="2"
-            ></path>
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M49.7919 50.1349L45 49L49 45L49.7919 50.1349Z"
-              fill="white"
-            ></path>
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M27.4142 29.9237C26.6332 30.7047 26.6332 31.9711 27.4142 32.7521L43.5938 48.9316C43.8613 49.1992 44.1993 49.3854 44.5684 49.4685L50.8933 50.8933L49.4685 44.5685C49.3854 44.1993 49.1992 43.8613 48.9316 43.5938L32.7521 27.4142C31.971 26.6332 30.7047 26.6332 29.9237 27.4142L27.4142 29.9237Z"
-              stroke="white"
-              strokeWidth="2"
-            ></path>
-            <path
-              className={style.tip_a}
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M49.7919 50.1349L45 49L49 45L49.7919 50.1349Z"
-              fill="white"
-            ></path>
-          </svg>
-        </Link>
+        <div className={style.picture}>
+          <img src="/images/bg/logo-waw.png" alt="" />
+        </div>
       </div>
     </footer>
   );

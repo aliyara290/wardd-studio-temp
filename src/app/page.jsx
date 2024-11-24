@@ -5,6 +5,7 @@ import OurRules from "@/components/home/OurRules";
 import Partnership from "@/components/home/Partnership";
 import Testimonial from "@/components/home/Testimonial";
 import Footer from "@/components/home/Footer";
+import Cta from "@/components/home/Cta";
 import { metadata } from "@/app/layout";
 
 const Home = () => {
@@ -33,7 +34,7 @@ const Home = () => {
   ];
   return (
     <>
-      <ead>
+      {/* <head>
         <meta
           name="google-site-verification"
           content={metadata.googleSiteVerification}
@@ -49,18 +50,19 @@ const Home = () => {
         }
       `}
         </script>
-      </ead>
+      </head> */}
       <div className="home_content">
         <Hero />
         <Intro />
         <RecentWorks />
-        <OurRules
+        {/* <OurRules
           cardDedtails={cardDetails}
           fHeading={"our attitude"}
           sHeading={"to success"}
-        />
+        /> */}
         <Partnership />
         <Testimonial />
+          <Cta/>
         <Footer />
       </div>
     </>

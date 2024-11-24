@@ -1,101 +1,141 @@
 .content {
     width: 100%;
-    padding: 100px 0 100px;
+    padding: 50px 0;
     font-family: 'Manrope';
 }
 .container {
-    width: 90%;
+    width: 94%;
     margin: 0 auto;
 }
-.intro_text {
+.cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    gap: 30px;
+
 }
-.intro_heading {
-    color: var(--dark);
-    text-transform: uppercase;
+
+.colOne {
+    grid-column: span 8 / span 8;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.rowOne {
+    background-color: #161616;
+    height: 350px;
+    border-radius: 30px;
+    padding: 30px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
 }
-.intro_heading span {
-    font-size: var(--fz-xs);
-    font-weight: var(--medium);
+.rowOne .title {
+    width: 90%;
+    line-height: 1.2;
+    color: var(--white);
+    font-weight: 600;
+    font-size: var(--fz-3xl);
+    margin-bottom: 30px;
 }
-.intro_heading_point {
-    display: block;
-    width: 6px;
-    height: 6px;
-    border-radius: var(--radius-circle);
+.rowOne .title span {
+    color: var(--blue);
+}
+.rowOne .description {
+    width: 40%;
+    font-size: var(--fz-lg);
+    color: var(--white);
+}
+.rowTwo {
+    height: 350px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.rowTwo .card {
+    padding: 30px;
+}
+.card:first-child {
     background-color: var(--blue);
-    position: relative;
-    margin-top: 8px;
-    margin-right: 8px;
-
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
-.intro_heading_point::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 10px;
-    height: 10px;
-    border-radius: var(--radius-circle);
-    border: 0.7px solid var(--dark-slate);
-}
-.f_text {
+.rowTwo .card:first-child .heading {
     display: flex;
+    justify-content: space-between;
+}
+.rowTwo .card:first-child .title {
+    width: 90%;
+    line-height: 1.2;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.rowTwo .card:first-child .title span {
+    color: var(--dark);
+}
+.rowTwo .card:first-child .description {
+    width: 100%;
+    font-size: var(--fz-xl);
+    color: var(--white);
+}
+
+.card {
+    border-radius: 30px;
+}
+
+.card:last-child {
+    background-color: #c6fb50;
+}
+
+.card:last-child .detailes {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 25px;
 }
-.f_text p {
+.card:last-child .detailes .numbers {
+    font-size: var(--fz-4xl);
+    font-weight: 700;
     color: var(--dark);
-    text-transform: uppercase;
-    font-size: var(--fz-sm);
-    font-weight: var(--medium);
-    line-height: var(--text-height);
+    line-height: 1;
 }
-.intro_splitText {
+.card:last-child .detailes .description {
+    width: 100%;
+    font-size: var(--fz-xl);
+    font-weight: 600;
+    color: var(--dark);
+}
+.card:last-child .detailes .button button {
+    padding: 12px 20px;
+    background-color: var(--white);
+    border-radius: 10px;
+    color: var(--dark);
+    font-weight: 600;
+}
+.colTwo {
+    grid-column: span 4 / span 4;
+    background-color: var(--dark);
+    height: 730px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.colTwo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.colTwo .heading {
     display: flex;
-    color: var(--dark);
-    text-transform: uppercase;
-    font-size: 2.2rem;
-    font-weight: var(--medium);
-    line-height: 1.4;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+    color: var(--white);
+    font-weight: 600;
+    font-size: var(--fz-3xl);
+    margin-bottom: 30px;
 }
-
-
-@media (max-width: 900px) {
-    .container {
-        width: 90%;
-        margin: 0 auto;
-    }
-    
-  }
-@media (max-width: 500px) {
-    .intro_splitText {
-        display: flex;
-        color: var(--dark);
-        text-transform: uppercase;
-        font-size: 1.3rem;
-        font-weight: var(--medium);
-        line-height: 1.4;
-    }
-  }
-@media (max-width: 400px) {
-    .intro_splitText {
-        display: flex;
-        color: var(--dark);
-        text-transform: uppercase;
-        font-size: 1.4rem;
-        font-weight: var(--medium);
-        line-height: 1.4;
-    }
-  }
-
-
-
-
-
-
-

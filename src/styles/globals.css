@@ -26,7 +26,7 @@
   --blue: #6C8FFF;
   --dark-grey: #212121;
   --light-grey: rgb(52, 52, 52);
-  --white: #fcfcfc;
+  --white: #f5f5f5;
   --lightest-grey: rgb(52, 52, 52);
   --dark-slate: #323232;
   --slate: #b0b1b1;
@@ -42,8 +42,8 @@
   --fz-lg: 18px;
   --fz-xl: 20px;
   --fz-2xl: 22px;
-  --fz-3xl: 2rem;
-  --fz-4xl: 4rem;
+  --fz-3xl: 3rem;
+  --fz-4xl: 4.6rem;
   --fz-5xl: 7rem;
   --fz-6xl: 12rem;
 
@@ -323,7 +323,7 @@ body {
   /* cursor: none; */
 }
 
-/* body::after {
+body::after {
   content: "";
   position: fixed;
   top: 0;
@@ -335,10 +335,10 @@ body {
   background-repeat: repeat;
   background-size: cover;
   z-index: 1067676878900;
-  opacity: 0.2;
+  opacity: 0.1;
   pointer-events: none;
-} */
-@media (min-width: 800px) {
+}
+/* @media (min-width: 800px) {
   body::before {
     content: "";
     position: fixed;
@@ -352,7 +352,7 @@ body {
     opacity: 0.5;
     pointer-events: none;
   }
-}
+} */
 .banner_bg {
   background-color: var(--dark);
   z-index: 20000;
@@ -369,7 +369,7 @@ body {
 }
 
 ::selection {
-  color: var(--black);
+  color: var(--white);
   background: var(--blue);
 }
 

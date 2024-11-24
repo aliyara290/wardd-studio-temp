@@ -48,7 +48,7 @@
   font-weight: 600;
   line-height: 1;
   letter-spacing: 2px;
-  color: var(--dark);
+  color: var(--blue);
   text-transform: uppercase;
   transform: translateY(100%);
   opacity: 0;

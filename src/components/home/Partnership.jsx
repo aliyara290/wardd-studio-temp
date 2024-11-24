@@ -62,10 +62,7 @@ const Partnership = () => {
           centerHeading={false}
           showSubHeading={false}
         />
-          <div className={style.partnership_heading}>
-            <span className={style.partnership_point}></span>
-            <span>Our Clients</span>
-          </div>
+         
         </div>
         <div className={`${style.slider} client`}>
           <div className={`${style.clients} `}>

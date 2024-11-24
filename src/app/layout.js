@@ -48,13 +48,13 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
-  googleSearch: {
-    name: "Stretchedweb Studio - Creative agency",
-    organization: "Stretchedweb",
-    url: "https://stretchedweb.com",
-    logo: "https://stretchedweb.com/images/og/og-bg.jpg",
-  },
-  googleSiteVerification: "pxl86PhAeQMUg-_5otNiLe0Cn-ZBr1wQZqcq1GWUack",
+  // googleSearch: {
+  //   name: "Stretchedweb Studio - Creative agency",
+  //   organization: "Stretchedweb",
+  //   url: "https://stretchedweb.com",
+  //   logo: "https://stretchedweb.com/images/og/og-bg.jpg",
+  // },
+  // googleSiteVerification: "pxl86PhAeQMUg-_5otNiLe0Cn-ZBr1wQZqcq1GWUack",
 };
 
 export default function RootLayout({ children }) {

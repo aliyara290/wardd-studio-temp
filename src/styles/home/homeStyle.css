@@ -104,15 +104,15 @@
     background-color: var(--dark-slate);
     position: relative;
     z-index: 2;
-    color: var(--dark);
+    color: var(--white);
     transition: transform .4s ease;
   }
   .test_card_1 svg {
-    fill: var(--blue);
+    fill: var(--white);
   }
   .test_card_2 {
     transform: rotate(-4deg);
-    background-color: var(--dark);
+    background-color: var(--blue);
     position: relative;
     z-index: 2;
     transition: transform .4s ease;

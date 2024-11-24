@@ -4,7 +4,6 @@ import style from "@/styles/home/hero.module.css";
 import gsap from "gsap";
 
 const Hero = () => {
-
   useEffect(() => {
     gsap.fromTo(
       ".hero_headers",
@@ -15,35 +14,43 @@ const Hero = () => {
         y: 0,
         delay: 0.2,
         duration: 0.4,
-        stagger: 0.3
+        stagger: 0.3,
       }
     );
   }, []);
   return (
     <section className={style.content} id="hero">
       <div className={style.container}>
-        <div className={style.hero_video}>
-          <video
-            playsInline={true}
-            autoPlay={true}
-            muted={true}
-            loop={true}
-            src="/videos/video-home-stretched.mp4"
-          ></video>
-        </div>
-        {/* <div className={style.absolute_text}>
-          <div className={style.bold_texts}>
-            <div className={style.el}>
-              <h1 className="hero_headers">EVOLVE YOUR</h1>
+        <div className={style.hero}>
+          <div className={style.detailes}>
+            <div className={style.title}>
+              <h1>Empowering Innovation, Driving Success</h1>
             </div>
-            <div className={style.el}>
-              <h1 className="hero_headers">BUSINESS WITH</h1>
+            <div className={style.description}>
+              <p>
+                Your trusted partner in technology, management, and marketing
+                solutions. We deliver innovative strategies and cutting-edge
+                services to help your business thrive in a competitive world.
+              </p>
             </div>
-            <div className={style.el}>
-              <h1 className="hero_headers">STRETCHEDWEB.</h1>
+            <div className={style.button}>
+              <a href="">
+                <button>Discover Our Services</button>
+              </a>
             </div>
           </div>
-        </div> */}
+          <div className={style.video}>
+            <div className={style.hero_video}>
+              <video
+                playsInline={true}
+                autoPlay={true}
+                muted={true}
+                loop={true}
+                src="/videos/video-home-stretched.mp4"
+              ></video>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
