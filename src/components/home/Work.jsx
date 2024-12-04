@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import style from "@/styles/home/Works.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import ReactCardCarousel from "react-card-carousel";
 
 const RecentWorks = () => {
   const projectsDetails = [
@@ -64,7 +65,27 @@ const RecentWorks = () => {
     },
   ];
 
- 
+  const CONTAINER_STYLE = {
+    position: "relative",
+    height: "500px",
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+  };
+
+  const CARD_STYLE = {
+    height: "300px",
+    width: "200px",
+    paddingTop: "20px",
+    textAlign: "center",
+    background: "#52C0F5",
+    color: "#FFF",
+    fontFamily: "sans-serif",
+    fontSize: "12px",
+    borderRadius: "10px",
+    boxShadow: "0px 10px 20px -10px rgba(0,0,0,0.75)",
+  };
 
   return (
     <section className={style.content}>
@@ -79,6 +100,8 @@ const RecentWorks = () => {
         </div>
         <div className={style.projects}>
           <ul className={style.projects_list}>
+            <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
+
               {projectsDetails.map((project, index) => (
                 <li className={style.projects_item} key={index}>
                   <div className={style.picture}>
@@ -99,6 +122,7 @@ const RecentWorks = () => {
                   </div>
                 </li>
               ))}
+            </ReactCardCarousel>
              
           </ul>
         </div>

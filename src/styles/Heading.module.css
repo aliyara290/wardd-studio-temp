@@ -1,5 +1,5 @@
 .content {
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
 }
 .sub_heading {
   display: flex;
@@ -43,8 +43,7 @@
 }
 .part h1 {
   display: flex;
-  font-size: 6rem;
-  font-family: "Thunder";
+  font-size: 4rem;
   font-weight: 600;
   line-height: 1;
   letter-spacing: 2px;

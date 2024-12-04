@@ -56,10 +56,9 @@ const Partnership = () => {
         <div className={style.partnership_con}>
         <Heading
           topHeading={"Join our"}
-          botHeading={"expanded "}
-          thirdHeading={"family"}
-          showThirdHeading={true}
-          centerHeading={false}
+          botHeading={"expanded family"}
+          showThirdHeading={false}
+          centerHeading={true}
           showSubHeading={false}
         />
          

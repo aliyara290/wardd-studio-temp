@@ -35,19 +35,25 @@
 
 /* cards */
 .projects {
-  width: max-content;
+  /* width: max-content; */
   padding-top: 50px;
 }
 .projects_list {
+  position: relative;
+  height: 500px;
+  width: 100%;
   display: flex;
-  flex-wrap: nowrap;
   align-items: center;
+  justify-content: center;
+  /* display: flex;
+  flex-wrap: nowrap;
+  align-items: center; */
   gap: 15px;
 }
 .projects_item {
   width: 450px;
-  height: 550px;
-  position: relative;
+  height: 450px;
+  /* position: relative; */
 }
 .picture {
   position: absolute;
