@@ -8,11 +8,14 @@ import { getCalApi } from "@calcom/embed-react";
 const Header = () => {
   const [isActive, setIsActive] = useState(true);
   const handleClick = () => {
-    const expertisesMenu = document.querySelector("#expertises__menu");
-    const arrow = document.querySelector("#arrow__hd");
-    expertisesMenu.classList.toggle("show");
-    arrow.classList.toggle("active");
-    setIsActive(!isActive);
+    if(window.innerWidth >= 900) {
+
+      const expertisesMenu = document.querySelector("#expertises__menu");
+      const arrow = document.querySelector("#arrow__hd");
+      expertisesMenu.classList.toggle("show");
+      arrow.classList.toggle("active");
+      setIsActive(!isActive);
+    }
   };
 
   useEffect(() => {
@@ -77,17 +80,14 @@ const Header = () => {
               transform="translate(-109.17 -89.3)"
             ></path>
             <path
-               
               d="M261.36,181.92V142.83h7.89v39.09Z"
               transform="translate(-109.17 -89.3)"
             ></path>
             <path
-               
               d="M275.17,162.62a24.86,24.86,0,0,1,1.79-10,18.36,18.36,0,0,1,3.64-5.36,15.25,15.25,0,0,1,5-3.52,21.49,21.49,0,0,1,8.43-1.54q8.64,0,13.82,5.35t5.19,14.91q0,9.47-5.15,14.81t-13.76,5.35q-8.71,0-13.86-5.32T275.17,162.62Zm8.13-.27q0,6.65,3.07,10.07a10,10,0,0,0,7.79,3.42,9.89,9.89,0,0,0,7.74-3.4q3-3.39,3-10.2t-2.95-10a10.91,10.91,0,0,0-15.69,0Q283.31,155.61,283.3,162.35Z"
               transform="translate(-109.17 -89.3)"
             ></path>
             <path
-               
               d="M317.25,169.2l7.68-.74a9.4,9.4,0,0,0,2.81,5.68,8.55,8.55,0,0,0,5.72,1.81,8.78,8.78,0,0,0,5.75-1.62,4.81,4.81,0,0,0,1.93-3.77,3.58,3.58,0,0,0-.81-2.36,6.54,6.54,0,0,0-2.84-1.69q-1.39-.48-6.32-1.71-6.35-1.58-8.91-3.86a10.18,10.18,0,0,1-3.6-7.87,10.07,10.07,0,0,1,1.69-5.59,10.59,10.59,0,0,1,4.88-3.95,19.53,19.53,0,0,1,7.7-1.36q7.35,0,11.07,3.22a11.37,11.37,0,0,1,3.91,8.61l-7.89.35a6.66,6.66,0,0,0-2.18-4.33,7.93,7.93,0,0,0-5-1.32,9,9,0,0,0-5.39,1.41,2.84,2.84,0,0,0-1.25,2.43,3,3,0,0,0,1.17,2.37c1,.84,3.41,1.71,7.25,2.61a38.34,38.34,0,0,1,8.52,2.82,11,11,0,0,1,4.32,4,11.61,11.61,0,0,1,1.56,6.23,11.47,11.47,0,0,1-1.87,6.29,11.17,11.17,0,0,1-5.28,4.36,22.14,22.14,0,0,1-8.5,1.42q-7.41,0-11.39-3.42C319.34,176.9,317.76,173.58,317.25,169.2Z"
               transform="translate(-109.17 -89.3)"
             ></path>
@@ -116,6 +116,7 @@ const Header = () => {
             id="expertises"
             onClick={() => handleClick()}
           >
+            <div className={style.exp__hd}>
             <p>Expertise</p>
             <span className={style.header__arrow}>
               <svg
@@ -127,6 +128,44 @@ const Header = () => {
                 <path d="M101.545,188V58.091l48.637,48.636,20.909-21.091L86.182,0.727,1.091,85.636l21.273,21.091L70.818,58.091V188h30.727Z"></path>
               </svg>
             </span>
+              
+            </div>
+            <div className={style.expertises} id="expertises__menu">
+              <div className={style.expertises_content}>
+                <div className={style.expertises_flayer}>
+                  <div className={style.expertises_heading}>
+                    <h4>Explore Our Expertise</h4>
+                  </div>
+                  <div className={style.expertises__description}>
+                    <p>
+                      Explore our innovative solutions and services driven by
+                      enhanced user experience.
+                    </p>
+                  </div>
+                  <div className={style.expertises__button}>
+                    <Link href="">
+                      <button>Discover More</button>
+                    </Link>
+                  </div>
+                </div>
+                <div className={style.expertises_row}>
+                  <ul>
+                    <li>
+                      <a href=""> Web Development & Digital Solutions</a>
+                    </li>
+                    <li>
+                      <a href="">Creative Design & Branding</a>
+                    </li>
+                    <li>
+                      <a href="">Audiovisual & Motion Graphics</a>
+                    </li>
+                    <li>
+                      <a href="">Marketing & Print Solutions</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </li>
 
           <li>
@@ -146,29 +185,34 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      {/* <div className={style.expertises} id="expertises__menu">
-        <div className={style.expertises_content}>
-          <div className={style.expertises_heading}>
-            <span>Our Expertise</span>
-          </div>
-          <div className={style.expertises_row}>
-            <ul>
-              <li>
-                <a href=""> Web Development & Digital Solutions</a>
-              </li>
-              <li>
-                <a href="">Creative Design & Branding</a>
-              </li>
-              <li>
-                <a href="">Audiovisual & Motion Graphics</a>
-              </li>
-              <li>
-                <a href="">Marketing & Print Solutions</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div> */}
+      <div className={style.hamburger}>
+        <svg
+          // id="Layer_1"
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 125.15 125.16"
+          fill="var(--blue)"
+          width={35}
+          height={35}
+        >
+          <path
+            d="M102,62.42a36,36,0,0,1,4.88,1.42c7.53,3.31,11.63,9.17,11.94,17.35.27,6.71.13,13.44,0,20.15A19,19,0,0,1,100.24,120c-6.35.11-12.7.1-19,0A19.18,19.18,0,0,1,62.68,103.8c-.06-.35-.17-.7-.25-1v-23c.08-.35.18-.69.25-1,1.6-8,6.2-13.29,14.05-15.67.84-.25,1.71-.42,2.56-.63Zm6.66,28.89c0-3.13,0-6.27,0-9.4a8.77,8.77,0,0,0-9-9q-9-.06-18.07,0c-5.38.05-9.07,3.81-9.09,9.22q0,9.23,0,18.45c0,5.51,3.78,9.27,9.29,9.28q8.73,0,17.46,0c5.69,0,9.41-3.67,9.45-9.36C108.7,97.42,108.68,94.36,108.68,91.31Z"
+            transform="translate(-62.43 -62.42)"
+          />
+          <path
+            d="M62.43,147c.23-.93.43-1.88.68-2.81a19,19,0,0,1,18.51-14.25c2.61,0,5.21,0,7.82,0a5.22,5.22,0,1,1,0,10.43c-2.53,0-5,0-7.58,0-5.49.06-9.17,3.72-9.22,9.23q-.06,9,0,18c0,5.55,3.88,9.33,9.42,9.34,5.86,0,11.73,0,17.59,0,5.49,0,9.24-3.72,9.25-9.18q0-14.3,0-28.59a5.11,5.11,0,0,1,5.41-5.31A5.17,5.17,0,0,1,119,139.5c-.09,1.05-.09,2.11-.1,3.17,0,8.55,0,17.1,0,25.66a19.2,19.2,0,0,1-15.69,18.86,21.16,21.16,0,0,1-3.65.31c-5.78,0-11.56,0-17.35,0a19.52,19.52,0,0,1-19.53-16.87,6,6,0,0,0-.22-.68Z"
+            transform="translate(-62.43 -62.42)"
+          />
+          <path
+            d="M170.21,62.42c.91.21,1.82.38,2.72.62a19.7,19.7,0,0,1,14.58,18.9q.11,9.6,0,19.19a19.09,19.09,0,0,1-19.28,19.08c-2.16,0-4.32,0-6.47,0a5.18,5.18,0,1,1,.07-10.36h6.48a8.81,8.81,0,0,0,9-9q.06-9.47,0-18.94a8.83,8.83,0,0,0-9-9.06c-5.94,0-11.89,0-17.84,0-5.42,0-9.09,3.7-9.12,9.17,0,9,0,17.92,0,26.88a11.86,11.86,0,0,1-.07,1.58,5.22,5.22,0,0,1-5.35,4.67,5.14,5.14,0,0,1-4.76-5.25c0-2,0-3.91,0-5.87,0-7.33,0-14.66,0-22a19.14,19.14,0,0,1,16.41-19.46,2.09,2.09,0,0,0,.44-.19Z"
+            transform="translate(-62.43 -62.42)"
+          />
+          <path
+            d="M187.34,158.74c0,4.07.34,8.17-.07,12.19a19,19,0,0,1-18.49,16.61c-6.19.06-12.38,0-18.57,0a19.17,19.17,0,0,1-19.06-18.7c-.14-6.75-.13-13.52,0-20.27a19.07,19.07,0,0,1,18.95-18.65q9.17-.06,18.33,0a19.22,19.22,0,0,1,19.11,18.91c.06,3.3,0,6.6,0,9.9Zm-46-.08c0,3.14,0,6.27,0,9.41.07,5.38,3.73,9,9.1,9q8.86,0,17.72,0c5.5,0,9.17-3.68,9.19-9.2q0-9.15,0-18.32c0-5.5-3.69-9.21-9.17-9.25q-8.81,0-17.59,0c-5.58,0-9.21,3.69-9.25,9.29C141.28,152.63,141.3,155.65,141.3,158.66Z"
+            transform="translate(-62.43 -62.42)"
+          />
+        </svg>
+      </div>
     </header>
   );
 };

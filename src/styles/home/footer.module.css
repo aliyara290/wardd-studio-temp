@@ -103,6 +103,9 @@
   gap: var(--gap);
   animation: ticker 20s infinite linear;
 }
+.ticker:hover ul {
+  animation-play-state: paused;
+}
 .ticker ul li {
   font-size: var(--fz-4xl);
   color: var(--white);

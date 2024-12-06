@@ -17,7 +17,7 @@ const RecentWorks = () => {
     },
     {
       date: "2024",
-      image: "/images/bg/test.avif",
+      image: "/images/web_design/01 stretched.webp",
       link: "/work/lawyer-sulaiman",
       type: "Law firm",
       title: "Lawyer Sulaiman",
@@ -25,7 +25,7 @@ const RecentWorks = () => {
     },
     {
       date: "2024",
-      image: "/images/bg/test.avif",
+      image: "/images/social-media/03.jpg",
       link: "/work/smiley",
       type: "Dental Clinic",
       title: "Smiley",
@@ -33,7 +33,7 @@ const RecentWorks = () => {
     },
     {
       date: "2024",
-      image: "/images/bg/test.avif",
+      image: "/images/web_design/03 stretched.webp",
       link: "/work/smiley",
       type: "Dental Clinic",
       title: "Smiley",
@@ -41,7 +41,7 @@ const RecentWorks = () => {
     },
     {
       date: "2024",
-      image: "/images/bg/test.avif",
+      image: "/images/branding/OKEZ - 1-min.jpg",
       link: "/work/smiley",
       type: "Dental Clinic",
       title: "Smiley",
@@ -49,7 +49,7 @@ const RecentWorks = () => {
     },
     {
       date: "2024",
-      image: "/images/bg/test.avif",
+      image: "/images/social-media/01.jpg",
       link: "/work/smiley",
       type: "Dental Clinic",
       title: "Smiley",
@@ -57,7 +57,7 @@ const RecentWorks = () => {
     },
     {
       date: "2024",
-      image: "/images/bg/test.avif",
+      image: "/images/branding/art-2-min.jpg",
       link: "/work/smiley",
       type: "Dental Clinic",
       title: "Smiley",
@@ -100,7 +100,7 @@ const RecentWorks = () => {
         </div>
         <div className={style.projects}>
           <ul className={style.projects_list}>
-            <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
+            <ReactCardCarousel autoplay={true} autoplay_speed={2500} disable_box_shadow={false} spread={"wide"}>
 
               {projectsDetails.map((project, index) => (
                 <li className={style.projects_item} key={index}>
