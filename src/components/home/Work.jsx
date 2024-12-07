@@ -95,7 +95,7 @@ const RecentWorks = () => {
             <h2>Featured work</h2>
           </div>
           <div className={style.button}>
-            <button>View all work</button>
+            <button>All work</button>
           </div>
         </div>
         <div className={style.projects}>

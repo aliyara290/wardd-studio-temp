@@ -7,7 +7,7 @@
 }
 #expertises__menu {
 transition: All .4s ease;
-transform: scale(0);
+transform: scale(0);  
 
 }
 
@@ -177,19 +177,19 @@ transform: scale(0);
 @media (max-width: 1050px) {
 
   .test_card_1 {
-    background-color: var(--dark);
+    background-color: #fff;
   }
   .test_card_2 {
-    background-color: var(--dark);
+    background-color: #fff;
   }
   .test_card_3 {
-    background-color: var(--dark);
+    background-color: #fff;
   }
   .test_card_4 {
-    background-color: var(--dark);
+    background-color: #fff;
   }
   .test_card_5 {
-    background-color: var(--dark);
+    background-color: #fff;
   }
   
 }

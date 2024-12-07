@@ -353,6 +353,16 @@ body::after {
     pointer-events: none;
   }
 } */
+ .page__content {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+ }
+ @media (max-width: 600px) {
+  .page__content {
+    gap: 60px;
+  }
+ }
 .banner_bg {
   background-color: var(--dark);
   z-index: 20000;

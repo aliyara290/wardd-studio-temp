@@ -1,6 +1,5 @@
 .content {
     width: 100%;
-    padding: 50px 0;
     font-family: 'Manrope';
 }
 .container {
@@ -34,4 +33,20 @@
   font-size: var(--fz-xl);
   color: var(--blue);
   font-weight: 600;
+}
+
+@media (max-width: 700px) {
+    .description {
+        width: 90%;
+    }
+}
+@media (max-width: 600px) {
+    .title h2 {
+        font-size: var(--fz-3xl);
+    }
+}
+@media (max-width: 500px) {
+    .title h2 {
+        font-size: 40px;
+    }
 }

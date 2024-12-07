@@ -35,9 +35,9 @@
   border-radius: var(--radius-circle);
   border: 0.7px solid var(--dark-slate);
 }
-.heading {
+/* .heading {
   padding-top: 40px;
-}
+} */
 .part {
   overflow: hidden;
 }
@@ -51,16 +51,17 @@
   text-transform: uppercase;
   transform: translateY(100%);
   opacity: 0;
+  text-align: center;
 }
 
 @media (max-width: 570px) {
   .part h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 400px) {
   .part h1 {
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
   .rule_title {
     font-size: 2.8rem;

@@ -1,6 +1,5 @@
 .content {
     width: 100%;
-    padding: 50px 0;
     font-family: 'Manrope';
 }
 .container {
@@ -24,7 +23,7 @@
 .rowOne {
     background-color: #161616;
     height: 350px;
-    border-radius: 30px;
+    border-radius: 15px;
     padding: 30px;
     display: flex;
     justify-content: space-between;
@@ -83,7 +82,7 @@
 }
 
 .card {
-    border-radius: 30px;
+    border-radius: 15px;
 }
 
 .card:last-child {
@@ -120,7 +119,7 @@
     grid-column: span 4 / span 4;
     background-color: var(--dark);
     height: 730px;
-    border-radius: 30px;
+    border-radius: 15px;
     overflow: hidden;
 }
 .colTwo img {
@@ -152,6 +151,12 @@
         display: none;
     }
 }
+@media (max-width: 900px) {
+    .content {
+      padding: 0;
+    }
+    
+  }
 @media (max-width: 700px) {
     .rowOne {
         flex-direction: column;
@@ -159,7 +164,9 @@
         height: auto;
         align-items: center;
         text-align: center;
+        padding-top: 50px;
     }
+    
     .mockup {
         height: 280px;
     }
@@ -168,7 +175,7 @@
         line-height: 1.2;
         color: var(--white);
         font-weight: 600;
-        font-size: var(--fz-3xl);
+        font-size:  35px;
         margin-bottom: 30px;
     }
     .rowOne .title span {
@@ -182,6 +189,7 @@
     }
 }
 @media (max-width: 650px) {
+    
     .rowTwo {
         grid-template-columns: 1fr;
         height: auto;

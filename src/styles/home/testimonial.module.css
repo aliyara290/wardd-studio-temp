@@ -1,6 +1,6 @@
 .content {
   width: 100%;
-  padding-bottom: 50px;
+  /* padding-bottom: 50px; */
   overflow: hidden;
 }
 .container {
@@ -11,7 +11,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding-bottom: 90px;
+  /* padding-bottom: 90px; */
 }
 .bold_heading {
   width: max-content;
@@ -45,7 +45,7 @@
 }
 .card {
   width: 25vw;
-  height: 40vh;
+  height: 300px;
   padding: 30px;
   /* background-color: var(--dark); */
   border-radius: 14px;
@@ -56,9 +56,10 @@
 }
 .card_hor {
   width: 100%;
-  height: 40vh;
+  height: 300px;
   padding: 30px;
-  background-color: var(--dark);
+  background-color: var(--white);
+  box-shadow: 0 0 12px 5px #00000028;
   border-radius: 14px;
   overflow: hidden;
   display: flex;
@@ -93,19 +94,22 @@
 @media (max-width: 1050px) {
   .cards {
     display: none;
+    padding-top: 60px;
   }
   .horizontal_cards {
     display: flex;
+    padding-top: 60px;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 570px) {
   .heading {
     padding-bottom: 50px;
 }
-  .content {
+  /* .content {
     padding-top: 30px;
     padding-bottom: 100px;
-  }
+  } */
   .slice {
     font-size: 5rem;
   }

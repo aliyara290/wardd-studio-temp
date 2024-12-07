@@ -51,7 +51,7 @@ const Home = () => {
       `}
         </script>
       </head> */}
-      <div className="home_content">
+      <div className="page__content">
         <Hero />
         <Intro />
         <RecentWorks />
