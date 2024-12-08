@@ -35,22 +35,39 @@ const StudioHero = () => {
       <div className={style.container}>
         <div className={style.bold_text}>
           <div className={style.text}>
-            <h1 className="studio_hero_heading">About</h1>
-          </div>
-          <div className={`${style.text}`}>
-            <h1 className="studio_hero_heading">agency.</h1>
+            <h1 className="studio_hero_heading">Agency</h1>
           </div>
         </div>
+        <div className={style.cross_line}></div>
         <div className={style.bottom_text}>
           <div className={`${style.bio} studio_bio`}>
             <div className="overflow-hidden">
-              <div className={`${style.bio__text} ebi_48 text-white font-bold`}>Create impactful digital solutions.</div>
+              <div className={`${style.bio__text_one} ebi_48`}>Wyh us</div>
             </div>
             <div className="overflow-hidden">
-              <div className={`${style.bio__text} ebi_48 text-gray-400 font-light`}>
-                We are excited for our work and how it positively impacts
-                clients.
+              <div className={`${style.bio__text} ebi_48`}>
+                <p>
+                  Ja, wir sind jung. Ja, wir leben am Puls der Zeit und sprechen
+                  die Sprache der Gegenwart in und um die digitale Welt
+                  fliessend. Ja, unseren visionären Mindset mischen wir mit
+                  zeitloser Qualität. Ja, wir sind bissig, provokativ und
+                  kompetitiv. Aber nein, wir haben noch nicht ausgelernt und
+                  sehen uns noch lange nicht am Ziel.
+                </p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className={style.video}>
+          <div className={style.video__content}>
+            <div className={style.iframe__video}>
+              <iframe
+                src="https://player.vimeo.com/video/905314782?muted=1&amp;autoplay=1&amp;autopause=0&amp;controls=0&amp;loop=1&amp;app_id=122963"
+                // frameborder="0"
+                // allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                // title="ese-doku-2023-16x9-SF5"
+                // data-ready="true"
+              ></iframe>
             </div>
           </div>
         </div>

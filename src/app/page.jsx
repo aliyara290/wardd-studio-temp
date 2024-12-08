@@ -34,23 +34,6 @@ const Home = () => {
   ];
   return (
     <>
-      {/* <head>
-        <meta
-          name="google-site-verification"
-          content={metadata.googleSiteVerification}
-        />
-        <script type="application/ld+json">
-          {`
-        {
-          "@context": "http://schema.org",
-          "@type": "Organization",
-          "name": "${metadata.googleSearch.organization}",
-          "url": "${metadata.googleSearch.url}",
-          "logo": "${metadata.googleSearch.logo}"
-        }
-      `}
-        </script>
-      </head> */}
       <div className="page__content">
         <Hero />
         <Intro />
@@ -62,7 +45,7 @@ const Home = () => {
         /> */}
         <Partnership />
         <Testimonial />
-          <Cta/>
+        <Cta />
         <Footer />
       </div>
     </>

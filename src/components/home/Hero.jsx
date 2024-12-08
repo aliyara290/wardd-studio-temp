@@ -4,20 +4,20 @@ import style from "@/styles/home/hero.module.css";
 import gsap from "gsap";
 
 const Hero = () => {
-  useEffect(() => {
-    gsap.fromTo(
-      ".hero_headers",
-      {
-        y: "100%",
-      },
-      {
-        y: 0,
-        delay: 0.2,
-        duration: 0.4,
-        stagger: 0.3,
-      }
-    );
-  }, []);
+  // useEffect(() => {
+  //   gsap.fromTo(
+  //     ".hero_headers",
+  //     {
+  //       y: "100%",
+  //     },
+  //     {
+  //       y: 0,
+  //       delay: 0.2,
+  //       duration: 0.4,
+  //       stagger: 0.3,
+  //     }
+  //   );
+  // }, []);
   return (
     <section className={style.content} id="hero">
       <div className={style.container}>
