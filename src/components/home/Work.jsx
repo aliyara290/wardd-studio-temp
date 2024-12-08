@@ -3,7 +3,11 @@ import { useEffect } from "react";
 import style from "@/styles/home/Works.module.css";
 import Image from "next/image";
 import Link from "next/link";
-// import ReactCardCarousel from "react-card-carousel";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import { EffectCoverflow, Pagination } from "swiper/modules";
 
 const RecentWorks = () => {
   const projectsDetails = [
@@ -78,30 +82,48 @@ const RecentWorks = () => {
         </div>
         <div className={style.projects}>
           <ul className={style.projects_list}>
-            {/* <ReactCardCarousel autoplay={true} autoplay_speed={2500} disable_box_shadow={false} spread={"wide"}> */}
-
+            <Swiper
+              effect={"coverflow"}
+              grabCursor={true}
+              centeredSlides={true}
+              slidesPerView={"auto"}
+              coverflowEffect={{
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+              }}
+              modules={[EffectCoverflow, Pagination]}
+              className={style.myswipper}
+            >
               {projectsDetails.map((project, index) => (
-                <li className={style.projects_item} key={index}>
-                  <div className={style.picture}>
-                    <img src={project.image} alt={`${project.title} picture`} />
-                  </div>
-                  <div className={style.services}>
-                    <ul>
-                      {project.services.map((service, idx) => (
-                        <li key={idx}>{service}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className={style.date}>
-                    <span>{project.date}</span>
-                  </div>
-                  <div className={style.link}>
-                    <Link href={project.link}>View</Link>
-                  </div>
-                </li>
+                <SwiperSlide className={style.swipper}  key={index}>
+                  <li className={style.projects_item}>
+                    <div className={style.picture}>
+                      <img
+                        src={project.image}
+                        alt={`${project.title} picture`}
+                      />
+                    </div>
+                    <div className={style.services}>
+                      <ul>
+                        {project.services.map((service, idx) => (
+                          <li key={idx}>{service}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className={style.date}>
+                      <span>{project.date}</span>
+                    </div>
+                    <div className={style.link}>
+                      <Link href={project.link}>View</Link>
+                    </div>
+                  </li>
+                </SwiperSlide>
               ))}
+            </Swiper>
             {/* </ReactCardCarousel> */}
-             
           </ul>
         </div>
       </div>

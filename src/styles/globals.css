@@ -6,6 +6,9 @@
   height: 100%;
   overflow: hidden;
 }
+.swi {
+  width: 500px;
+}
 * {
   box-sizing: border-box;
   padding: 0;

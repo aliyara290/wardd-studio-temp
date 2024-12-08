@@ -1,6 +1,5 @@
 .content {
   width: 100%;
-  font-family: "Manrope";
   user-select: none;
 }
 .container {
@@ -40,7 +39,7 @@
   padding-top: 35px;
 }
 .projects_list {
-  position: relative;
+  /* position: relative; */
   height: 500px;
   width: 100%;
   display: flex;
@@ -51,11 +50,15 @@
   align-items: center; */
   gap: 15px;
 }
-.projects_item {
+.myswipper {
+  overflow: visible;
+}
+.swipper {
   width: 450px;
   height: 450px;
-  /* position: relative; */
 }
+
+
 .picture {
   position: absolute;
   top: 0;
@@ -63,6 +66,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
+
   border-radius: 15px;
   border-top-left-radius: 0;
 }
@@ -90,7 +94,7 @@
 }
 .services {
   position: absolute;
-  bottom: 20px ;
+  bottom: 20px;
   left: 20px;
   z-index: 20;
 }
@@ -108,7 +112,7 @@
 }
 .link {
   position: absolute;
-  top: 20px ;
+  top: 20px;
   right: 20px;
   z-index: 20;
 }
@@ -127,7 +131,6 @@
     font-weight: 600;
     color: var(--white);
   }
-  
 }
 @media (max-width: 600px) {
   .container {
@@ -135,7 +138,7 @@
   }
   .projects_list {
     position: relative;
-    height: 500px;
+    height: 450px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -145,7 +148,7 @@
     align-items: center; */
     gap: 15px;
   }
-  .projects_item {
+  .swipper {
     width: 350px;
     height: 450px;
   }
@@ -165,8 +168,3 @@
     padding-bottom: 0;
   }
 }
-
-
-
-
-
