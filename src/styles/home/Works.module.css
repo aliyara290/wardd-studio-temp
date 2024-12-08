@@ -56,6 +56,8 @@
 .swipper {
   width: 450px;
   height: 450px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 
@@ -80,9 +82,8 @@
   top: 0;
   left: 0;
   border-bottom-right-radius: 10px;
-  background-color: var(--blue);
+  /* background-color: var(--blue); */
   color: var(--white);
-  padding: 0 8px 10px 0;
 }
 .date span {
   border-radius: 10px;
@@ -90,7 +91,7 @@
   color: var(--blue);
   font-size: var(--fz-md);
   font-weight: 500;
-  padding: 3px 20px;
+  padding: 8px 30px;
 }
 .services {
   position: absolute;

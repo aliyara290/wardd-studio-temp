@@ -113,9 +113,9 @@ const RecentWorks = () => {
                         ))}
                       </ul>
                     </div>
-                    <div className={style.date}>
+                    {/* <div className={style.date}>
                       <span>{project.date}</span>
-                    </div>
+                    </div> */}
                     <div className={style.link}>
                       <Link href={project.link}>View</Link>
                     </div>
