@@ -75,7 +75,15 @@
 }
 
 /* Fonts faces */
-
+/* Suisseintl */
+@font-face {
+  font-family: "Suisseintl";
+  src: url("../fonts/suisseIntl/SuisseIntl-Bold.woff2") format("woff2"),
+    url("../fonts/suisseIntl/SuisseIntl-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 /* Manrope font */
 
 @font-face {
@@ -359,7 +367,7 @@ body::after {
  .page__content {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 120px;
  }
  @media (max-width: 600px) {
   .page__content {

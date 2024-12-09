@@ -43,15 +43,15 @@
 }
 .part h1 {
   display: flex;
-  font-size: 4rem;
+  font-size: 50px;
   font-weight: 600;
   line-height: 1;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   color: var(--blue);
-  text-transform: uppercase;
   transform: translateY(100%);
   opacity: 0;
   text-align: center;
+  font-family: 'Suisseintl';
 }
 
 @media (max-width: 570px) {

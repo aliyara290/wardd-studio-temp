@@ -102,8 +102,8 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href={"/studio"} aria-label="Contact page">
-              <p>Studio</p>
+            <Link href={"/agency"} aria-label="Contact page">
+              <p>Agency</p>
             </Link>
           </li>
           <li>

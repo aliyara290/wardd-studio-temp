@@ -18,6 +18,7 @@
     font-weight: 800;
     color: var(--white);
     line-height: 1.2;
+    font-family: 'Suisseintl';
 }
 .description {
     width: 40%;

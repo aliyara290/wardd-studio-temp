@@ -9,7 +9,7 @@
 
 .container {
   height: calc(100%);
-  padding-top: 135px;
+  padding-top: 105px;
 }
 .hero {
   width: 94%;
@@ -33,6 +33,7 @@
   color: var(--blue);
   line-height: 1.1;
   font-weight: 800;
+  font-family: 'Suisseintl';
 }
 .description {
   width: 85%;

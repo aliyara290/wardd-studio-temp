@@ -24,6 +24,7 @@
   line-height: 1;
   font-weight: 600;
   color: var(--white);
+  font-family: 'Suisseintl';
 }
 .button button {
   padding: 12px 20px;

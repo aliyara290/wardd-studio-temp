@@ -3,6 +3,8 @@ import StudioAbout from "@/components/studio/StudioAbout";
 import OurRules from "@/components/home/OurRules";
 import Branding from "@/components/work/Branding";
 import Footer from "@/components/home/Footer";
+import Team from "@/components/studio/Team";
+import Brands from "@/components/studio/Brands";
 
 export const metadata = {
   description:
@@ -33,15 +35,17 @@ const Studio = () => {
   ];
   return (
     <>
-      <div className="studio_content">
+      <div className="page__content">
         <StudioHero />
-        <StudioAbout />
-        <OurRules
+        {/* <StudioAbout /> */}
+        {/* <OurRules
           cardDedtails={cardDetails}
           fHeading={"Excellence is "}
           sHeading={"Our Pledge"}
-        />
+        /> */}
         {/* <Branding /> */}
+        <Team />
+        <Brands/>
         <Footer />
       </div>
     </>

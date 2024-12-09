@@ -35,7 +35,7 @@ const StudioHero = () => {
       <div className={style.container}>
         <div className={style.bold_text}>
           <div className={style.text}>
-            <h1 className="studio_hero_heading">Agency</h1>
+            <h1 className="studio_hero_heading">Agency.</h1>
           </div>
         </div>
         <div className={style.cross_line}></div>
@@ -71,6 +71,18 @@ const StudioHero = () => {
             </div>
           </div>
         </div>
+        <div className={style.description}>
+          <h5>This is Wardd Studio</h5>
+          <p>
+            This is ESEOver the last five years, we have grown from a team of
+            three to a team of twenty. The three founders of the ESE Agency have
+            built a prosperous company from a high school graduation project.
+            Everything is one hundred percent "self-made". While others read
+            theory books, we feel the spirit of the times, set high goals and
+            give our all to achieve them.
+          </p>
+        </div>
+        <div className={style.cross_line}></div>
       </div>
     </div>
   );
