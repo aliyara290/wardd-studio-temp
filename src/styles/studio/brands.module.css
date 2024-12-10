@@ -1,42 +1,42 @@
 .content {
-    width: 100%;
+  width: 100%;
 }
 .container {
-    width: 94%;
-    margin: 0 auto;
+  width: 94%;
+  margin: 0 auto;
 }
 .cards_list {
-    padding-top: 80px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 40px;
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
 }
 .card {
-    background-color: var(--dark);
-    padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  background-color: #405599;
+  padding: 30px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .description p {
-    color: var(--slate);
+  color: #d1d8f0;
 }
 .lien a {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .lien a span {
-    color: var(--white);
+  color: var(--white);
 }
 .lien a span:last-child {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff85;
-    backdrop-filter: blur(20px);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f3067a5;
+  backdrop-filter: blur(20px);
 }

@@ -43,8 +43,8 @@ function Team() {
       <div className={style.container}>
         <Marquee speed={90}>
           <div className={style.cards}>
-            {teamMemberPics.map((member) => (
-              <div className={style.card}>
+            {teamMemberPics.map((member, index) => (
+              <div className={style.card} key={index}>
                 <div className={style.card_img}>
                   <img src={member.pic} alt={member.name} loading="lazy" />
                 </div>
