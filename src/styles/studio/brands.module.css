@@ -40,3 +40,20 @@
   background-color: #1f3067a5;
   backdrop-filter: blur(20px);
 }
+
+@media (max-width: 600px) {
+  .cards_list {
+    grid-template-columns: repeat(1, 1fr);
+   
+  }
+  .card {
+    background-color: #405599;
+    padding: 30px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}

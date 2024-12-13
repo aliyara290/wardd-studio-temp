@@ -66,7 +66,7 @@ function Team() {
     {
       pic: "/images/team/yara.jpg",
       name: "Ali Yara",
-      position: "Full-Stack Web Developer",
+      position: "Full Stack Developer",
     },
     {
       pic: "/images/team/faleh.jpg",

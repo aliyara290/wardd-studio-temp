@@ -31,7 +31,7 @@
 }
 .cards_list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 30px;
 }
 .card {
@@ -60,4 +60,22 @@
   font-size: var(--fz-md);
   color: #6d6c6c;
   font-weight: 400;
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding-top: 100px;
+  }
+  .text h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: var(--blue);
+    line-height: 1.1;
+    font-family: "Suisseintl";
+  }
+}
+@media (max-width: 500px) {
+  .cards_list {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
 }

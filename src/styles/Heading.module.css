@@ -40,6 +40,10 @@
 } */
 .part {
   overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .part h1 {
   display: flex;
@@ -52,6 +56,7 @@
   opacity: 0;
   text-align: center;
   font-family: 'Suisseintl';
+
 }
 
 @media (max-width: 570px) {

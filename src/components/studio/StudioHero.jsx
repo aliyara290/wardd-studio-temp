@@ -61,13 +61,16 @@ const StudioHero = () => {
         <div className={style.video}>
           <div className={style.video__content}>
             <div className={style.iframe__video}>
-              <iframe
-                src="https://player.vimeo.com/video/905314782?muted=1&amp;autoplay=1&amp;autopause=0&amp;controls=0&amp;loop=1&amp;app_id=122963"
+              <video
+                src="/videos/video-home-stretched.mp4"
+                muted={true}
+                autoPlay={true}
+                loop={true}
                 // frameborder="0"
                 // allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
                 // title="ese-doku-2023-16x9-SF5"
                 // data-ready="true"
-              ></iframe>
+              ></video>
             </div>
           </div>
         </div>
