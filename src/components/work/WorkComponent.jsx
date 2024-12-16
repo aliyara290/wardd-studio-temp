@@ -1,13 +1,32 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import style from "@/styles/work/work.module.css";
 import { projectDetails } from "@/data/projects";
 import "@/styles/work/gallery.css";
 import Link from "next/link";
+import { gsap } from "gsap"; // Import GSAP
 
 const WorkComponent = () => {
   const [filter, setFilter] = useState("All"); // State to track selected filter
   const [filteredProjects, setFilteredProjects] = useState(projectDetails); // State to track filtered projects
+
+  useEffect(() => {
+    // Trigger the stagger animation using GSAP
+    gsap.fromTo(
+      `.${style.work_card}`, // Target all work cards
+      {
+        y: 70, // Start slightly below the initial position
+        scale: 0.8
+      },
+      {
+        y: 0, // Move to original position
+        scale: 1,
+        opacity: 1,
+        duration: 0.3, // Duration of each animation
+        stagger: 0.2, // Stagger the animation for each card
+      }
+    );
+  }, [filteredProjects]); // Trigger when filteredProjects changes
 
   // Function to handle filter change
   const handleFilterChange = (filter) => {
@@ -15,10 +34,10 @@ const WorkComponent = () => {
     if (filter === "All") {
       setFilteredProjects(projectDetails); // Show all projects when "All" is selected
     } else {
-      const filteredProjects = projectDetails.filter((project) =>
+      const filtered = projectDetails.filter((project) =>
         Object.values(project.services).includes(filter)
       );
-      setFilteredProjects(filteredProjects); // Update the filtered projects
+      setFilteredProjects(filtered); // Update the filtered projects
     }
   };
 
@@ -35,16 +54,18 @@ const WorkComponent = () => {
         {/* Filter Buttons */}
         <div className={style.filter}>
           <ul>
-            {["All", "Websites", "Branding", "Social Media", "Website Design", "Advertising"].map((service) => (
-              <li key={service}>
-                <button
-                  className={`${style.button} ${filter === service ? style.active : ""}`}
-                  onClick={() => handleFilterChange(service)}
-                >
-                  {service}
-                </button>
-              </li>
-            ))}
+            {["All", "Websites", "Branding", "Social Media", "Website Design", "Advertising"].map(
+              (service) => (
+                <li key={service}>
+                  <button
+                    className={`${style.button} ${filter === service ? style.active : ""}`}
+                    onClick={() => handleFilterChange(service)}
+                  >
+                    {service}
+                  </button>
+                </li>
+              )
+            )}
             <li>
               <button className={style.button} onClick={() => handleFilterChange("All")}>
                 <span>
@@ -77,9 +98,9 @@ const WorkComponent = () => {
             filteredProjects.map((project, index) => (
               <div key={index} className={style.work_card}>
                 <Link href={project.page}>
-                <div className={style.picture}>
-                  <img src={project.post || "/images/bg/work_test.jpg"} alt={project.name} />
-                </div>
+                  <div className={style.picture}>
+                    <img src={project.post || "/images/bg/work_test.jpg"} alt={project.name} />
+                  </div>
                 </Link>
               </div>
             ))
