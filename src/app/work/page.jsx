@@ -12,10 +12,10 @@ export const metadata = {
 const Work = () => {
   return (
     <>
-      <div className="work_content">
+      <div className="page__content">
         <WorkComponent />
         {/* <Branding /> */}
-        <Partnership />
+        {/* <Partnership /> */}
         <Footer />
       </div>
     </>
