@@ -7,14 +7,22 @@ const Hero = () => {
       <div className={style.container}>
         <div className={style.picture}>
           <Image
-            src="/profile.png"
+            src="/images/bg/hero_test.jpg"
             width={500}
             height={500}
             alt="Picture of the author"
           />
         </div>
-        <div className={style.title}>
-            <h1>Lorem ipsum dolor sit amet consectetur.</h1>
+        <div className={style.body}>
+          <div className={style.title}>
+            <h1>Wardd Music</h1>
+          </div>
+          <div className={style.description}>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+              labore?
+            </p>
+          </div>
         </div>
       </div>
     </div>

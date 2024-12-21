@@ -10,7 +10,7 @@ const Details = () => {
           </div>
         </div>
         <div className={style.right}>
-          <div className={style.highlight}>
+          <div className={style.part}>
             <div className={style.heading}>
                 <h2>Highlight</h2>
             </div>
@@ -23,9 +23,9 @@ const Details = () => {
                 </ul>
             </div>
           </div>
-          <div className={style.services}>
+          <div className={style.part}>
           <div className={style.heading}>
-                <h2>Highlight</h2>
+                <h2>Services</h2>
             </div>
             <div className={style.dets}>
                 <ul className={style.list}>

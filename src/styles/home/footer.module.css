@@ -1,6 +1,6 @@
 .content {
   width: 100%;
-  padding: 1%;
+  /* padding: 1%; */
   overflow: hidden;
 }
 .container {
@@ -8,7 +8,7 @@
   /* height: 600px; */
   background-color: var(--dark);
   color: var(--white);
-  border-radius: 15px;
+  /* border-radius: 15px; */
   padding: 60px;
   display: flex;
   flex-direction: column;
