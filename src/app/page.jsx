@@ -38,11 +38,13 @@ const Home = () => {
         <Hero />
         <Intro />
         <RecentWorks />
-        {/* <OurRules
+        <OurRules
           cardDedtails={cardDetails}
-          fHeading={"our attitude"}
-          sHeading={"to success"}
-        /> */}
+            
+          fHeading={"Our Mindset and Approach"}
+          sHeading={"Toward Achieving"}
+          tHeading={"Success"}
+        />
         <Partnership />
         <Testimonial />
         <Cta />

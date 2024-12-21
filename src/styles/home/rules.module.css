@@ -1,17 +1,16 @@
 .content {
     width: 100%;
     overflow: hidden;
-    padding-bottom: 150px;
-    padding-top: 100px;
-    font-family: 'Manrope';
+    font-family: 'Alexandria';
 }
 .container {
-    width: 90%;
+    width: 94%;
     margin: 0 auto;
     position: relative;
 }
 .rules_cards {
     width: 100%;
+    padding-top: 60px;
 }
 .rules_cards__content {
     width: 100%;
@@ -21,8 +20,8 @@
     gap:40px;
 }
 .rule_card {
-    background-color: var(--dark);
-    color: aliceblue;
+    background-color: #e8eaee;
+    color: var(--dark);
     padding: 30px;
     height: 350px;
     display: flex;
@@ -50,7 +49,6 @@
 }
 .rule_id {
     padding-bottom: 15px;
-    font-family: "Manrope";
     font-size: var(--fz-xs);
     font-weight: var(--semi-bold);
     text-transform: uppercase;
@@ -85,17 +83,17 @@
     border: 1px solid var(--dark);
 }
 .rule_title {
-    font-family: 'Thunder';
-    font-size: 3rem;
+  
+    font-size: 30px;
     font-weight: var(--bold);
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: var(--dark);
+    color: var(--blue);
     width: max-content;
 }
 .rule_description {
     font-family: 'Manrope', sans-serif;
-    font-size: var(--fz-sm);
+    font-size: var(--fz-md);
     color: var(--dark);
 }
 

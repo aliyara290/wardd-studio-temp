@@ -7,7 +7,7 @@ import Image from "next/image";
 import Heading from "@/components/Heading";
 gsap.registerPlugin(ScrollTrigger);
 
-const OurRules = ({cardDedtails, fHeading, sHeading}) => {
+const OurRules = ({cardDedtails, fHeading, sHeading, tHeading}) => {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -39,8 +39,11 @@ const OurRules = ({cardDedtails, fHeading, sHeading}) => {
         <Heading
           topHeading={fHeading}
           botHeading={sHeading}
-          centerHeading={true}
+          
+          thirdHeading={tHeading}
+          centerHeading={false}
           showSubHeading={false}
+          showThirdHeading={true}
         />
         <div className={`${style.rules_cards}`}>
           <div className={style.rules_cards__content}>

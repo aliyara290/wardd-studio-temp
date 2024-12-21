@@ -11,24 +11,22 @@ const WorkComponent = () => {
   const [filteredProjects, setFilteredProjects] = useState(projectDetails); // State to track filtered projects
 
   useEffect(() => {
-    // Trigger the stagger animation using GSAP
     gsap.fromTo(
-      `.${style.work_card}`, // Target all work cards
+      `.${style.work_card}`,
       {
-        y: 70, // Start slightly below the initial position
+        y: 70,
         scale: 0.8
       },
       {
-        y: 0, // Move to original position
+        y: 0,
         scale: 1,
         opacity: 1,
-        duration: 0.3, // Duration of each animation
-        stagger: 0.2, // Stagger the animation for each card
+        duration: 0.3,
+        stagger: 0.1,
       }
     );
-  }, [filteredProjects]); // Trigger when filteredProjects changes
+  }, [filteredProjects]);
 
-  // Function to handle filter change
   const handleFilterChange = (filter) => {
     setFilter(filter); // Update the selected filter
     if (filter === "All") {
@@ -49,7 +47,11 @@ const WorkComponent = () => {
             <h1 className="studio_hero_heading">Work.</h1>
           </div>
         </div>
+
+
         <div className={style.cross_line}></div>
+
+
 
         {/* Filter Buttons */}
         <div className={style.filter}>
