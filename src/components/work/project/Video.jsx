@@ -1,7 +1,6 @@
 import style from "@/styles/work/project/video.module.css";
-import Image from "next/image";
 
-const Video = () => {
+const Video = ({ videoSrc }) => {
   return (
     <div className={style.content}>
       <div className={style.container}>
@@ -11,7 +10,7 @@ const Video = () => {
             autoPlay={true}
             muted={true}
             loop={true}
-            src="/videos/video-home-stretched.mp4"
+            src={videoSrc || "/videos/default-video.mp4"}
           ></video>
         </div>
       </div>

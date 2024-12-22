@@ -4,7 +4,7 @@
 .sub_heading {
   display: flex;
   align-items: center;
-  color: var(--dark);
+  color: #f8f8f8;
   font-size: var(--fz-sm);
   text-transform: uppercase;
 }
@@ -51,7 +51,7 @@
   font-weight: 600;
   line-height: 1;
   /* letter-spacing: 2px; */
-  color: var(--blue);
+  color: #f8f8f8;
   transform: translateY(100%);
   opacity: 0;
   text-align: center;

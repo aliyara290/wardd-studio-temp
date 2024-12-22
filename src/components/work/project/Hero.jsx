@@ -1,26 +1,26 @@
 import style from "@/styles/work/project/hero.module.css";
 import Image from "next/image";
 
-const Hero = () => {
+const Hero = ({ image, title, bio }) => {
   return (
     <div className={style.content}>
       <div className={style.container}>
         <div className={style.picture}>
           <Image
-            src="/images/bg/hero_test.jpg"
+            src={image || "/images/bg/ero_test.jpg"}
+            alt={title || "Default Image"}
             width={500}
             height={500}
-            alt="Picture of the author"
+            layout="responsive"
           />
         </div>
         <div className={style.body}>
           <div className={style.title}>
-            <h1>Wardd Music</h1>
+            <h1>{title || "Default Title"}</h1>
           </div>
           <div className={style.description}>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-              labore?
+              {bio || "Default description for the project."}
             </p>
           </div>
         </div>

@@ -15,33 +15,34 @@
   flex-direction: column;
   grid-row-gap: 120px;
 }
-.bold_text{
+.bold_text {
   overflow: hidden;
 }
 .text h1 {
   font-size: 130px;
   font-weight: 600;
-  color: var(--blue);
+  color: var(--white);
   line-height: 1.2;
-  font-family: 'Suisseintl';
+  font-family: "Suisseintl";
+  opacity: 0;
 }
 .cross_line {
   width: 100%;
   height: 2px;
-  background-color: #8ca5f95b;
+  background-color: #2a2b2b5b;
 }
 .filter ul {
- display: flex;
- align-items: center;
- flex-wrap: wrap;
- gap: 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 .filter ul li {
- list-style-type: none;
+  list-style-type: none;
 }
 .filter ul li button {
   padding: 8px 15px;
-  background-color: #6c8effb1;
+  background-color: var(--dark);
   border-radius: 10px;
   color: var(--white);
   font-weight: 600;
@@ -61,18 +62,26 @@
 }
 .work_card {
   width: 100%;
-  /* height: 400px; */
+  height: 490px;
   background-color: var(--blue);
   border-radius: 8px;
   overflow: hidden;
   transform: scale(0.8);
   opacity: 0;
 }
-@media (max-width: 700px) {
+.picture {
+  width: 100%;
+  height: 100%;
+}
+.picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 750px) {
   .container {
     padding-top: 100px;
   }
-
   .text h1 {
     font-size: 80px;
     font-weight: 600;
@@ -80,20 +89,20 @@
     line-height: 1.1;
     font-family: "Suisseintl";
   }
-  
-.work_lists {
-  grid-template-columns: repeat(3, 1fr);
+
+  .work_lists {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
-}
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .container {
-      grid-row-gap: 60px;
+    grid-row-gap: 60px;
   }
   .work_lists {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 520px) {
   .work_lists {
     grid-template-columns: repeat(1, 1fr);
   }

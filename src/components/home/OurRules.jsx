@@ -63,14 +63,7 @@ const OurRules = ({cardDedtails, fHeading, sHeading, tHeading}) => {
                   <div className={style.rule_description}>
                     <p className="studio_card_title">{card.description}</p>
                   </div>
-                  <div className={style.o_spider}>
-                    <Image
-                      src="/images/bg/o-spider.svg"
-                      alt="spider"
-                      width={40}
-                      height={40}
-                    />
-                  </div>
+                 
                 </div>
               </div>
             ))}

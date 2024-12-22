@@ -96,11 +96,11 @@ const Header = () => {
       </div>
       <nav className={style.links}>
         <ul>
-          <li>
+          {/* <li>
             <Link href={"/home"} aria-label="Contact page">
               <p>Home</p>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link href={"/agency"} aria-label="Contact page">
               <p>Agency</p>
@@ -129,42 +129,6 @@ const Header = () => {
               </svg>
             </span>
               
-            </div>
-            <div className={style.expertises} id="expertises__menu">
-              <div className={style.expertises_content}>
-                <div className={style.expertises_flayer}>
-                  <div className={style.expertises_heading}>
-                    <h4>Explore Our Expertise</h4>
-                  </div>
-                  <div className={style.expertises__description}>
-                    <p>
-                      Explore our innovative solutions and services driven by
-                      enhanced user experience.
-                    </p>
-                  </div>
-                  <div className={style.expertises__button}>
-                    <Link href="">
-                      <button>Discover More</button>
-                    </Link>
-                  </div>
-                </div>
-                <div className={style.expertises_row}>
-                  <ul>
-                    <li>
-                      <a href=""> Web Development & Digital Solutions</a>
-                    </li>
-                    <li>
-                      <a href="">Creative Design & Branding</a>
-                    </li>
-                    <li>
-                      <a href="">Audiovisual & Motion Graphics</a>
-                    </li>
-                    <li>
-                      <a href="">Marketing & Print Solutions</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
           </li>
 
@@ -213,6 +177,31 @@ const Header = () => {
           />
         </svg>
       </div>
+      <div className={style.expertises} id="expertises__menu">
+              <div className={style.expertises_content}>
+                <div className={style.expertises_flayer}>
+                  <div className={style.expertises_heading}>
+                    <h4>Our Expertise</h4>
+                  </div>
+                </div>
+                <div className={style.expertises_row}>
+                  <ul>
+                    <li>
+                      <a href=""> Web Development & Digital Solutions</a>
+                    </li>
+                    <li>
+                      <a href="">Creative Design & Branding</a>
+                    </li>
+                    <li>
+                      <a href="">Audiovisual & Motion Graphics</a>
+                    </li>
+                    <li>
+                      <a href="">Marketing & Print Solutions</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
     </header>
   );
 };

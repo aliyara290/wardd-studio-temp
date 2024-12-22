@@ -6,6 +6,8 @@ import Partnership from "@/components/home/Partnership";
 import Testimonial from "@/components/home/Testimonial";
 import Footer from "@/components/home/Footer";
 import Cta from "@/components/home/Cta";
+import Team from "@/components/studio/Team";
+
 import { metadata } from "@/app/layout";
 
 const Home = () => {
@@ -45,6 +47,7 @@ const Home = () => {
           sHeading={"Toward Achieving"}
           tHeading={"Success"}
         />
+        <Team />
         <Partnership />
         <Testimonial />
         <Cta />

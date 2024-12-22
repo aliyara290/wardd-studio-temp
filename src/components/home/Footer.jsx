@@ -382,9 +382,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className={style.picture}>
+        {/* <div className={style.picture}>
           <img src="/images/bg/logo-waw.png" alt="" />
-        </div>
+        </div> */}
       </div>
     </footer>
   );

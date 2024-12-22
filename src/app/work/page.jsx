@@ -1,5 +1,4 @@
 import WorkComponent from "@/components/work/WorkComponent";
-import Branding from "@/components/work/Branding";
 import Partnership from "@/components/home/Partnership";
 import Footer from "@/components/home/Footer";
 import Head from "next/head";
@@ -14,7 +13,6 @@ const Work = () => {
     <>
       <div className="page__content">
         <WorkComponent />
-        {/* <Branding /> */}
         {/* <Partnership /> */}
         <Footer />
       </div>

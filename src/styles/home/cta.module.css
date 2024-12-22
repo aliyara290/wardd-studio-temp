@@ -6,7 +6,7 @@
     width: 94%;
     border-radius: 15px;
     margin: 0 auto;
-    background-color: var(--blue);
+    background-color: var(--dark);
     padding: 60px 30px;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@
   background-color: var(--white);
   border-radius: 10px;
   font-size: var(--fz-xl);
-  color: var(--blue);
+  color: var(--dark);
   font-weight: 600;
 }
 

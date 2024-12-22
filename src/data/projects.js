@@ -1,150 +1,649 @@
-export const projectDetails = [
+const projectsData = [
   {
-    number: "01",
-    name: "Crib",
-    material: `web development - branding - SEO`,
-    bio: `Crib offers comprehensive architectural services, including design, planning, and construction management.`,
-    description: `The company is renowned for its innovative and functional designs, tailored to meet the unique needs of each client. Crib’s team of experienced architects and planners ensures every project is meticulously executed from concept to completion. By integrating advanced technology and sustainable practices, Crib delivers exceptional architectural solutions that harmonize with the environment and enhance the quality of life.`,
-    services: {
-      type1: "Websites",
-      type2: "Website Design",
+    id: "wardd-music",
+    poster: "/images/social-media/03.jpg",
+    hero: {
+      title: "Wardd Music",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
     },
-    page: "/work/crib",
-    live: 'https://crib-company.vercel.app/',
-    post: "/images/posts/molhim.jpg",
-    images: {
-      one: "/images/crib/01.webp",
-      two: "/images/crib/02.webp",
-      three: "/images/crib/03.webp",
-      four: "/images/crib/04.webp",
-      five: "/images/crib/05.webp",
-      six: "/images/crib/06.webp",
-      seven: "/images/crib/07.webp",
-      nine: "/images/crib/09.webp",
-      eight: "/images/crib/08.webp",
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
     },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
   },
   {
-    number: "02",
-    name: "Lawyer Sulaiman",
-    material: `web design - web development - branding - SEO`,
-    bio: `Sulaiman Bin Abdulaziz Law Firm provides integrated legal services, including consultations and representation.`,
-    description: `The firm is renowned for its expertise across various legal fields, offering tailored solutions to meet the specific needs of each client. With a team of highly skilled lawyers, Sulaiman Bin Abdulaziz Law Firm ensures thorough and effective legal support, whether in corporate law, criminal defense, or civil litigation. The firm leverages extensive legal knowledge and a deep understanding of local and international laws to deliver exceptional results.`,
-    services: {
-      type1: "Websites",
-      type2: "Website Design",
-      type3: "Branding",
+    id: "stretchedweb",
+    poster: "/images/posts/amyal.jpg",
+    hero: {
+      title: "stretchedweb",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
     },
-    page: "/work/lawyer-sulaiman",
-    live: 'https://lawyer-sulaiman.vercel.app/',
-    post: "/images/posts/amyal.jpg",
-    images: {
-      two: "/images/lawyer/01.webp",
-      one: "/images/lawyer/02.webp",
-      three: "/images/lawyer/03.webp",
-      four: "/images/lawyer/04.webp",
-      five: "/images/lawyer/05.webp",
-      six: "/images/lawyer/06.webp",
-      seven: "/images/lawyer/07.webp",
-      eight: "/images/lawyer/08.webp",
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://stretchedweb.com",
     },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
   },
   {
-    number: "03",
-    name: "Gourmet grove",
-    material: `web design - web development - branding`,
-    bio: `Gourmet Grove, a true Parisian brasserie experience in Rabat with delicious dishes and professional service.`,
-    description: `Gourmet Grove brings the authentic charm of a Parisian brasserie to Rabat, offering a chic and inviting setting. Diners can indulge in a variety of exquisite dishes, from succulent poultry and juicy burgers to fresh fish and delectable pastries. The brasserie prides itself on delivering not only a memorable culinary experience but also impeccable service, ensuring that every guest feels valued and delighted. Whether you're there for a casual lunch or a sophisticated dinner, Gourmet Grove promises a delightful gastronomic journey.`,
-    services: {
-      type1: "Websites",
-      type2: "Website Design",
-      type3: "Branding",
+    id: "sulaimane-lawyer",
+    poster: "/images/posts/lawyer.jpg",
+    hero: {
+      title: "sulaimane lawyer",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
     },
-    page: "/work/gourmet-grove",
-    live: 'https://gourmet-grove.vercel.app/',
-    post: "/images/posts/okez.jpg",
-    images: {
-      one: "/images/gourmet/01.webp",
-      seven: "/images/gourmet/07.webp",
-      two: "/images/gourmet/02.webp",
-      three: "/images/gourmet/03.webp",
-      four: "/images/gourmet/04.webp",
-      five: "/images/gourmet/05.webp",
-      six: "/images/gourmet/06.webp",
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
     },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
   },
   {
-    number: "04",
-    name: "Modavista",
-    material: `web design - branding`,
-    bio: `Modavista is a leading online store offering a wide range of home goods with a futuristic, user-friendly design.`,
-    description: `Modavista stands out as a premier online store, providing an extensive selection of home goods, from beds and desks to lamps. The store features a futuristic design, ensuring easy navigation and accessibility for all clients. Each aspect of Modavista, from the website to the branding, has been meticulously developed from the ground up, reflecting a commitment to quality and innovation. In addition to a visually appealing and functional website, Modavista leverages effective SEO strategies to drive traffic and enhance its online presence, ensuring continued growth and success in the competitive market.`,
-    services: {
-      type1: "Website Design",
-      type3: "Branding",
+    id: "smiley",
+    poster: "/images/posts/smiley.jpg",
+    hero: {
+      title: "Smiley",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
     },
-    page: "/work/modavista",
-    post: "/images/posts/bonapp.jpg",
-    images: {
-      one: "/images/modavista/01.webp",
-      two: "/images/modavista/02.webp",
-      three: "/images/modavista/03.webp",
-      four: "/images/modavista/04.webp",
-      five: "/images/modavista/05.webp",
-      six: "/images/modavista/06.webp",
-      seven: "/images/modavista/07.webp",
-      eight: "/images/modavista/08.webp",
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
     },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
   },
   {
-    number: "05",
-    name: "Smiley",
-    material: `web design - web development - branding - marketing`,
-    bio: `Smiley is a dental clinic specializing in beautiful smiles and high-quality dental services.`,
-    description: `Smiley Dental Clinic is dedicated to helping patients achieve and maintain beautiful, healthy smiles through high-quality dental services. The clinic offers a comprehensive range of treatments, from routine check-ups and cleanings to advanced cosmetic and restorative procedures. Smiley's team of experienced dental professionals utilizes the latest technology and techniques to ensure optimal care and comfort for every patient. With a welcoming atmosphere and a focus on individualized treatment plans, Smiley aims to make every visit a positive experience. Visit Smiley today and take the first step towards a healthier, more confident smile.`,
-    services: {
-      type1: "Websites",
-      type2: "Website Design",
-      type3: "Branding",
+    id: "gourmet-grove",
+    poster: "/images/social-media/real-estat-05.jpg",
+    hero: {
+      title: "Gourmet Grove",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
     },
-    page: "/work/smiley",
-    live: 'https://smiley-dentist.vercel.app/',
-    post: "",
-    images: {
-      one: "/images/smiley/01.webp",
-      two: "/images/smiley/02.webp",
-      three: "/images/smiley/03.webp",
-      four: "/images/smiley/04.webp",
-      five: "/images/smiley/05.webp",
-      six: "/images/smiley/06.webp",
-      seven: "/images/smiley/07.webp",
-      eight: "/images/smiley/08.webp",
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
     },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
   },
- 
   {
-    number: "06",
-    name: "wardd studio",
-    material: `web design - web development - branding - marketing`,
-    bio: `Wardd in Rabat, Morocco, offers professional voice recording, mixing, and mastering services.`,
-    description: `The state-of-the-art facility is equipped with the latest audio technology, catering to a diverse range of projects. Whether you're an emerging artist or an established musician, the experienced team at Wardd is committed to delivering exceptional sound quality. The studio is designed to be both inspiring and comfortable, ensuring that clients can focus entirely on their creative process.`,
-    services: {
-      type1: "Websites",
-      type2: "Website Design",
-      type3: "Branding",
-      type4: "Advertising",
+    id: "modavista",
+    poster: "/images/branding/art-4-min.jpg",
+    hero: {
+      title: "Modavista",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
     },
-    page: "/work/wardd-studio",
-    live: 'https://wardd-studio.vercel.app/',
-    post: "/images/posts/molhim.jpg",
-    images: {
-      one: "/images/wardd-studio/01.webp",
-      two: "/images/wardd-studio/02.webp",
-      three: "/images/wardd-studio/03.webp",
-      four: "/images/wardd-studio/04.webp",
-      five: "/images/wardd-studio/05.webp",
-      six: "/images/wardd-studio/06.webp",
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
     },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
   },
-
+  {
+    id: "fedaki",
+    poster: "/images/posts/fedaki.jpg",
+    hero: {
+      title: "Fedaki",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
+    },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "thaqafa",
+    poster: "/images/posts/thaqafa.jpg",
+    hero: {
+      title: "Thaqafa",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
+    },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "waaid",
+    poster: "/images/posts/waaid.jpg",
+    hero: {
+      title: "Waaid",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
+    },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "my-craft",
+    poster: "/images/posts/my-craft.jpg",
+    hero: {
+      title: "My Craft",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
+    },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "tajer",
+    poster: "/images/posts/tajer.jpg",
+    hero: {
+      title: "Tajer",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
+    },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "okez",
+    poster: "/images/posts/okez.jpg",
+    hero: {
+      title: "Okez",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
+    },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "bonapp",
+    poster: "/images/posts/bonapp.jpg",
+    hero: {
+      title: "BonApp",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
+    },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "amyal",
+    poster: "/images/posts/amyal.jpg",
+    hero: {
+      title: "Amyal",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
+    },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "molhim",
+    poster: "/images/posts/molhim.jpg",
+    hero: {
+      title: "Molhim Podcast",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/bg/hero_test.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: [
+        "Creative Design",
+        "Responsive Layout",
+        "Fast Performance",
+        "Secure Platform",
+      ],
+      services: [
+        "Website",
+        "Branding & Design",
+        "Social Media",
+        "Website Design",
+        "Advertising",
+      ],
+      websiteLink: "https://warddmusic.com",
+    },
+    video: {
+      videoSrc: "/videos/video-home-stretched.mp4",
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/bg/banner_test.jpeg",
+    },
+    mockups: [
+      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  
 ];
+export default projectsData;

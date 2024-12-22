@@ -11,6 +11,7 @@ const StudioHero = () => {
       },
       {
         y: 0,
+        opacity:1,
         delay: 0.6,
         duration: 0.4,
         stagger: 0.3,

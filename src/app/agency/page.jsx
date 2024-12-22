@@ -1,7 +1,6 @@
 import StudioHero from "@/components/studio/StudioHero";
 import StudioAbout from "@/components/studio/StudioAbout";
 import OurRules from "@/components/home/OurRules";
-import Branding from "@/components/work/Branding";
 import Footer from "@/components/home/Footer";
 import Team from "@/components/studio/Team";
 import Brands from "@/components/studio/Brands";

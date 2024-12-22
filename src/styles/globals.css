@@ -29,11 +29,11 @@
   --blue: #6C8FFF;
   --dark-grey: #212121;
   --light-grey: rgb(52, 52, 52);
-  --white: #f5f5f5;
+  --white: #f8f8f8;
   --lightest-grey: rgb(52, 52, 52);
   --dark-slate: #323232;
   --slate: #b0b1b1;
-  --dark: #161616;
+  --dark: #282727;
   --darken: #010101;
   --load: #0000002a;
 
@@ -330,7 +330,7 @@ html {
 body {
   width: 100%;
   overflow-x: hidden;
-  background-color: var(--white);
+  background-color: var(--darken);
   font-family: "Alexandria";
   /* cursor: none; */
 }

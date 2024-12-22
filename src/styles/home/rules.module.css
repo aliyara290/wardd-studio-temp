@@ -20,7 +20,7 @@
     gap:40px;
 }
 .rule_card {
-    background-color: #e8eaee;
+    background-color: #282727;
     color: var(--dark);
     padding: 30px;
     height: 350px;
@@ -54,12 +54,12 @@
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    color: var(--dark);
+    color: var(--white);
 }
 
 .rule_number {
     /* color: var(--dark-grey); */
-    font-weight: var(--black);
+    font-weight: var(--white);
     padding-left: 5px;
 }
 .point {
@@ -88,13 +88,12 @@
     font-weight: var(--bold);
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: var(--blue);
+    color: var(--white);
     width: max-content;
 }
 .rule_description {
-    font-family: 'Manrope', sans-serif;
     font-size: var(--fz-md);
-    color: var(--dark);
+    color: var(--white);
 }
 
 
