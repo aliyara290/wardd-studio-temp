@@ -38,7 +38,7 @@ const Explore = () => {
             <ul>
               <li className="overflow-hidden">
                 <div className="list_content">
-                  <Link href={"/services/web-design"}>
+                  <Link href={"/services/web-development-and-digital-solution"}>
                     <svg
                       id="Layer_1"
                       data-name="Layer 1"
@@ -48,13 +48,13 @@ const Explore = () => {
                     >
                       <polygon points="15.8 4.24 11.56 0 10.64 0.92 13.32 3.6 0 3.6 0 4.9 13.32 4.9 10.64 7.57 11.56 8.49 15.8 4.25 15.8 4.25 15.8 4.24" />
                     </svg>
-                    <span className="text-grey-500">Website Design</span>
+                    <span className="text-grey-500">Web Development & Digital Solution</span>
                   </Link>
                 </div>
               </li>
               <li className="overflow-hidden">
                 <div className="list_content">
-                  <Link href={"/services/web-development"}>
+                  <Link href={"/services/creative-design-and-branding"}>
                     <svg
                       id="Layer_1"
                       data-name="Layer 1"
@@ -64,13 +64,13 @@ const Explore = () => {
                     >
                       <polygon points="15.8 4.24 11.56 0 10.64 0.92 13.32 3.6 0 3.6 0 4.9 13.32 4.9 10.64 7.57 11.56 8.49 15.8 4.25 15.8 4.25 15.8 4.24" />
                     </svg>
-                    <span>Website Development</span>
+                    <span>Creative Design & Brandingt</span>
                   </Link>
                 </div>
               </li>
               <li className="overflow-hidden">
                 <div className="list_content">
-                  <Link href={"/services/website-support"}>
+                  <Link href={"/services/audiovisual-and-motion-graphics"}>
                     <svg
                       id="Layer_1"
                       data-name="Layer 1"
@@ -80,13 +80,13 @@ const Explore = () => {
                     >
                       <polygon points="15.8 4.24 11.56 0 10.64 0.92 13.32 3.6 0 3.6 0 4.9 13.32 4.9 10.64 7.57 11.56 8.49 15.8 4.25 15.8 4.25 15.8 4.24" />
                     </svg>
-                    <span>Website Support</span>
+                    <span>Audiovisual & Motion Graphics</span>
                   </Link>
                 </div>
               </li>
               <li className="overflow-hidden">
                 <div className="list_content">
-                  <Link href={"/services/graphic-design"}>
+                  <Link href={"/services/marketing-and-print-solutions"}>
                     <svg
                       id="Layer_1"
                       data-name="Layer 1"
@@ -96,39 +96,7 @@ const Explore = () => {
                     >
                       <polygon points="15.8 4.24 11.56 0 10.64 0.92 13.32 3.6 0 3.6 0 4.9 13.32 4.9 10.64 7.57 11.56 8.49 15.8 4.25 15.8 4.25 15.8 4.24" />
                     </svg>
-                    <span>Graphic Design</span>
-                  </Link>
-                </div>
-              </li>
-              <li className="overflow-hidden">
-                <div className="list_content">
-                  <Link href={"/services/digital-marketing"}>
-                    <svg
-                      id="Layer_1"
-                      data-name="Layer 1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 15.8 8.49"
-                      fill="var(--dark)"
-                    >
-                      <polygon points="15.8 4.24 11.56 0 10.64 0.92 13.32 3.6 0 3.6 0 4.9 13.32 4.9 10.64 7.57 11.56 8.49 15.8 4.25 15.8 4.25 15.8 4.24" />
-                    </svg>
-                    <span>Digital Marketing</span>
-                  </Link>
-                </div>
-              </li>
-              <li className="overflow-hidden">
-                <div className="list_content">
-                  <Link href={"/services/social-media-management"}>
-                    <svg
-                      id="Layer_1"
-                      data-name="Layer 1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 15.8 8.49"
-                      fill="var(--dark)"
-                    >
-                      <polygon points="15.8 4.24 11.56 0 10.64 0.92 13.32 3.6 0 3.6 0 4.9 13.32 4.9 10.64 7.57 11.56 8.49 15.8 4.25 15.8 4.25 15.8 4.24" />
-                    </svg>
-                    <span>Social Media Management</span>
+                    <span>Marketing & Print Solutions</span>
                   </Link>
                 </div>
               </li>

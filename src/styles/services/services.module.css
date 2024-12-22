@@ -1,7 +1,7 @@
 .content {
   width: 100%;
   padding: 0 0 30px;
-  font-family: "Manrope";
+  font-family: "Alexandria";
 }
 .container {
   width: 90%;
@@ -69,7 +69,7 @@
   font-size: 3rem;
   font-weight: 700;
   color: var(--slate);
-  font-family: "Manrope";
+  font-family: "Alexandria";
   position: relative;
 }
 .top_part h1::after {
@@ -203,7 +203,7 @@
     font-weight: 700;
     color: var(--slate);
     line-height: 1;
-    font-family: "Manrope";
+    font-family: "Alexandria";
     position: relative;
   }
   .keywords ul li {

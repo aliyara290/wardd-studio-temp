@@ -7,6 +7,7 @@ import Testimonial from "@/components/home/Testimonial";
 import Footer from "@/components/home/Footer";
 import Cta from "@/components/home/Cta";
 import Team from "@/components/studio/Team";
+import Pathway from "@/components/services/Pathway";
 
 import { metadata } from "@/app/layout";
 
@@ -40,6 +41,7 @@ const Home = () => {
         <Hero />
         <Intro />
         <RecentWorks />
+        <Pathway />
         <OurRules
           cardDedtails={cardDetails}
             

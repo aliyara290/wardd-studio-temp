@@ -51,7 +51,7 @@
 .header__arrow {
   width: 20px;
   height: 20px;
-  background-color: #5d5d5da8;
+  background-color: #b9b8b8a8;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -134,7 +134,9 @@
 }
 .expertises_row li {
   width: 100%;
-
+}
+.expertises_row li:hover .pic {
+  opacity: 1;
 }
 .expertises_row a {
   width: 100%;
@@ -157,6 +159,17 @@
   align-items: center;
   gap: 10px;
   cursor: pointer;
+}
+.pic {
+  position: absolute;
+  bottom: 0;
+  right: 6%;
+  opacity: 0;
+  transition: opacity .7s ease;
+}
+.pic img {
+  width: auto;
+  height: 310px;
 }
 
 @media (max-width: 900px) {

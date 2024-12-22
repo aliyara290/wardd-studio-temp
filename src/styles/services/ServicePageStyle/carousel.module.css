@@ -57,7 +57,7 @@
   color: var(--dark);
   font-size: var(--fz-xs);
   font-weight: var(--medium);
-  font-family: "Manrope";
+  font-family: "Alexandria";
 }
 .heading_point {
   display: block;
@@ -96,7 +96,7 @@
   color: var(--dark);
   font-size: var(--fz-md);
   line-height: 27px;
-  font-family: "Manrope";
+  font-family: "Alexandria";
 }
 
 @media (max-width: 570px) {

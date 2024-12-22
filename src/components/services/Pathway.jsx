@@ -57,7 +57,7 @@ const Pathway = () => {
       <Heading
           topHeading={"Our pathway"}
           botHeading={"to success"}
-          centerHeading={true}
+          centerHeading={false}
           showSubHeading={false}
         />
         <div className={style.pathway_cards}>

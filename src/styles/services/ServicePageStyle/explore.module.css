@@ -1,11 +1,9 @@
 .content {
   width: 100%;
-  padding: 100px 0;
-  background-color: var(--dark);
   position: relative;
 }
 .container {
-  width: 90%;
+  width: 94%;
   height: 100%;
   margin: 0 auto;
 }
@@ -18,7 +16,7 @@
 
 .heading {
   display: flex;
-  color: var(--dark);
+  color: var(--white);
   font-size: var(--fz-sm);
   text-transform: uppercase;
   margin-left: 8px;
@@ -43,7 +41,7 @@
   width: 14px;
   height: 14px;
   border-radius: var(--radius-circle);
-  border: 0.7px solid var(--slate);
+  border: 0.7px solid var(--white);
 }
 
 .list ul {
@@ -62,7 +60,7 @@
   left: 0;
   width: 100%;
   height: 3px;
-  background-color: var(--dark);
+  background-color: var(--white);
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s ease;
@@ -75,8 +73,8 @@
 .list ul li a {
   font-size: 2rem;
   font-weight: 600;
-  color: var(--dark);
-  font-family: "Manrope";
+  color: var(--white);
+  font-family: "Alexandria";
   display: flex;
   align-items: center;
 }
@@ -84,6 +82,7 @@
   width: 5px;
   opacity: 0;
   transition: width 0.3s ease, opacity 0.3s ease;
+  fill: var(--white);
 }
 .list ul li:hover a svg {
   width: 30px;
@@ -101,8 +100,8 @@
   .list ul li a {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--dark);
-    font-family: "Manrope";
+    color: var(--white);
+    font-family: "Alexandria";
     display: flex;
     align-items: center;
   }

@@ -53,7 +53,7 @@
   align-items: center;
   gap: 8px;
   padding: 13px 26px;
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #ffffffc1;
   backdrop-filter: blur(20px);
   transition: transform 0.4s ease;

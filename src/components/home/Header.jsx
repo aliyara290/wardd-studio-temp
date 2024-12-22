@@ -1,15 +1,16 @@
 "use client";
 import style from "@/styles/home/header.module.css";
 import "@/styles/home/homeStyle.css";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { getCalApi } from "@calcom/embed-react";
+import Image from "next/image";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(true);
+  const headerRef = useRef(null);
   const handleClick = () => {
-    if(window.innerWidth >= 900) {
-
+    if (window.innerWidth >= 900) {
       const expertisesMenu = document.querySelector("#expertises__menu");
       const arrow = document.querySelector("#arrow__hd");
       expertisesMenu.classList.toggle("show");
@@ -17,6 +18,36 @@ const Header = () => {
       setIsActive(!isActive);
     }
   };
+
+  const closeMenu = () => {
+    const expertisesMenu = document.querySelector("#expertises__menu");
+    const arrow = document.querySelector("#arrow__hd");
+    expertisesMenu?.classList.remove("show");
+    arrow?.classList.remove("active");
+    setIsActive(true);
+  };
+
+  useEffect(() => {
+    const handleWindowClick = (event) => {
+      if (
+        window.innerWidth >= 900 &&
+        headerRef.current &&
+        !headerRef.current.contains(event.target)
+      ) {
+        const expertisesMenu = document.querySelector("#expertises__menu");
+        const arrow = document.querySelector("#arrow__hd");
+        expertisesMenu?.classList.remove("show");
+        arrow?.classList.remove("active");
+        setIsActive(true);
+      }
+    };
+
+    window.addEventListener("click", handleWindowClick);
+
+    return () => {
+      window.removeEventListener("click", handleWindowClick);
+    };
+  }, []);
 
   useEffect(() => {
     (async function () {
@@ -34,8 +65,8 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={style.header}>
-      <div className={style.logo}>
+    <header className={style.header} ref={headerRef}>
+      <div className={style.logo} onClick={closeMenu}>
         <Link href={"/"} aria-label="Home page">
           <svg
             data-name="Layer 1"
@@ -101,12 +132,12 @@ const Header = () => {
               <p>Home</p>
             </Link>
           </li> */}
-          <li>
+          <li onClick={closeMenu}>
             <Link href={"/agency"} aria-label="Contact page">
               <p>Agency</p>
             </Link>
           </li>
-          <li>
+          <li onClick={closeMenu}>
             <Link href={"/work"} aria-label="Contact page">
               <p>Work</p>
             </Link>
@@ -117,27 +148,26 @@ const Header = () => {
             onClick={() => handleClick()}
           >
             <div className={style.exp__hd}>
-            <p>Expertise</p>
-            <span className={style.header__arrow}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 172 188"
-                fill="black"
-                id="arrow__hd"
-              >
-                <path d="M101.545,188V58.091l48.637,48.636,20.909-21.091L86.182,0.727,1.091,85.636l21.273,21.091L70.818,58.091V188h30.727Z"></path>
-              </svg>
-            </span>
-              
+              <p>Expertise</p>
+              <span className={style.header__arrow}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 172 188"
+                  fill="black"
+                  id="arrow__hd"
+                >
+                  <path d="M101.545,188V58.091l48.637,48.636,20.909-21.091L86.182,0.727,1.091,85.636l21.273,21.091L70.818,58.091V188h30.727Z"></path>
+                </svg>
+              </span>
             </div>
           </li>
 
-          <li>
+          <li onClick={closeMenu}>
             <Link href={"/contact"} aria-label="Contact page">
               <p>Contact</p>
             </Link>
           </li>
-          <li>
+          <li onClick={closeMenu}>
             <button
               data-cal-namespace="30min"
               data-cal-link="wardd-studio/30min"
@@ -178,30 +208,74 @@ const Header = () => {
         </svg>
       </div>
       <div className={style.expertises} id="expertises__menu">
-              <div className={style.expertises_content}>
-                <div className={style.expertises_flayer}>
-                  <div className={style.expertises_heading}>
-                    <h4>Our Expertise</h4>
-                  </div>
-                </div>
-                <div className={style.expertises_row}>
-                  <ul>
-                    <li>
-                      <a href=""> Web Development & Digital Solutions</a>
-                    </li>
-                    <li>
-                      <a href="">Creative Design & Branding</a>
-                    </li>
-                    <li>
-                      <a href="">Audiovisual & Motion Graphics</a>
-                    </li>
-                    <li>
-                      <a href="">Marketing & Print Solutions</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+        <div className={style.expertises_content}>
+          <div className={style.expertises_flayer}>
+            <div className={style.expertises_heading}>
+              <h4>Our Expertise</h4>
             </div>
+          </div>
+          <div className={style.expertises_row}>
+            <ul>
+              <li>
+                <Link onClick={closeMenu} href="/services/web-development-and-digital-solution"> Web Development & Digital Solutions</Link>
+                <div className={style.pic}>
+                  <Image
+                    src={
+                      "https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/651d15fc8f27f4a03c14b73b_ese-expertise-bw-content-marketing.png"
+                    }
+                    alt="service image showcase"
+                    width={300}
+                    height={300}
+                    loading="lazy"
+                  />
+                </div>
+              </li>
+              <li>
+                <Link onClick={closeMenu} href="/services/creative-design-and-branding">Creative Design & Branding</Link>
+                <div className={style.pic}>
+                  <Image
+                    src={
+                      "https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/651d15fc8f27f4a03c14b739_ese-expertise-bw-branding.png"
+                    }
+                    alt="service image showcase"
+                    width={300}
+                    height={300}
+                    loading="lazy"
+                  />
+                </div>
+              </li>
+              <li>
+                <Link onClick={closeMenu} href="/services/audiovisual-and-motion-graphics">Audiovisual & Motion Graphics</Link>
+                <div className={style.pic}>
+                  <Image
+                    src={
+                      "https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/651d15fc8f27f4a03c14b73a_ese-expertise-bw-campaigning.png"
+                    }
+                    alt="service image showcase"
+                    width={300}
+                    height={300}
+                    loading="lazy"
+                  />
+                </div>
+              </li>
+              <li>
+                <Link onClick={closeMenu} href="/services/marketing-and-print-solutions">Marketing & Print Solutions</Link>
+                <div className={style.pic}>
+                  <Image
+                    src={
+                      "https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/653153f144a80d5d49e8da3b_ese-expertise-bw-strategy.png"
+                    }
+                    alt="service image showcase"
+                    width={300}
+                    height={300}
+                    loading="lazy"
+                  />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
   );
 };

@@ -1,6 +1,5 @@
 .content {
     width: 100%;
-    font-family: 'Manrope';
 }
 .container {
     width: 94%;
@@ -31,7 +30,7 @@
     padding: 12px 20px;
   background-color: var(--white);
   border-radius: 10px;
-  font-size: var(--fz-xl);
+  font-size: var(--fz-lg);
   color: var(--dark);
   font-weight: 600;
 }

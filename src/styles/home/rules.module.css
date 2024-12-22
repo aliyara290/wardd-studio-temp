@@ -23,10 +23,11 @@
     background-color: #282727;
     color: var(--dark);
     padding: 30px;
-    height: 350px;
+    /* height: 350px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 40px;
     position: relative;
     border-radius: 10px;
     transition: transform .4s ease;
@@ -80,16 +81,15 @@
     width: 10px;
     height: 10px;
     border-radius: var(--radius-circle);
-    border: 1px solid var(--dark);
+    border: 1px solid var(--white);
 }
 .rule_title {
-  
-    font-size: 30px;
+    /* width: 50%; */
+    font-size: 25px;
     font-weight: var(--bold);
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--white);
-    width: max-content;
 }
 .rule_description {
     font-size: var(--fz-md);
