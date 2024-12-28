@@ -5,7 +5,11 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import style from "@/styles/team/team.module.css";
 
+
+
 function Team() {
+
+  // useLocomotiveScroll();
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.fromTo(
@@ -88,7 +92,7 @@ function Team() {
     <div className={style.content}>
       <div className={style.container}>
         <div className={style.bold_text}>
-          <div className={style.text}>
+          <div className={style.text} data-scroll data-scroll-speed="1">
             <h1 className="studio_hero_heading">Team.</h1>
           </div>
         </div>

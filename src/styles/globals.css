@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-[data-scroll-container] {
+/* [data-scroll-container] {
   height: 100%;
   overflow: hidden;
-}
+} */
 .swi {
   width: 500px;
 }
@@ -13,7 +13,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  -webkit-tap-highlight-color: transparent;
+  /* -webkit-tap-highlight-color: transparent; */
 }
 :root {
   /* --blue: #6C8FFF;
@@ -195,7 +195,7 @@
   font-display: swap;
 }
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   width: 100%;
 }
 body {
@@ -287,3 +287,7 @@ body::after {
 ::-webkit-scrollbar-track-piece {
   border: none;
 }
+
+
+
+

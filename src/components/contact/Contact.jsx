@@ -21,13 +21,13 @@ const Contact = () => {
                 />
               </div>
               <div className={style.bio}>
-              <p class="con__cta__copy">Hi 👋🏼 I'm Ghada and I'm happy to help you with your project request. <span>Just send me an email to </span><span>emanuel@eseagency.ch</span><span>.</span></p>
+              <p>Hi 👋🏼 I'm Ghada and I'm happy to help you with your project request. <span>Just send me an email to </span><span>ghada@warddstudio.com</span><span>.</span></p>
               </div>
             </a>
           </div>
           <div className={style.details}>
             <div className={style.row}>
-              <div className={style.box}>
+              <a href="tel:" className={style.box}>
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -65,8 +65,8 @@ const Contact = () => {
                   </svg>
                 </span>
                 <span>Call</span>
-              </div>
-              <div className={style.box}>
+              </a>
+              <a href="maito:" className={style.box}>
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -104,8 +104,8 @@ const Contact = () => {
                   </svg>
                 </span>
                 <span>Email</span>
-              </div>
-              <div className={style.box}>
+              </a>
+              <a href="" className={style.box}>
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +143,7 @@ const Contact = () => {
                   </svg>
                 </span>
                 <span>Route</span>
-              </div>
+              </a>
             </div>
             <div className={style.frow}>
               <div className={style.title}>

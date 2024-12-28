@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Header from "@/components/home/Header";
 import Preload from "@/components/Preload";
 import Head from "next/head";
+import SmoothScroll from "./SmoothScroll";
 
 export default function Layout({ children }) {
   // const [loading, setLoading] = useState(true);
@@ -58,12 +59,14 @@ export default function Layout({ children }) {
       {/* {loading ? (
         <Preload />
       ) : ( */}
-        <>
-          <div className="content">
-            <Header />
-            <main>{children}</main>
-          </div>
-        </>
+      <>
+        <div className="content">
+          <Header />
+          <main>
+            <SmoothScroll>{children}</SmoothScroll>
+          </main>
+        </div>
+      </>
       {/* )} */}
     </>
   );
