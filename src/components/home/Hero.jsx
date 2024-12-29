@@ -21,33 +21,26 @@ const Hero = () => {
   return (
     <section className={style.content} id="hero">
       <div className={style.container}>
-        <div className={style.hero}>
-          <div className={style.detailes}>
-            <div className={style.title}>
-              <h1>Empowering Innovation, Driving Success</h1>
-            </div>
-            <div className={style.description}>
-              <p>
-                Your trusted partner in technology, management, and marketing
-                solutions. We deliver innovative strategies and cutting-edge
-                services to help your business thrive in a competitive world.
-              </p>
-            </div>
-            <div className={style.button}>
-              <a href="">
-                <button>Discover Our Services</button>
-              </a>
-            </div>
-          </div>
-          <div className={style.video}>
-            <div className={style.hero_video}>
-              <video
-                playsInline={true}
-                autoPlay={true}
-                muted={true}
-                loop={true}
-                src="/videos/video-home-stretched.mp4"
-              ></video>
+        <div className={style.video}>
+          <video
+            playsInline={true}
+            autoPlay={true}
+            muted={true}
+            loop={true}
+            src="https://kinescope.io/wLpvmBiSxxsgTxyv42f6zo/1080p#t=0.001"
+          ></video>
+          <div className={style.boldText}>
+            <div className={`${style.ticker} ticker_anim`}>
+              <ul aria-hidden="true">
+                {Array.from({ length: 7 }, (_, i) => (
+                  <li key={i}>NO LIMITS - JUST RESULTS -</li>
+                ))}
+              </ul>
+              <ul>
+                {Array.from({ length: 7 }, (_, i) => (
+                  <li key={i}>NO LIMITS - JUST RESULTS -</li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>

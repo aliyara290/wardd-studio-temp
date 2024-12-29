@@ -1,6 +1,5 @@
 .content {
     width: 100%;
-    font-family: 'Manrope';
 }
 .container {
     width: 94%;
@@ -21,7 +20,7 @@
     gap: 30px;
 }
 .rowOne {
-    background-color: #161616;
+    background-color: var(--dark);
     height: 350px;
     border-radius: 15px;
     padding: 30px;
@@ -89,7 +88,7 @@
 }
 
 .card:last-child {
-    background-color: #c6fb50;
+    background-color: var(--dark);
 }
 
 .card:last-child .detailes {
@@ -102,7 +101,7 @@
 .card:last-child .detailes .numbers {
     font-size: var(--fz-4xl);
     font-weight: 700;
-    color: var(--dark);
+    color: var(--white);
     line-height: 1;
     font-family: 'Suisseintl';
 }
@@ -110,7 +109,7 @@
     width: 100%;
     font-size: var(--fz-xl);
     font-weight: 600;
-    color: var(--dark);
+    color: var(--white);
 }
 .card:last-child .detailes .button button {
     padding: 12px 20px;
