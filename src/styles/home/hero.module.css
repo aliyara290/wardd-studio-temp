@@ -34,7 +34,8 @@
   --gap: 20px;
   gap: var(--gap);
   overflow: hidden;
-  /* opacity: 0; */
+  opacity: 0;
+  transform: translateX(100%);
 }
 
 .ticker ul {

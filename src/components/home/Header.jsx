@@ -13,8 +13,8 @@ const Header = () => {
     if (window.innerWidth >= 900) {
       const expertisesMenu = document.querySelector("#expertises__menu");
       const arrow = document.querySelector("#arrow__hd");
-      expertisesMenu.classList.toggle("show");
-      arrow.classList.toggle("active");
+      expertisesMenu.classList.add("show");
+      arrow.classList.add("active");
       setIsActive(!isActive);
     }
   };
@@ -145,7 +145,7 @@ const Header = () => {
           <li
             className={style.expertises__link}
             id="expertises"
-            onClick={() => handleClick()}
+            onMouseMove={() => handleClick()}
           >
             <div className={style.exp__hd}>
               <p>Expertise</p>
@@ -217,7 +217,15 @@ const Header = () => {
           <div className={style.expertises_row}>
             <ul>
               <li>
-                <Link onClick={closeMenu} href="/services/web-development-and-digital-solution"> Web Development & Digital Solutions</Link>
+                <div className={`${style.exp_achor} exper_achor`}>
+                  <Link
+                    onClick={closeMenu}
+                    href="/services/web-development-and-digital-solution"
+                  >
+                    {" "}
+                    Web Development & Digital Solutions
+                  </Link>
+                </div>
                 <div className={style.pic}>
                   <Image
                     src={
@@ -231,7 +239,14 @@ const Header = () => {
                 </div>
               </li>
               <li>
-                <Link onClick={closeMenu} href="/services/creative-design-and-branding">Creative Design & Branding</Link>
+                <div className={`${style.exp_achor} exper_achor`}>
+                  <Link
+                    onClick={closeMenu}
+                    href="/services/creative-design-and-branding"
+                  >
+                    Creative Design & Branding
+                  </Link>
+                </div>
                 <div className={style.pic}>
                   <Image
                     src={
@@ -245,7 +260,14 @@ const Header = () => {
                 </div>
               </li>
               <li>
-                <Link onClick={closeMenu} href="/services/audiovisual-and-motion-graphics">Audiovisual & Motion Graphics</Link>
+                <div className={`${style.exp_achor} exper_achor`}>
+                  <Link
+                    onClick={closeMenu}
+                    href="/services/audiovisual-and-motion-graphics"
+                  >
+                    Audiovisual & Motion Graphics
+                  </Link>
+                </div>
                 <div className={style.pic}>
                   <Image
                     src={
@@ -259,7 +281,14 @@ const Header = () => {
                 </div>
               </li>
               <li>
-                <Link onClick={closeMenu} href="/services/marketing-and-print-solutions">Marketing & Print Solutions</Link>
+                <div className={`${style.exp_achor} exper_achor`}>
+                  <Link
+                    onClick={closeMenu}
+                    href="/services/marketing-and-print-solutions"
+                  >
+                    Marketing & Print Solutions
+                  </Link>
+                </div>
                 <div className={style.pic}>
                   <Image
                     src={

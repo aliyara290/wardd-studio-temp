@@ -1,16 +1,40 @@
-import React from "react";
+import {React, useEffect} from "react";
 import Image from "next/image";
 import style from "@/styles/contact/contact.module.css";
+import { gsap } from "gsap";
 
 const Contact = () => {
+  useEffect(() => {
+    gsap.fromTo(
+      '.row_animation',
+      {
+        y: "50%",
+      },
+      {
+        y: 0,
+        opacity: 1,
+        delay: 0.3,
+        stagger: 0.1,
+        duration: 0.3,
+      }
+    );
+    gsap.to(
+     `.img_trans`,
+      {
+        scale: 1,
+        delay: 0.3,
+        duration: 0.3,
+      }
+    );
+  }, []);
   return (
     <div className={style.content}>
       <div className={style.container}>
         <div className={style.infos}>
-          <div className={style.heading}>
+          <div className={`${style.heading} row_animation`}>
             <h1>Contact</h1>
           </div>
-          <div className={style.cta}>
+          <div className={`${style.cta} row_animation`}>
             <a href="mailto:">
               <div className={style.pic}>
                 <Image
@@ -26,7 +50,7 @@ const Contact = () => {
             </a>
           </div>
           <div className={style.details}>
-            <div className={style.row}>
+            <div className={`${style.row} row_animation`}>
               <a href="tel:" className={style.box}>
                 <span>
                   <svg
@@ -145,7 +169,7 @@ const Contact = () => {
                 <span>Route</span>
               </a>
             </div>
-            <div className={style.frow}>
+            <div className={`${style.frow} row_animation`}>
               <div className={style.title}>
                 <h5>Phone</h5>
               </div>
@@ -153,7 +177,7 @@ const Contact = () => {
                 <a href="tel:">+41 52 212 30 71</a>
               </div>
             </div>
-            <div className={style.frow}>
+            <div className={`${style.frow} row_animation`}>
               <div className={style.title}>
                 <h5>Email</h5>
               </div>
@@ -161,7 +185,7 @@ const Contact = () => {
                 <a href="mailto:contact@warddstudio">contact@warddstudio</a>
               </div>
             </div>
-            <div className={style.frow}>
+            <div className={`${style.frow} row_animation`}>
               <div className={style.title}>
                 <h5>Address</h5>
               </div>
@@ -180,6 +204,7 @@ const Contact = () => {
             alt="Banner"
             width={600}
             height={800}
+            className={`${style.img} img_trans`}
           />
         </div>
       </div>

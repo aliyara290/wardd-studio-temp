@@ -1,23 +1,25 @@
 "use client";
 import { useRef, useEffect } from "react";
 import style from "@/styles/home/hero.module.css";
-import gsap from "gsap";
+import { gsap } from "gsap";
+
 
 const Hero = () => {
-  // useEffect(() => {
-  //   gsap.fromTo(
-  //     ".hero_headers",
-  //     {
-  //       y: "100%",
-  //     },
-  //     {
-  //       y: 0,
-  //       delay: 0.2,
-  //       duration: 0.4,
-  //       stagger: 0.3,
-  //     }
-  //   );
-  // }, []);
+  useEffect(() => {
+    gsap.fromTo(
+      `.${style.ticker}`,
+      {
+        y: "200%",
+      },
+      {
+        y: 0,
+        opacity: 1,
+        x: 0,
+        delay: 0.1,
+        duration: 2,
+      }
+    );
+  }, []);
   return (
     <section className={style.content} id="hero">
       <div className={style.container}>
@@ -30,7 +32,7 @@ const Hero = () => {
             src="https://kinescope.io/wLpvmBiSxxsgTxyv42f6zo/1080p#t=0.001"
           ></video>
           <div className={style.boldText}>
-            <div className={`${style.ticker} ticker_anim`}>
+            <div className={`${style.ticker} hero_ticker`}>
               <ul aria-hidden="true">
                 {Array.from({ length: 7 }, (_, i) => (
                   <li key={i}>NO LIMITS - JUST RESULTS -</li>

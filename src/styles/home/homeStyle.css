@@ -4,6 +4,9 @@
 #expertises__menu.show {
   top: 0;
 }
+#expertises__menu.show .exper_achor {
+  transform: translateY(0);
+}
 #expertises__menu {
 transition: All .4s ease;
 

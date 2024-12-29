@@ -134,9 +134,15 @@
 }
 .expertises_row li {
   width: 100%;
+  overflow: hidden;
 }
 .expertises_row li:hover .pic {
   opacity: 1;
+}
+.exp_achor {
+  transform: translateY(100%);
+  transition: transform .4s ease;
+  transition-delay: 0.4s;
 }
 .expertises_row a {
   width: 100%;
