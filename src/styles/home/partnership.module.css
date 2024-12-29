@@ -22,9 +22,7 @@
   padding: 30px;
   border-radius: 5px;
 }
-.client:hover {
-  background-color: #4d4b4b;
-}
+
 .client img {
   aspect-ratio: 4/2;
   width: 100%;

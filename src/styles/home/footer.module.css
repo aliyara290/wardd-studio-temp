@@ -16,7 +16,14 @@
   position: relative;
   overflow: hidden;
 }
-
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo svg {
+  fill: var(--blue);
+}
 .row {
   width: 100%;
   display: flex;

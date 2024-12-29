@@ -18,9 +18,17 @@
   position: relative;
   z-index: 3576656582;
 }
+.logo a{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .logo svg {
-  width: 100px;
+  /* width: 100px; */
   fill: var(--white);
+}
+.logo:hover svg {
+  fill: var(--blue);
 }
 
 .links {

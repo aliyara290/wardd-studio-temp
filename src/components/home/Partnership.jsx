@@ -1,59 +1,37 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useState } from "react";
 import style from "@/styles/home/partnership.module.css";
 import Image from "next/image";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Heading from "@/components/Heading";
 
 const Partnership = () => {
+  const [hoveredIndex, setHoveredIndex] = useState(null); // Track the hovered card
+
   const partnerships = [
-    {
-      logo: "/icons/clients/1.png",
-    },
-    {
-      logo: "/icons/clients/2.png",
-    },
-    {
-      logo: "/icons/clients/3.png",
-    },
-    {
-      logo: "/icons/clients/4.png",
-    },
-    {
-      logo: "/icons/clients/5.png",
-    },
-    {
-      logo: "/icons/clients/6.png",
-    },
-    {
-      logo: "/icons/clients/7.png",
-    },
-    {
-      logo: "/icons/clients/8.png",
-    },
-    {
-      logo: "/icons/clients/9.png",
-    },
-    {
-      logo: "/icons/clients/10.png",
-    },
-    {
-      logo: "/icons/clients/6.png",
-    },
-    {
-      logo: "/icons/clients/7.png",
-    },
-    {
-      logo: "/icons/clients/8.png",
-    },
-    {
-      logo: "/icons/clients/9.png",
-    },
-    {
-      logo: "/icons/clients/10.png",
-    },
+    { logo: "/icons/clients/1.png" },
+    { logo: "/icons/clients/2.png" },
+    { logo: "/icons/clients/3.png" },
+    { logo: "/icons/clients/4.png" },
+    { logo: "/icons/clients/5.png" },
+    { logo: "/icons/clients/8.png" },
+    { logo: "/icons/clients/6.png" },
+    { logo: "/icons/clients/7.png" },
+    { logo: "/icons/clients/9.png" },
+    { logo: "/icons/clients/10.png" },
+    { logo: "/icons/clients/3.png" },
+    { logo: "/icons/clients/2.png" },
+    { logo: "/icons/clients/5.png" },
+    { logo: "/icons/clients/4.png" },
+    { logo: "/icons/clients/1.png" },
   ];
+
+  const handleMouseMove = (index) => {
+    setHoveredIndex(index); // Set the hovered card index
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredIndex(null); // Reset the hover state when the mouse leaves
+  };
 
   return (
     <section className={style.content}>
@@ -65,9 +43,18 @@ const Partnership = () => {
           centerHeading={false}
           showSubHeading={false}
         />
-        <div className={style.slider}>
-          {partnerships.map((client) => (
-            <div className={style.client}>
+        <div className={style.slider} onMouseLeave={handleMouseLeave}>
+          {partnerships.map((client, index) => (
+            <div
+              key={index}
+              className={style.client}
+              onMouseMove={() => handleMouseMove(index)}
+              
+              style={{
+                opacity: hoveredIndex === null || hoveredIndex === index ? 1 : 0.3, // Highlight or dim
+                cursor: "pointer", // Indicate interactivity
+              }}
+            >
               <Image
                 src={client.logo}
                 alt="logo"

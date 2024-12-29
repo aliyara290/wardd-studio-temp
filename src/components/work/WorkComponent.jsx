@@ -22,7 +22,6 @@ const WorkComponent = () => {
         opacity:1,
         delay: 0.6,
         duration: 0.4,
-        stagger: 0.3,
       }
     );
 
@@ -125,7 +124,6 @@ const WorkComponent = () => {
         </div>
 
         <div className={style.work_lists}>
-          {/* Check if filteredProjects is an array and has elements */}
           {projectDetails.map((project, index) => (
             <div key={index} className={style.work_card}>
               <Link href={`/work/${project.id}`}>
