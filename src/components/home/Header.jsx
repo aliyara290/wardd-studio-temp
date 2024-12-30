@@ -13,8 +13,8 @@ const Header = () => {
     if (window.innerWidth >= 900) {
       const expertisesMenu = document.querySelector("#expertises__menu");
       const arrow = document.querySelector("#arrow__hd");
-      expertisesMenu.classList.add("show");
-      arrow.classList.add("active");
+      expertisesMenu.classList.toggle("show");
+      arrow.classList.toggle("active");
       setIsActive(!isActive);
     }
   };
@@ -215,7 +215,7 @@ const Header = () => {
           <li
             className={style.expertises__link}
             id="expertises"
-            onMouseMove={() => handleClick()}
+            onClick={() => handleClick()}
           >
             <div className={style.exp__hd}>
               <p>Expertise</p>

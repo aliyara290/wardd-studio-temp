@@ -34,9 +34,6 @@
     overflow: hidden;
     position: relative;
 }
-.rule_card:hover {
-    transform: scale(1.02);
-}
 .rule_card:hover .o_spider {
     top: 0;
 }

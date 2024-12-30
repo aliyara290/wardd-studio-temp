@@ -77,7 +77,9 @@ const RecentWorks = () => {
             <h2>Featured work</h2>
           </div>
           <div className={style.button}>
-            <button>All work</button>
+            <Link href="/work">
+              <button>All work</button>
+            </Link>
           </div>
         </div>
         <div className={style.projects}>
@@ -98,7 +100,7 @@ const RecentWorks = () => {
               className={style.myswipper}
             >
               {projectsDetails.map((project, index) => (
-                <SwiperSlide className={style.swipper}  key={index}>
+                <SwiperSlide className={style.swipper} key={index}>
                   <li className={style.projects_item}>
                     <div className={style.picture}>
                       <img

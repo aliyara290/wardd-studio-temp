@@ -13,7 +13,7 @@ const Contact = () => {
       {
         y: 0,
         opacity: 1,
-        delay: 0.3,
+        delay: 0.1,
         stagger: 0.1,
         duration: 0.3,
       }
@@ -22,8 +22,9 @@ const Contact = () => {
      `.img_trans`,
       {
         scale: 1,
+        opacity: 1,
         delay: 0.3,
-        duration: 0.3,
+        duration: 1.3,
       }
     );
   }, []);

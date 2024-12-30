@@ -19,7 +19,7 @@ const WorkComponent = () => {
       },
       {
         y: 0,
-        opacity:1,
+        opacity: 1,
         delay: 0.6,
         duration: 0.4,
       }
@@ -30,13 +30,28 @@ const WorkComponent = () => {
       {
         y: 70,
         scale: 0.8,
-        opacity: 0
+        opacity: 0,
       },
       {
         y: 0,
         scale: 1,
         opacity: 1,
-        duration: 0.3,
+        delay: 0.6,
+        duration: 0.4,
+        stagger: 0.1,
+      }
+    );
+    gsap.fromTo(
+      `.${style.button}`,
+      {
+        y: 100,
+        opacity: 0,
+      },
+      {
+        y: 0,
+        opacity: 1,
+        delay: 0.6,
+        duration: 0.4,
         stagger: 0.1,
       }
     );
@@ -91,11 +106,10 @@ const WorkComponent = () => {
             ))}
             <li>
               <button
-                className={style.button}
+                className={`${style.button}`}
                 onClick={() => handleFilterChange("All")}
               >
                 <span>
-                 
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="22"
@@ -135,6 +149,9 @@ const WorkComponent = () => {
                     height={500}
                     loading="lazy"
                   />
+                </div>
+                <div className={style.plus}>
+                  <span>+</span>
                 </div>
               </Link>
             </div>
