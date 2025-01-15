@@ -72,11 +72,11 @@ function Team() {
       name: "Ali Yara",
       position: "Full Stack Developer",
     },
-    {
-      pic: "/images/team/faleh.jpg",
-      name: "Oussama Faleh",
-      position: "Sound Engineer | Producer",
-    },
+    // {
+    //   pic: "/images/team/faleh.jpg",
+    //   name: "Oussama Faleh",
+    //   position: "Sound Engineer | Producer",
+    // },
     {
       pic: "/images/team/imran.jpg",
       name: "Imrane El Fakyr",
