@@ -8,21 +8,28 @@ const Partnership = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null); // Track the hovered card
 
   const partnerships = [
-    { logo: "/icons/clients/1.png" },
-    { logo: "/icons/clients/2.png" },
-    { logo: "/icons/clients/3.png" },
-    { logo: "/icons/clients/4.png" },
-    { logo: "/icons/clients/5.png" },
-    { logo: "/icons/clients/8.png" },
+    { logo: "/icons/clients/uit.png" },
+    { logo: "/icons/clients/wafa.png" },
+    { logo: "/icons/clients/EL RAYAN.png" },
+    { logo: "/icons/clients/SNRT.png" },
+    { logo: "/icons/clients/factory.png" },
+    { logo: "/icons/clients/ikea.png" },
     { logo: "/icons/clients/6.png" },
-    { logo: "/icons/clients/7.png" },
+    { logo: "/icons/clients/FRMJ@4x.png" },
     { logo: "/icons/clients/9.png" },
     { logo: "/icons/clients/10.png" },
-    { logo: "/icons/clients/3.png" },
+    { logo: "/icons/clients/uit.png" },
+    { logo: "/icons/clients/wafa.png" },
+    { logo: "/icons/clients/EL RAYAN.png" },
+    { logo: "/icons/clients/SNRT.png" },
+    { logo: "/icons/clients/erm.png" },
+    { logo: "/icons/clients/7.png" },
+    
     { logo: "/icons/clients/2.png" },
-    { logo: "/icons/clients/5.png" },
+    { logo: "/icons/clients/3.png" },
     { logo: "/icons/clients/4.png" },
-    { logo: "/icons/clients/1.png" },
+    { logo: "/icons/clients/5.png" },
+
   ];
 
   const handleMouseMove = (index) => {
