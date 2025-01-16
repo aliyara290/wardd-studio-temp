@@ -29,10 +29,7 @@ function Team() {
       pic: "/images/team/yara.jpg",
       name: "Ali Yara",
     },
-    // {
-    //   pic: "/images/team/faleh.jpg",
-    //   name: "Oussama Faleh",
-    // },
+    
     {
       pic: "/images/team/imran.jpg",
       name: "Imran",

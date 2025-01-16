@@ -48,12 +48,15 @@ const StudioHero = () => {
             <div className="overflow-hidden">
               <div className={`${style.bio__text} ebi_48`}>
                 <p>
-                  Ja, wir sind jung. Ja, wir leben am Puls der Zeit und sprechen
-                  die Sprache der Gegenwart in und um die digitale Welt
-                  fliessend. Ja, unseren visionären Mindset mischen wir mit
-                  zeitloser Qualität. Ja, wir sind bissig, provokativ und
-                  kompetitiv. Aber nein, wir haben noch nicht ausgelernt und
-                  sehen uns noch lange nicht am Ziel.
+                Ward Studios is a creative powerhouse, a team of dreamers and doers dedicated to
+                crafting impactful solutions. We specialize in delivering tailored strategies that
+                resonate, ensuring your story stands out in a crowded world. Our expertise spans
+                multiple industries, and our passion lies in creating moments that inspire, engage,
+                and leave a lasting impression.
+                Whether you
+                are a brand looking to redefine your identity, a visionary entrepreneur
+                with a bold idea, or an organization aiming to connect with your audience, we are
+                here to turn your vision into reality.
                 </p>
               </div>
             </div>
@@ -78,15 +81,11 @@ const StudioHero = () => {
         <div className={style.description}>
           <h5>This is Wardd Studio</h5>
           <p>
-            This is ESEOver the last five years, we have grown from a team of
-            three to a team of twenty. The three founders of the ESE Agency have
-            built a prosperous company from a high school graduation project.
-            Everything is one hundred percent "self-made". While others read
-            theory books, we feel the spirit of the times, set high goals and
-            give our all to achieve them.
+          Welcome to WARDD STUDIOS, where creativity transforms visions into extraordinary realities. From branding to web development and audiovisual production, we craft bold solutions that inspire and leave lasting impressions. Let’s create magic together!
           </p>
         </div>
         <div className={style.cross_line}></div>
+        
       </div>
     </div>
   );

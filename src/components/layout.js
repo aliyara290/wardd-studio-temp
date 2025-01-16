@@ -29,7 +29,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Stretchedweb Studio - Creative agency</title>
+        <title>Wardd Studio - 360 agency</title>
         <link rel="icon" href="/favicon.svg" type="image/png"></link>
         <meta
           name="description"
