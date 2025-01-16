@@ -2,18 +2,18 @@ import "@/styles/globals.css";
 import Layout from "@/components/layout";
 export const metadata = {
   description:
-    "Delivering innovative web design and development with impactful digital marketing campaigns that catapult brands forward.",
-  title: "Stretchedweb - Creative agency",
+    "A 360° agency crafting exceptional branding, design, marketing, and audiovisual experiences to take your brand to the next level.",
+  title: "Wardd studio - 360 agency",
   keywords:
     "stretchedweb, Stretchedweb, Stretchedweb agency, web design, development, digital marketing, creative agency, innovative solutions, branding, online presence, SEO, graphic design, user experience, responsive design, social media management, content creation, brand identity, e-commerce solutions, technology solutions, custom web solutions, digital innovation",
-  author: "Stretchedweb",
+  author: "Wardd studio",
   robots: "index, follow",
-  canonical: "https://stretchedweb.com",
+  canonical: "https://warddstudio.com",
   language: "en-US",
   distribution: "global",
   rating: "General",
-  publisher: "Stretchedweb",
-  copyright: "© 2024 Stretchedweb",
+  publisher: "Wardd studio", 
+  copyright: "© 2024 Warddstudio",
   themeColor: "#161616",
   icons: {
     icon: [
@@ -27,11 +27,11 @@ export const metadata = {
   themeColor: '#ffffff',
   msapplicationTileColor: '#da532c',
   openGraph: {
-    title: "Stretchedweb Studio - Creative agency",
+    title: "Wardd Studio - 360 agency",
     description:
-      "Delivering innovative web design and development with impactful digital marketing campaigns that catapult brands forward.",
-    url: "https://stretchedweb.com",
-    siteName: "Stretchedweb",
+      "A 360° agency crafting exceptional branding, design, marketing, and audiovisual experiences to take your brand to the next level.",
+    url: "https://warddstudio.com",
+    siteName: "Wardd ",
     images: [
       {
         url: "https://stretchedweb.com/images/og/og-bg.jpg",

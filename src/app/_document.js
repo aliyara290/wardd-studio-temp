@@ -10,7 +10,7 @@ class MyDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <title>Stretchedweb agency</title>
+          <title>Wardd Studios</title>
           <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
           <script src="https://kit.fontawesome.com/f01941449c.js" crossorigin="anonymous"></script>
         </Head>
