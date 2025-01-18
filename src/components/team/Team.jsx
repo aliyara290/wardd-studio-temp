@@ -42,11 +42,11 @@ function Team() {
       name: "Oussama Mounaji",
       position: "Chief Operations Officer, Founder",
     },
-    {
-      pic: "/images/team/moustafa.jpg",
-      name: "Elmostapha Aamre",
-      position: "Chief Executive Officer, Founder",
-    },
+    // {
+    //   pic: "/images/team/moustafa.jpg",
+    //   name: "Elmostapha Aamre",
+    //   position: "Chief Executive Officer, Founder",
+    // },
     {
       pic: "/images/team/guarouani.jpg",
       name: "Mohamed Guarouani",
