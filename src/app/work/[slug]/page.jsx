@@ -1,20 +1,27 @@
 "use client";
-import { useParams } from "next/navigation"; // Correct import for Next.js 13
+import { useParams } from "next/navigation";
 import { useState, useEffect } from "react";
 import projectsData from "@/data/projects";
-import { Hero, Details, Video, Banner, Richtext, Mockups, Footer } from "@/components/work/project/index";
+import {
+  Hero,
+  Details,
+  Video,
+  Banner,
+  Richtext,
+  Mockups,
+  Footer,
+} from "@/components/work/project/index";
 
 const ProjectPage = () => {
-  const { slug } = useParams(); // Use useParams to get the slug from the URL
+  const { slug } = useParams();
   const [project, setProject] = useState(null);
 
   useEffect(() => {
     if (slug) {
-      // Find the project based on the dynamic slug
       const foundProject = projectsData.find((project) => project.id === slug);
-      setProject(foundProject); // Set the project when slug is available
+      setProject(foundProject);
     }
-  }, [slug]); // Trigger the effect when slug changes
+  }, [slug]);
 
   if (!project) {
     return <p>loading</p>;
@@ -27,15 +34,20 @@ const ProjectPage = () => {
       <Hero title={hero.title} bio={hero.description} image={hero.image} />
       <Details
         description={project.details.description}
-        highlight={project.details.highlights} // Ensure highlights is passed here
+        highlight={project.details.highlights}
         services={project.details.services}
         website={project.details.websiteLink}
       />
-      <Video videoSrc={project.video.videoSrc} />
-      <Richtext title={project.richtext.title} description={richtext.description} />
-      <Banner image={project.banner.image} altText={project.hero.title}/>
+      {project.video.videoSrc && <Video videoSrc={project.video.videoSrc} />}
+      {project.banner.image && (
+        <Banner image={project.banner.image} altText={project.hero.title} />
+      )}
+      <Richtext
+        title={project.richtext.title}
+        description={richtext.description}
+      />
       <Mockups images={project.mockups} />
-      <Footer/>
+      <Footer />
     </div>
   );
 };

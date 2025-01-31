@@ -24,10 +24,10 @@ const projectsData = [
         "Website Design",
         "Advertising",
       ],
-      websiteLink: "https://warddmusic.com",
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -43,13 +43,45 @@ const projectsData = [
     ],
   },
   {
-    id: "stretchedweb",
-    poster: "/images/posts/amyal.jpg",
+    id: "chance-coffee",
+    poster: "/images/projects/chance/hero-banner.jpg",
     hero: {
-      title: "stretchedweb",
+      title: "Chance Coffee",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
+      image: "/images/projects/chance/hero-banner.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media"],
+      websiteLink: null,
+    },
+    video: {
+      videoSrc: null,
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/projects/chance/banner.jpg",
+    },
+    mockups: [
+      { src: "/images/projects/chance/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/chance/mockup-2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "al-amyal-chasaa",
+    poster: "/images/projects/amyal/post.jpg",
+    hero: {
+      title: "Al Amyal Al chasaa",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/projects/amyal/hero-banner.jpg",
     },
     details: {
       description:
@@ -67,10 +99,10 @@ const projectsData = [
         "Website Design",
         "Advertising",
       ],
-      websiteLink: "https://stretchedweb.com",
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -78,11 +110,11 @@ const projectsData = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
     },
     banner: {
-      image: "/images/bg/banner_test.jpeg",
+      image: "/images/projects/amyal/banner.jpg",
     },
     mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+      { src: "/images/projects/amyal/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/amyal/mockup-2.jpg", alt: "Mockup Image 2" },
     ],
   },
   {
@@ -110,10 +142,10 @@ const projectsData = [
         "Website Design",
         "Advertising",
       ],
-      websiteLink: "https://warddmusic.com",
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -153,10 +185,10 @@ const projectsData = [
         "Website Design",
         "Advertising",
       ],
-      websiteLink: "https://warddmusic.com",
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -196,10 +228,10 @@ const projectsData = [
         "Website Design",
         "Advertising",
       ],
-      websiteLink: "https://warddmusic.com",
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -239,10 +271,10 @@ const projectsData = [
         "Website Design",
         "Advertising",
       ],
-      websiteLink: "https://warddmusic.com",
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -259,33 +291,22 @@ const projectsData = [
   },
   {
     id: "fedaki",
-    poster: "/images/posts/fedaki.jpg",
+    poster: "/images/projects/fedaki/post.jpg",
     hero: {
       title: "Fedaki",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
+      image: "/images/projects/fedaki/mockup-2.jpg",
     },
     details: {
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: "https://warddmusic.com",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media", "Advertising"],
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -293,11 +314,11 @@ const projectsData = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
     },
     banner: {
-      image: "/images/bg/banner_test.jpeg",
+      image: "/images/projects/fedaki/logo.jpg",
     },
     mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+      { src: "/images/projects/fedaki/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/fedaki/mockup-2.jpg", alt: "Mockup Image 2" },
     ],
   },
   {
@@ -319,16 +340,14 @@ const projectsData = [
         "Secure Platform",
       ],
       services: [
-        "Website",
         "Branding & Design",
         "Social Media",
-        "Website Design",
         "Advertising",
       ],
-      websiteLink: "https://warddmusic.com",
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -344,34 +363,23 @@ const projectsData = [
     ],
   },
   {
-    id: "waaid",
-    poster: "/images/posts/waaid.jpg",
+    id: "waed-school",
+    poster: "/images/projects/waed/post.jpg",
     hero: {
-      title: "Waaid",
+      title: "waed School",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
+      image: "/images/projects/waed/hero-banner.jpg",
     },
     details: {
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: "https://warddmusic.com",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media"],
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -379,59 +387,16 @@ const projectsData = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
     },
     banner: {
-      image: "/images/bg/banner_test.jpeg",
+      image: "/images/projects/waed/post.jpg",
     },
     mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-    ],
-  },
-  {
-    id: "my-craft",
-    poster: "/images/posts/my-craft.jpg",
-    hero: {
-      title: "My Craft",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
-    },
-    details: {
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: "https://warddmusic.com",
-    },
-    video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
-    },
-    richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-    },
-    banner: {
-      image: "/images/bg/banner_test.jpeg",
-    },
-    mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+      { src: "/images/projects/waed/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/waed/mockup-2.jpg", alt: "Mockup Image 2" },
     ],
   },
   {
     id: "tajer",
-    poster: "/images/posts/tajer.jpg",
+    poster: "/images/projects/tajer/post.jpg",
     hero: {
       title: "Tajer",
       description:
@@ -441,23 +406,12 @@ const projectsData = [
     details: {
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: "https://warddmusic.com",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media", "Advertising"],
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -465,21 +419,21 @@ const projectsData = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
     },
     banner: {
-      image: "/images/bg/banner_test.jpeg",
+      image: "/images/projects/tajer/banner.jpg",
     },
     mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+      { src: "/images/projects/tajer/mockup-2.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/tajer/mockup.jpg", alt: "Mockup Image 2" },
     ],
   },
   {
     id: "okez",
-    poster: "/images/posts/okez.jpg",
+    poster: "/images/projects/okez/post.jpg",
     hero: {
       title: "Okez",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
+      image: "/images/projects/okez/hero-banner.jpg",
     },
     details: {
       description:
@@ -487,20 +441,16 @@ const projectsData = [
       highlights: [
         "Creative Design",
         "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
       ],
       services: [
-        "Website",
         "Branding & Design",
         "Social Media",
-        "Website Design",
         "Advertising",
       ],
-      websiteLink: "https://warddmusic.com",
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -508,16 +458,16 @@ const projectsData = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
     },
     banner: {
-      image: "/images/bg/banner_test.jpeg",
+      image: "/images/projects/okez/banner.jpg",
     },
     mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+      { src: "/images/projects/okez/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/okez/mockup-2.jpg", alt: "Mockup Image 2" },
     ],
   },
   {
     id: "bonapp",
-    poster: "/images/posts/bonapp.jpg",
+    poster: "/images/projects/bonapp/post.jpg",
     hero: {
       title: "BonApp",
       description:
@@ -527,23 +477,12 @@ const projectsData = [
     details: {
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: "https://warddmusic.com",
+      highlights: ["Creative Design", "Responsive Layout", "Fast Performance"],
+      services: ["Branding & Design", "Social Media", "Advertising"],
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: null,
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -551,85 +490,31 @@ const projectsData = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
     },
     banner: {
-      image: "/images/bg/banner_test.jpeg",
+      image: "/images/projects/bonapp/banner.jpg",
     },
     mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-    ],
-  },
-  {
-    id: "amyal",
-    poster: "/images/posts/amyal.jpg",
-    hero: {
-      title: "Amyal",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
-    },
-    details: {
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: "https://warddmusic.com",
-    },
-    video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
-    },
-    richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-    },
-    banner: {
-      image: "/images/bg/banner_test.jpeg",
-    },
-    mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+      { src: "/images/projects/bonapp/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/bonapp/mockup-2.jpg", alt: "Mockup Image 2" },
     ],
   },
   {
     id: "molhim",
-    poster: "/images/posts/molhim.jpg",
+    poster: "/images/projects/molhim/post.jpg",
     hero: {
       title: "Molhim Podcast",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
+      image: "/images/projects/molhim/hero-banner.jpg",
     },
     details: {
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: "https://warddmusic.com",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media", "Advertising"],
+      websiteLink: null,
     },
     video: {
-      videoSrc: "/videos/video-home-stretched.mp4",
+      videoSrc: "/images/projects/molhim/molhim-video.mp4",
     },
     richtext: {
       title: "Lorem ipsum dolor sit amet consectetur.",
@@ -637,13 +522,44 @@ const projectsData = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
     },
     banner: {
-      image: "/images/bg/banner_test.jpeg",
+      image: null,
     },
     mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+      { src: "/images/projects/molhim/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/molhim/mockup-3.jpg", alt: "Mockup Image 2" },
     ],
   },
-  
+  {
+    id: "my-scarf",
+    poster: "/images/projects/my-iscrfi/post.jpg",
+    hero: {
+      title: "My Scarf",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/projects/my-iscrfi/hero-banner.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media", "Advertising"],
+      websiteLink: null,
+    },
+    video: {
+      videoSrc: null,
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/projects/my-iscrfi/banner.jpg",
+    },
+    mockups: [
+      { src: "/images/projects/my-iscrfi/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/my-iscrfi/mockup-2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
 ];
 export default projectsData;

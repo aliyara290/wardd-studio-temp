@@ -9,8 +9,7 @@ import Image from "next/image";
 
 const WorkComponent = () => {
   const [filter, setFilter] = useState("All"); // State to track selected filter
-  const [filteredProjects, setFilteredProjects] = useState([]); // Initialize as an empty array
-
+  const [filteredProjects, setFilteredProjects] = useState(projectDetails);
   useEffect(() => {
     gsap.fromTo(
       ".studio_hero_heading",
@@ -55,7 +54,7 @@ const WorkComponent = () => {
         stagger: 0.1,
       }
     );
-  }, [filteredProjects]);
+  }, []);
 
   const handleFilterChange = (filter) => {
     setFilter(filter); // Update the selected filter
@@ -138,7 +137,7 @@ const WorkComponent = () => {
         </div>
 
         <div className={style.work_lists}>
-          {projectDetails.map((project, index) => (
+          {filteredProjects.map((project, index) => (
             <div key={index} className={style.work_card}>
               <Link href={`/work/${project.id}`}>
                 <div className={style.picture}>

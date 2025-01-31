@@ -293,7 +293,7 @@ const Header = () => {
                     href="/services/web-development-and-digital-solution"
                   >
                     {" "}
-                    Web Development & Digital Solutions
+                    Development & Digital Solutions
                   </Link>
                 </div>
                 <div className={style.pic}>

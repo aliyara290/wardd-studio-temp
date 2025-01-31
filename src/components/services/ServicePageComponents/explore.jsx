@@ -48,7 +48,7 @@ const Explore = () => {
                     >
                       <polygon points="15.8 4.24 11.56 0 10.64 0.92 13.32 3.6 0 3.6 0 4.9 13.32 4.9 10.64 7.57 11.56 8.49 15.8 4.25 15.8 4.25 15.8 4.24" />
                     </svg>
-                    <span className="text-grey-500">Web Development & Digital Solution</span>
+                    <span className="text-grey-500">Development & Digital Solution</span>
                   </Link>
                 </div>
               </li>

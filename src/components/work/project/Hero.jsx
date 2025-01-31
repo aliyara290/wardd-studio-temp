@@ -11,7 +11,6 @@ const Hero = ({ image, title, bio }) => {
             alt={title || "Default Image"}
             width={500}
             height={500}
-            layout="responsive"
           />
         </div>
         <div className={style.body}>

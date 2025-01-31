@@ -52,7 +52,7 @@ const Contact = () => {
           </div>
           <div className={style.details}>
             <div className={`${style.row} row_animation`}>
-              <a href="tel:" className={style.box}>
+              <a href="tel:+212611681099" className={style.box}>
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +91,7 @@ const Contact = () => {
                 </span>
                 <span>Call</span>
               </a>
-              <a href="maito:" className={style.box}>
+              <a href="mailto:contact@warddstudio" className={style.box}>
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +175,7 @@ const Contact = () => {
                 <h5>Phone</h5>
               </div>
               <div className={style.det}>
-                <a href="tel:">+212611681099</a>
+                <a href="tel:+212611681099">+212611681099</a>
               </div>
             </div>
             <div className={`${style.frow} row_animation`}>

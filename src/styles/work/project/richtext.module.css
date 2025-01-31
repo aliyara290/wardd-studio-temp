@@ -28,3 +28,37 @@
     text-align: center;
     font-weight: 500;
 }
+
+@media (max-width: 900px) {
+    .title {
+        width: 70%;
+    }
+    .description {
+        width: 90%;
+    }
+}
+@media (max-width: 700px) {
+    .title {
+        width: 80%;
+        font-size: var(--fz-3xl);
+    }
+    .description {
+        width: 90%;
+        font-size: var(--fz-xl);
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+        min-height: max-content;
+        padding: 100px 0px;
+    }
+    .title {
+        width: 80%;
+        font-size: 28px;
+    }
+    .description {
+        width: 90%;
+        font-size: 20px;
+    }
+}

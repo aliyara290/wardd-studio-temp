@@ -48,6 +48,7 @@ const Details = ({ description, highlight = [], services = [], website }) => {
               </ul>
             </div>
           </div>
+          {website && (
           <div className={style.button}>
             <a href={website}>
               <button>
@@ -56,6 +57,7 @@ const Details = ({ description, highlight = [], services = [], website }) => {
               </button>
             </a>
           </div>
+          )}
         </div>
       </div>
     </div>
