@@ -1,7 +1,7 @@
 const projectsData = [
   {
     id: "wardd-music",
-    poster: "/images/social-media/03.jpg",
+    poster: "/images/projects/wardd/post.png",
     hero: {
       title: "Wardd Music",
       description:
@@ -117,178 +117,178 @@ const projectsData = [
       { src: "/images/projects/amyal/mockup-2.jpg", alt: "Mockup Image 2" },
     ],
   },
-  {
-    id: "sulaimane-lawyer",
-    poster: "/images/posts/lawyer.jpg",
-    hero: {
-      title: "sulaimane lawyer",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
-    },
-    details: {
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: null,
-    },
-    video: {
-      videoSrc: null,
-    },
-    richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-    },
-    banner: {
-      image: "/images/bg/banner_test.jpeg",
-    },
-    mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-    ],
-  },
-  {
-    id: "smiley",
-    poster: "/images/posts/smiley.jpg",
-    hero: {
-      title: "Smiley",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
-    },
-    details: {
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: null,
-    },
-    video: {
-      videoSrc: null,
-    },
-    richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-    },
-    banner: {
-      image: "/images/bg/banner_test.jpeg",
-    },
-    mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-    ],
-  },
-  {
-    id: "gourmet-grove",
-    poster: "/images/social-media/real-estat-05.jpg",
-    hero: {
-      title: "Gourmet Grove",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
-    },
-    details: {
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: null,
-    },
-    video: {
-      videoSrc: null,
-    },
-    richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-    },
-    banner: {
-      image: "/images/bg/banner_test.jpeg",
-    },
-    mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-    ],
-  },
-  {
-    id: "modavista",
-    poster: "/images/branding/art-4-min.jpg",
-    hero: {
-      title: "Modavista",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
-    },
-    details: {
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Website",
-        "Branding & Design",
-        "Social Media",
-        "Website Design",
-        "Advertising",
-      ],
-      websiteLink: null,
-    },
-    video: {
-      videoSrc: null,
-    },
-    richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-    },
-    banner: {
-      image: "/images/bg/banner_test.jpeg",
-    },
-    mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-    ],
-  },
+  // {
+  //   id: "sulaimane-lawyer",
+  //   poster: "/images/posts/lawyer.jpg",
+  //   hero: {
+  //     title: "sulaimane lawyer",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+  //     image: "/images/bg/hero_test.jpg",
+  //   },
+  //   details: {
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+  //     highlights: [
+  //       "Creative Design",
+  //       "Responsive Layout",
+  //       "Fast Performance",
+  //       "Secure Platform",
+  //     ],
+  //     services: [
+  //       "Website",
+  //       "Branding & Design",
+  //       "Social Media",
+  //       "Website Design",
+  //       "Advertising",
+  //     ],
+  //     websiteLink: null,
+  //   },
+  //   video: {
+  //     videoSrc: null,
+  //   },
+  //   richtext: {
+  //     title: "Lorem ipsum dolor sit amet consectetur.",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+  //   },
+  //   banner: {
+  //     image: "/images/bg/banner_test.jpeg",
+  //   },
+  //   mockups: [
+  //     { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+  //     { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+  //   ],
+  // },
+  // {
+  //   id: "smiley",
+  //   poster: "/images/projects/smiley/post.jpg",
+  //   hero: {
+  //     title: "Smiley",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+  //     image: "/images/bg/hero_test.jpg",
+  //   },
+  //   details: {
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+  //     highlights: [
+  //       "Creative Design",
+  //       "Responsive Layout",
+  //       "Fast Performance",
+  //       "Secure Platform",
+  //     ],
+  //     services: [
+  //       "Website",
+  //       "Branding & Design",
+  //       "Social Media",
+  //       "Website Design",
+  //       "Advertising",
+  //     ],
+  //     websiteLink: null,
+  //   },
+  //   video: {
+  //     videoSrc: null,
+  //   },
+  //   richtext: {
+  //     title: "Lorem ipsum dolor sit amet consectetur.",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+  //   },
+  //   banner: {
+  //     image: "/images/bg/banner_test.jpeg",
+  //   },
+  //   mockups: [
+  //     { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+  //     { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+  //   ],
+  // },
+  // {
+  //   id: "gourmet-grove",
+  //   poster: "/images/social-media/real-estat-05.jpg",
+  //   hero: {
+  //     title: "Gourmet Grove",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+  //     image: "/images/bg/hero_test.jpg",
+  //   },
+  //   details: {
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+  //     highlights: [
+  //       "Creative Design",
+  //       "Responsive Layout",
+  //       "Fast Performance",
+  //       "Secure Platform",
+  //     ],
+  //     services: [
+  //       "Website",
+  //       "Branding & Design",
+  //       "Social Media",
+  //       "Website Design",
+  //       "Advertising",
+  //     ],
+  //     websiteLink: null,
+  //   },
+  //   video: {
+  //     videoSrc: null,
+  //   },
+  //   richtext: {
+  //     title: "Lorem ipsum dolor sit amet consectetur.",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+  //   },
+  //   banner: {
+  //     image: "/images/bg/banner_test.jpeg",
+  //   },
+  //   mockups: [
+  //     { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+  //     { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+  //   ],
+  // },
+  // {
+  //   id: "modavista",
+  //   poster: "/images/branding/art-4-min.jpg",
+  //   hero: {
+  //     title: "Modavista",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+  //     image: "/images/bg/hero_test.jpg",
+  //   },
+  //   details: {
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+  //     highlights: [
+  //       "Creative Design",
+  //       "Responsive Layout",
+  //       "Fast Performance",
+  //       "Secure Platform",
+  //     ],
+  //     services: [
+  //       "Website",
+  //       "Branding & Design",
+  //       "Social Media",
+  //       "Website Design",
+  //       "Advertising",
+  //     ],
+  //     websiteLink: null,
+  //   },
+  //   video: {
+  //     videoSrc: null,
+  //   },
+  //   richtext: {
+  //     title: "Lorem ipsum dolor sit amet consectetur.",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+  //   },
+  //   banner: {
+  //     image: "/images/bg/banner_test.jpeg",
+  //   },
+  //   mockups: [
+  //     { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+  //     { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+  //   ],
+  // },
   {
     id: "fedaki",
     poster: "/images/projects/fedaki/post.jpg",
@@ -321,47 +321,47 @@ const projectsData = [
       { src: "/images/projects/fedaki/mockup-2.jpg", alt: "Mockup Image 2" },
     ],
   },
-  {
-    id: "thaqafa",
-    poster: "/images/posts/thaqafa.jpg",
-    hero: {
-      title: "Thaqafa",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/bg/hero_test.jpg",
-    },
-    details: {
-      description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-      highlights: [
-        "Creative Design",
-        "Responsive Layout",
-        "Fast Performance",
-        "Secure Platform",
-      ],
-      services: [
-        "Branding & Design",
-        "Social Media",
-        "Advertising",
-      ],
-      websiteLink: null,
-    },
-    video: {
-      videoSrc: null,
-    },
-    richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-    },
-    banner: {
-      image: "/images/bg/banner_test.jpeg",
-    },
-    mockups: [
-      { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-      { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-    ],
-  },
+  // {
+  //   id: "thaqafa",
+  //   poster: "/images/posts/thaqafa.jpg",
+  //   hero: {
+  //     title: "Thaqafa",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+  //     image: "/images/bg/hero_test.jpg",
+  //   },
+  //   details: {
+  //     description:
+  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+  //     highlights: [
+  //       "Creative Design",
+  //       "Responsive Layout",
+  //       "Fast Performance",
+  //       "Secure Platform",
+  //     ],
+  //     services: [
+  //       "Branding & Design",
+  //       "Social Media",
+  //       "Advertising",
+  //     ],
+  //     websiteLink: null,
+  //   },
+  //   video: {
+  //     videoSrc: null,
+  //   },
+  //   richtext: {
+  //     title: "Lorem ipsum dolor sit amet consectetur.",
+  //     description:
+  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+  //   },
+  //   banner: {
+  //     image: "/images/bg/banner_test.jpeg",
+  //   },
+  //   mockups: [
+  //     { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
+  //     { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
+  //   ],
+  // },
   {
     id: "waed-school",
     poster: "/images/projects/waed/post.jpg",
@@ -534,6 +534,134 @@ const projectsData = [
     poster: "/images/projects/my-iscrfi/post.jpg",
     hero: {
       title: "My Scarf",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/projects/my-iscrfi/hero-banner.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media", "Advertising"],
+      websiteLink: null,
+    },
+    video: {
+      videoSrc: null,
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/projects/my-iscrfi/banner.jpg",
+    },
+    mockups: [
+      { src: "/images/projects/my-iscrfi/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/my-iscrfi/mockup-2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "stretchedweb",
+    poster: "/images/projects/stretchedweb/post.png",
+    hero: {
+      title: "Stretchedweb",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/projects/my-iscrfi/hero-banner.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media", "Advertising"],
+      websiteLink: null,
+    },
+    video: {
+      videoSrc: null,
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/projects/my-iscrfi/banner.jpg",
+    },
+    mockups: [
+      { src: "/images/projects/my-iscrfi/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/my-iscrfi/mockup-2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "uit",
+    poster: "/images/projects/UIT/post.png",
+    hero: {
+      title: "UIT",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/projects/my-iscrfi/hero-banner.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media", "Advertising"],
+      websiteLink: null,
+    },
+    video: {
+      videoSrc: null,
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/projects/my-iscrfi/banner.jpg",
+    },
+    mockups: [
+      { src: "/images/projects/my-iscrfi/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/my-iscrfi/mockup-2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "van-log",
+    poster: "/images/projects/van-log/post.png",
+    hero: {
+      title: "Van Log",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/projects/my-iscrfi/hero-banner.jpg",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media", "Advertising"],
+      websiteLink: null,
+    },
+    video: {
+      videoSrc: null,
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/projects/my-iscrfi/banner.jpg",
+    },
+    mockups: [
+      { src: "/images/projects/my-iscrfi/mockup.jpg", alt: "Mockup Image 1" },
+      { src: "/images/projects/my-iscrfi/mockup-2.jpg", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "wafa-assurance",
+    poster: "/images/projects/wafa-assurance/post.png",
+    hero: {
+      title: "Wafa Assurance",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
       image: "/images/projects/my-iscrfi/hero-banner.jpg",
