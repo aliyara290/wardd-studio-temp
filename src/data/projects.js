@@ -632,7 +632,7 @@ const projectsData = [
       title: "Van Log",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/projects/my-iscrfi/hero-banner.jpg",
+      image: "/images/projects/van-log/hero-banner.png",
     },
     details: {
       description:
@@ -650,11 +650,11 @@ const projectsData = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
     },
     banner: {
-      image: "/images/projects/my-iscrfi/banner.jpg",
+      image: "/images/projects/van-log/banner.png",
     },
     mockups: [
-      { src: "/images/projects/my-iscrfi/mockup.jpg", alt: "Mockup Image 1" },
-      { src: "/images/projects/my-iscrfi/mockup-2.jpg", alt: "Mockup Image 2" },
+      { src: "/images/projects/van-log/mockup.png", alt: "Mockup Image 1" },
+      { src: "/images/projects/van-log/mockup-2.png", alt: "Mockup Image 2" },
     ],
   },
   {
@@ -664,7 +664,7 @@ const projectsData = [
       title: "Wafa Assurance",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-      image: "/images/projects/my-iscrfi/hero-banner.jpg",
+      image: "/images/projects/wafa-assurance/hero-banner.png",
     },
     details: {
       description:
@@ -682,11 +682,43 @@ const projectsData = [
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
     },
     banner: {
-      image: "/images/projects/my-iscrfi/banner.jpg",
+      image: "/images/projects/wafa-assurance/banner.png",
     },
     mockups: [
-      { src: "/images/projects/my-iscrfi/mockup.jpg", alt: "Mockup Image 1" },
-      { src: "/images/projects/my-iscrfi/mockup-2.jpg", alt: "Mockup Image 2" },
+      { src: "/images/projects/wafa-assurance/mockup.png", alt: "Mockup Image 1" },
+      { src: "/images/projects/wafa-assurance/mockup-2.png", alt: "Mockup Image 2" },
+    ],
+  },
+  {
+    id: "rayan-immoblie",
+    poster: "/images/projects/rayan/post.png",
+    hero: {
+      title: "Rayan Immoblie",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+      image: "/images/projects/rayan/hero-banner.png",
+    },
+    details: {
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+      highlights: ["Creative Design", "Responsive Layout"],
+      services: ["Branding & Design", "Social Media", "Advertising"],
+      websiteLink: null,
+    },
+    video: {
+      videoSrc: null,
+    },
+    richtext: {
+      title: "Lorem ipsum dolor sit amet consectetur.",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+    },
+    banner: {
+      image: "/images/projects/rayan/banner.png",
+    },
+    mockups: [
+      { src: "/images/projects/rayan/mockup.png", alt: "Mockup Image 1" },
+      { src: "/images/projects/rayan/mockup-2.png", alt: "Mockup Image 2" },
     ],
   },
 ];
