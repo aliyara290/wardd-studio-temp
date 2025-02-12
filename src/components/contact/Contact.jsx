@@ -39,14 +39,14 @@ const Contact = () => {
             <a href="mailto:">
               <div className={style.pic}>
                 <Image
-                  src={"./images/team/ghada.jpg"}
-                  alt="Ghada Naji"
+                  src={"./images/team/omflow.jpg"}
+                  alt="Oussama Mounaji"
                   width={100}
                   height={100}
                 />
               </div>
               <div className={style.bio}>
-              <p>Hi 👋🏼 I'm Ghada and I'm happy to help you with your project request. <span>Just send me an email to </span><span>ghada@warddstudio.com</span><span></span></p>
+              <p>Hi 👋🏼 I'm Oussama and I'm happy to help you with your project request. <span>Just send me an email to </span><span>contact@gmail.com</span><span></span></p>
               </div>
             </a>
           </div>
@@ -183,7 +183,7 @@ const Contact = () => {
                 <h5>Email</h5>
               </div>
               <div className={style.det}>
-                <a href="mailto:contact@warddstudio">contact@warddstudio</a>
+                <a href="mailto:contact@warddstudio">contact@warddstudio.com</a>
               </div>
             </div>
             <div className={`${style.frow} row_animation`}>
@@ -201,9 +201,9 @@ const Contact = () => {
         </div>
         <div className={style.banner}>
           <Image
-            src={"./images/bg/contact_banner.jpg"}
+            src={"./images/bg/TALK.jpg"}
             alt="Banner"
-            width={600}
+            width={7git 00}
             height={800}
             className={`${style.img} img_trans`}
           />

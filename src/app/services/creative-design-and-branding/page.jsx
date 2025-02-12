@@ -35,9 +35,8 @@ const WebDevelopment = () => {
 
   return (
     <div className="page__content">
-   
       <ServiceHero
-       src={"https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/6523d4934dd8dc8744ad9cba_ese-expertise-hero-1.jpg"}
+        src={"/images/bg/BANNER creative.jpg"} // Updated image path
       />
       <Intro />
       <OurRules cardDedtails={cardDedtails} fHeading={'Whate We'} sHeading={'Offer'} />

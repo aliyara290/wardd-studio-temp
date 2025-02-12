@@ -35,7 +35,6 @@ const DigitalMarketingPage = () => {
 
   return (
     <div className="page__content">
-   
       <ServiceHero
         name={"Website"}
         subName={"Development"}
@@ -45,7 +44,7 @@ const DigitalMarketingPage = () => {
         SecondBio={
           "Our expertise lies in building profound connections that extend to the broader scope of your brand, encompassing your customers. It is through fostering these connections that genuine brand loyalty is cultivated."
         }
-        src={"https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/65ba76c6a529b3da20f8edf1_ese-expertise-hero-webseiten.jpg"}
+        src={"/images/bg/banner mark.jpg"} // Updated image path
       />
       <Intro />
       {/* <ServiceProjects
