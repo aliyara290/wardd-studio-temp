@@ -39,7 +39,7 @@ const Contact = () => {
             <a href="mailto:">
               <div className={style.pic}>
                 <Image
-                  src={"./images/team/omflow.jpg"}
+                  src={"./images/team/omkltom@2x.png"}
                   alt="Oussama Mounaji"
                   width={100}
                   height={100}
@@ -203,8 +203,8 @@ const Contact = () => {
           <Image
             src={"./images/bg/TALK.jpg"}
             alt="Banner"
-            width={7git 00}
-            height={800}
+            width={600}
+            height={700}
             className={`${style.img} img_trans`}
           />
         </div>

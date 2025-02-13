@@ -11,40 +11,33 @@ export const metadata = {
   title: 'Website Development - Stretchedweb',
 };
 
-const DigitalMarketingPage = () => {
+const WebDesign = () => {
   const cardDedtails = [
     {
       number: "01",
-      title: "Web Development",
+      title: "Promotional Videos",
       description:
-        "Crafting high-quality, responsive websites that align with your business goals, offering optimal performance, seamless navigation, and a visually appealing design to enhance user experience and engagement.",
+        "Craft compelling promotional videos that bring your brand’s story to life, blending creative direction, high-quality visuals, and powerful storytelling to engage your audience.",
     },
     {
       number: "02",
-      title: "Digital Marketing",
+      title: "Animated Explainers:",
       description:
-        "Elevating your brand with tailored online marketing strategies, including search engine optimization (SEO), social media campaigns, and content creation, to increase visibility, drive traffic, and maximize conversions.",
+        "Deliver visually dynamic animated explainer videos that simplify complex ideas, making them accessible and captivating to your target audience.",
     },
     {
       number: "03",
-      title: "App Development",
+      title: "Event Coverage",
       description:
-        "Developing innovative mobile and web applications designed to provide an intuitive user experience, robust functionality, and scalable solutions to meet your business objectives in the digital era.",
+        "Provide professional filming and editing services for events, capturing memorable moments and transforming them into engaging content that tells the story of your success.",
     },
   ];
 
   return (
     <div className="page__content">
+   
       <ServiceHero
-        name={"Website"}
-        subName={"Development"}
-        firstBio={
-          "AS A COMPANY, YOU REQUIRE A PARTNER WHO UNDERSTANDS THE SIGNIFICANCE OF GOING BEYOND PRODUCT AND SERVICE DESIGN."
-        }
-        SecondBio={
-          "Our expertise lies in building profound connections that extend to the broader scope of your brand, encompassing your customers. It is through fostering these connections that genuine brand loyalty is cultivated."
-        }
-        src={"/images/bg/BANNER AUDIO VISUAL.jpg"} // Updated image path
+       src={"https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/6531535dbae71b820ea88259_ese-expertise-hero-images5.jpg"}
       />
       <Intro />
       {/* <ServiceProjects
@@ -59,4 +52,4 @@ const DigitalMarketingPage = () => {
   );
 };
 
-export default DigitalMarketingPage;
+export default WebDesign;
