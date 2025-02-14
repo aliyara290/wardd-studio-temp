@@ -44,7 +44,7 @@ const DigitalMarketingPage = () => {
         SecondBio={
           "Our expertise lies in building profound connections that extend to the broader scope of your brand, encompassing your customers. It is through fostering these connections that genuine brand loyalty is cultivated."
         }
-        src={"/images/bg/banner mark.jpg"} // Updated image path
+        src={"/images/bg/BANNER solution.jpg"} 
       />
       <Intro />
       {/* <ServiceProjects

@@ -23,7 +23,7 @@ const Intro = () => {
                 </div>
               </div>
               <div className={style.mockup}>
-                {/* <img src="/images/bg/phone.avif" alt="mockup" /> */}
+                <img src="/images/bg/phone.avif" alt="mockup" />
                 
 
               </div>

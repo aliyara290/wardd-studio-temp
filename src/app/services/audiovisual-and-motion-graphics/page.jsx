@@ -36,10 +36,9 @@ const WebDesign = () => {
   return (
     <div className="page__content">
    
-      <ServiceHero
-       src={"https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/6531535dbae71b820ea88259_ese-expertise-hero-images5.jpg"}
+   <ServiceHero
+        src={"/images/bg/BANNER AUDIO VISUAL.jpg"} // Updated image path
       />
-      <Intro />
       {/* <ServiceProjects
         projectsGallery={projectsGallery}
         heading={"web development"}

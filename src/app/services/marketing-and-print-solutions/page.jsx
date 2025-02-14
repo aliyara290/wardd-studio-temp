@@ -37,8 +37,8 @@ const BrandingPage = () => {
   return (
     <div className="page__content">
    
-      <ServiceHero
-       src={"https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/6523d8e3a69837062d300bb4_ese-expertise-hero-3.jpg"}
+   <ServiceHero
+        src={"/images/bg/banner mark.jpg"} // Updated image path
       />
       <Intro />
       {/* <ServiceProjects
