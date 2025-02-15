@@ -720,6 +720,7 @@ const projectsData = [
       { src: "/images/projects/rayan/mockup.png", alt: "Mockup Image 1" },
       { src: "/images/projects/rayan/mockup-2.png", alt: "Mockup Image 2" },
     ],
+    
   },
 ];
 export default projectsData;
