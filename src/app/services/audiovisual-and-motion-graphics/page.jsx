@@ -37,7 +37,7 @@ const WebDesign = () => {
     <div className="page__content">
    
       <ServiceHero
-       src={"https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/6531535dbae71b820ea88259_ese-expertise-hero-images5.jpg"}
+       src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/BANNER_AUDIO_VISUAL_we15rl.jpg"}
       />
       <Intro />
       {/* <ServiceProjects

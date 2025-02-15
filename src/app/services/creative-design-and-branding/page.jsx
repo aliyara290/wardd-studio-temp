@@ -37,7 +37,7 @@ const WebDevelopment = () => {
     <div className="page__content">
    
       <ServiceHero
-       src={"https://cdn.prod.website-files.com/651d15fb8f27f4a03c14ae8e/6523d4934dd8dc8744ad9cba_ese-expertise-hero-1.jpg"}
+       src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/BANNER_creative_zlynae.jpg"}
       />
       <Intro />
       <OurRules cardDedtails={cardDedtails} fHeading={'Whate We'} sHeading={'Offer'} />

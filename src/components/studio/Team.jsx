@@ -6,32 +6,32 @@ import Link from "next/link";
 function Team() {
   const teamMemberPics = [
     {
-      pic: "/images/team/kamal.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/kamal_jjp734.jpg",
       name: "Kamal Sekkar",
     },
     {
-      pic: "/images/team/omflow.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/omflow_vcnhnx.jpg",
       name: "Oussama Mounaji",
     },
     {
-      pic: "/images/team/sugar.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/sugar_bijzyz.jpg",
       name: "Simo Sekkar",
     },
     {
-      pic: "/images/team/ghada.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/ghada_yetpsh.jpg",
       name: "Ghada",
     },
     {
-      pic: "/images/team/chaimae.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/chaimae_z61xaj.jpg",
       name: "chaimae",
     },
     {
-      pic: "/images/team/yara.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/yara_w1dfxn.jpg",
       name: "Ali Yara",
     },
     
     {
-      pic: "/images/team/imran.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/imran_kio94h.jpg",
       name: "Imran",
     },
   ];

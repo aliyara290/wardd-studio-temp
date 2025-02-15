@@ -39,14 +39,14 @@ const Contact = () => {
             <a href="mailto:">
               <div className={style.pic}>
                 <Image
-                  src={"./images/team/ghada.jpg"}
+                  src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/omflow_vcnhnx.jpg"}
                   alt="Ghada Naji"
                   width={100}
                   height={100}
                 />
               </div>
               <div className={style.bio}>
-              <p>Hi 👋🏼 I'm Ghada and I'm happy to help you with your project request. <span>Just send me an email to </span><span>ghada@warddstudio.com</span><span></span></p>
+              <p>Hi 👋🏼 I'm Oussama and I'm happy to help you with your project request. <span>Just send me an email to </span><span>warddstudio@gmail.com</span><span></span></p>
               </div>
             </a>
           </div>

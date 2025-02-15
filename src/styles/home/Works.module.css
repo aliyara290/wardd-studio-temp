@@ -55,10 +55,11 @@
   overflow: visible;
 }
 .swipper {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  height: 500px;
   border-radius: 15px;
   overflow: hidden;
+  background-color: var(--darken);
 }
 
 
@@ -114,18 +115,21 @@
 }
 .link {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: -1px;
+  right: -1px;
   z-index: 20;
 }
 .link a {
-  padding: 7px 15px;
+  padding: 11px 20px;
   color: var(--white);
-  background-color: var(--blue);
-  border-radius: 15px;
-  text-transform: capitalize;
+  background-color: var(--dark);
+  border-bottom-left-radius: 15px;
+  /* text-transform: capitalize;   */
+  font-weight: 400;
 }
-
+.link a:hover {
+  color: var(--blue);
+}
 @media (max-width: 800px) {
   .title {
     font-size: 35px;

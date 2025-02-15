@@ -74,7 +74,7 @@ const Intro = () => {
             {/* <div className={style.heading}>
               <h2>Services</h2>
             </div> */}
-            <img src="/images/bg/bg-temp.jpeg" alt="" />
+            <img src="https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/2_msg8tp.jpg" alt="" />
           </div>
         </div>
       </div>

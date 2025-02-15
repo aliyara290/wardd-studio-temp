@@ -9,9 +9,10 @@
 }
 #expertises__menu {
 transition: All .4s ease;
-
 }
-
+#navbarMenu.open {
+  top: 0;
+}
 /* Humberger style */
 
 .Menu_68fg svg {

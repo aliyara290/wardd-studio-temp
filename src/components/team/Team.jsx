@@ -33,57 +33,52 @@ function Team() {
   }, []);
   const teamMember = [
     {
-      pic: "/images/team/kamal.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/kamal_jjp734.jpg",
       name: "Kamal Sekkar",
       position: "Creative Director, Founder",
     },
     {
-      pic: "/images/team/omflow.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/omflow_vcnhnx.jpg",
       name: "Oussama Mounaji",
       position: "Chief Operations Officer, Founder",
     },
-    // {
-    //   pic: "/images/team/moustafa.jpg",
-    //   name: "Elmostapha Aamre",
-    //   position: "Chief Executive Officer, Founder",
-    // },
     {
-      pic: "/images/team/guarouani.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/moustafa_llilby.jpg",
+      name: "Elmostapha Aamre",
+      position: "Chief Executive Officer, Founder",
+    },
+    {
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/guarouani_eeu8e9.jpg",
       name: "Mohamed Guarouani",
       position: "Head of Production",
     },
     {
-      pic: "/images/team/sugar.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/sugar_bijzyz.jpg",
       name: "Mohamed Sekkar",
       position: "Head of Development",
     },
     {
-      pic: "/images/team/ghada.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/ghada_yetpsh.jpg",
       name: "Ghada Naji",
       position: "Chief Creative Officer",
     },
     {
-      pic: "/images/team/chaimae.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/chaimae_z61xaj.jpg",
       name: "Chaimae El Bazrazi",
       position: "Chief Design Officer",
     },
     {
-      pic: "/images/team/yara.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/yara_w1dfxn.jpg",
       name: "Ali Yara",
       position: "Full Stack Developer",
     },
-    // {
-    //   pic: "/images/team/faleh.jpg",
-    //   name: "Oussama Faleh",
-    //   position: "Sound Engineer | Producer",
-    // },
     {
-      pic: "/images/team/imran.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/imran_kio94h.jpg",
       name: "Imrane El Fakyr",
       position: "Sound Engineer | Producer",
     },
     {
-      pic: "/images/team/abdalhadi.jpg",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/abdalhadi_y6yzlm.jpg",
       name: "Abdelhadi Bouchrouaat",
       position: "Visual Identity Designer",
     },

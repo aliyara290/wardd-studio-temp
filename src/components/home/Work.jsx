@@ -11,62 +11,90 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 
 const RecentWorks = () => {
   const projectsDetails = [
+    
     {
       date: "2024",
-      image: "/images/bg/test.avif",
-      link: "/work/crib",
-      type: "Architectural company",
-      title: "Crib",
+      image:
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_akms4e.jpg",
+      link: "/work/okez",
+      title: "Okez",
+      // services: ["design", "development"],
+    },
+    {
+      date: "2024",
+      image:
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_rwbt0g.jpg",
+      link: "/work/fedaki",
+      title: "Fedaki",
+      // services: ["design", "development"],
+    },
+    {
+      date: "2024",
+      image:
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_mix00x.png",
+      link: "/work/wafa-assurance",
+      title: "Wafa Assurance",
       services: ["design", "development"],
     },
     {
       date: "2024",
-      image: "/images/web_design/01 stretched.webp",
-      link: "/work/lawyer-sulaiman",
-      type: "Law firm",
-      title: "Lawyer Sulaiman",
-      services: ["design", "development"],
+      image:
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_tleq2p.jpg",
+      link: "/work/molhim",
+      title: "Molhim Podcast",
+      // services: ["design", "development"],
     },
     {
       date: "2024",
-      image: "/images/social-media/03.jpg",
+      image:
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_gyz5fk.png",
       link: "/work/smiley",
-      type: "Dental Clinic",
       title: "Smiley",
+      // services: ["design", "development"],
+    },
+    {
+      date: "2024",
+      image:
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_uzznss.jpg",
+      link: "/work/tajer",
+      title: "Tajer",
+      // services: ["design", "development"],
+    },
+    
+    {
+      date: "2024",
+      image:
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/Stretched_1_hjoiei.jpg",
+      link: "/work/stretchedweb",
+      title: "Stretchedweb",
+      services: ["design", "development"],
+    },
+    
+    {
+      date: "2024",
+      image:
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/wardd_music_02__xgryox.jpg",
+      link: "/work/wardd-music",
+      title: "Wardd Music",
+      services: ["design", "development"],
+    },  
+    {
+      date: "2024",
+      image:
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_jfbbzh.png",
+      link: "/work/van-log",
+      title: "Van Log",
       services: ["design", "development"],
     },
     {
       date: "2024",
-      image: "/images/web_design/03 stretched.webp",
-      link: "/work/smiley",
-      type: "Dental Clinic",
-      title: "Smiley",
+      image:
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/post_qhvzep.jpg",
+      link: "/work/al-amyal-chasaa",
+      title: "Al Amyal Al chasaa",
       services: ["design", "development"],
     },
-    {
-      date: "2024",
-      image: "/images/branding/OKEZ - 1-min.jpg",
-      link: "/work/smiley",
-      type: "Dental Clinic",
-      title: "Smiley",
-      services: ["design", "development"],
-    },
-    {
-      date: "2024",
-      image: "/images/social-media/01.jpg",
-      link: "/work/smiley",
-      type: "Dental Clinic",
-      title: "Smiley",
-      services: ["design", "development"],
-    },
-    {
-      date: "2024",
-      image: "/images/branding/art-2-min.jpg",
-      link: "/work/smiley",
-      type: "Dental Clinic",
-      title: "Smiley",
-      services: ["design", "development"],
-    },
+    
   ];
 
   return (
@@ -108,18 +136,18 @@ const RecentWorks = () => {
                         alt={`${project.title} picture`}
                       />
                     </div>
-                    <div className={style.services}>
+                    {/* <div className={style.services}>
                       <ul>
                         {project.services.map((service, idx) => (
                           <li key={idx}>{service}</li>
                         ))}
                       </ul>
-                    </div>
+                    </div> */}
                     {/* <div className={style.date}>
                       <span>{project.date}</span>
                     </div> */}
                     <div className={style.link}>
-                      <Link href={project.link}>View</Link>
+                      <Link href={project.link}>See project</Link>
                     </div>
                   </li>
                 </SwiperSlide>
