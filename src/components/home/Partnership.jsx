@@ -8,21 +8,23 @@ const Partnership = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null); // Track the hovered card
 
   const partnerships = [
-    { logo: "/icons/clients/uit.png" },
-    { logo: "/icons/clients/wafa.png" },
-    { logo: "/icons/clients/EL RAYAN.png" },
-    { logo: "/icons/clients/ikea.png" },
-    { logo: "/icons/clients/logo white_1.png" },
-    { logo: "/icons/clients/FRMJ@4x.png" },
-    { logo: "/icons/clients/9.png" },
-    { logo: "/icons/clients/10.png" },
-    { logo: "/icons/clients/wafa.png" },
-    { logo: "/icons/clients/erm.png" },
-    { logo: "/icons/clients/7.png" },
-    { logo: "/icons/clients/2.png" },
-    { logo: "/icons/clients/3.png" },
-    { logo: "/icons/clients/4.png" },
-    { logo: "/icons/clients/5.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/uit_hgpgve.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/erm_tfdytc.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/9_uynpx4.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/factory_klkk0r.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/10_fdumho.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/EL_RAYAN_ycio1a.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/ikea_wnjuv6.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/8_dbov6p.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/7_o0ytu1.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/6_aqhxqm.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/4_psnnm8.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/5_njghr3.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/FRMJ_4x_vyrlhi.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/2_keklki.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/3_rkubwi.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/1_eefceu.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/wafa_pxydvs.png" },
 
   ];
 

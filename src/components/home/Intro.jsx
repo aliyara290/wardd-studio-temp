@@ -4,6 +4,7 @@ import style from "@/styles/home/intro.module.css";
 const Intro = () => {
   return (
     <section className={style.content} id="intro">
+  
       <div className={style.container}>
         <div className={style.cards}>
           <div className={style.colOne}>
@@ -23,6 +24,8 @@ const Intro = () => {
               </div>
               <div className={style.mockup}>
                 <img src="/images/bg/phone.avif" alt="mockup" />
+                
+
               </div>
             </div>
             <div className={style.rowTwo}>

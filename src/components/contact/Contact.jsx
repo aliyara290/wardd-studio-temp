@@ -39,8 +39,8 @@ const Contact = () => {
             <a href="mailto:">
               <div className={style.pic}>
                 <Image
-                  src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/omflow_vcnhnx.jpg"}
-                  alt="Ghada Naji"
+                  src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/Artboard_1_fnw90d.jpg"}
+                  alt="Oussama Mounaji"
                   width={100}
                   height={100}
                 />
@@ -183,7 +183,7 @@ const Contact = () => {
                 <h5>Email</h5>
               </div>
               <div className={style.det}>
-                <a href="mailto:contact@warddstudio">contact@warddstudio</a>
+                <a href="mailto:contact@warddstudio">contact@warddstudio.com</a>
               </div>
             </div>
             <div className={`${style.frow} row_animation`}>
@@ -201,10 +201,10 @@ const Contact = () => {
         </div>
         <div className={style.banner}>
           <Image
-            src={"./images/bg/contact_banner.jpg"}
+            src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/TALK_thq5xk.jpg"}
             alt="Banner"
             width={600}
-            height={800}
+            height={700}
             className={`${style.img} img_trans`}
           />
         </div>

@@ -39,7 +39,6 @@ const WebDesign = () => {
       <ServiceHero
        src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/BANNER_AUDIO_VISUAL_we15rl.jpg"}
       />
-      <Intro />
       {/* <ServiceProjects
         projectsGallery={projectsGallery}
         heading={"web development"}

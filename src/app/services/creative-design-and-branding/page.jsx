@@ -35,7 +35,6 @@ const WebDevelopment = () => {
 
   return (
     <div className="page__content">
-   
       <ServiceHero
        src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/BANNER_creative_zlynae.jpg"}
       />

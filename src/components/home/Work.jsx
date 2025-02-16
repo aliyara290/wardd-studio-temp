@@ -15,7 +15,7 @@ const RecentWorks = () => {
     {
       date: "2024",
       image:
-        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_akms4e.jpg",
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/post_akms4e.jpg",
       link: "/work/okez",
       title: "Okez",
       // services: ["design", "development"],
@@ -23,7 +23,7 @@ const RecentWorks = () => {
     {
       date: "2024",
       image:
-        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_rwbt0g.jpg",
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/post_rwbt0g.jpg",
       link: "/work/fedaki",
       title: "Fedaki",
       // services: ["design", "development"],
@@ -31,7 +31,7 @@ const RecentWorks = () => {
     {
       date: "2024",
       image:
-        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_mix00x.png",
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/post_mix00x.png",
       link: "/work/wafa-assurance",
       title: "Wafa Assurance",
       services: ["design", "development"],
@@ -39,7 +39,7 @@ const RecentWorks = () => {
     {
       date: "2024",
       image:
-        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_tleq2p.jpg",
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/post_tleq2p.jpg",
       link: "/work/molhim",
       title: "Molhim Podcast",
       // services: ["design", "development"],
@@ -47,7 +47,7 @@ const RecentWorks = () => {
     {
       date: "2024",
       image:
-        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_gyz5fk.png",
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/post_gyz5fk.png",
       link: "/work/smiley",
       title: "Smiley",
       // services: ["design", "development"],
@@ -55,7 +55,7 @@ const RecentWorks = () => {
     {
       date: "2024",
       image:
-        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_uzznss.jpg",
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/post_uzznss.jpg",
       link: "/work/tajer",
       title: "Tajer",
       // services: ["design", "development"],
@@ -64,7 +64,7 @@ const RecentWorks = () => {
     {
       date: "2024",
       image:
-        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/Stretched_1_hjoiei.jpg",
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/Stretched_1_hjoiei.jpg",
       link: "/work/stretchedweb",
       title: "Stretchedweb",
       services: ["design", "development"],
@@ -73,7 +73,7 @@ const RecentWorks = () => {
     {
       date: "2024",
       image:
-        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/wardd_music_02__xgryox.jpg",
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/WARDD_MUSIC_BRANDIGN_SITE__x1jz21.png",
       link: "/work/wardd-music",
       title: "Wardd Music",
       services: ["design", "development"],
@@ -81,7 +81,7 @@ const RecentWorks = () => {
     {
       date: "2024",
       image:
-        "https://res.cloudinary.com/decjm9mmr/image/upload/q_50,f_auto/post_jfbbzh.png",
+        "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/post_jfbbzh.png",
       link: "/work/van-log",
       title: "Van Log",
       services: ["design", "development"],

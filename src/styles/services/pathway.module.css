@@ -127,6 +127,9 @@
   }
 }
 @media (max-width:  800px) {
+  .content {
+    display: none;
+  }
   .pathway_cards {
       grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: 40px;
