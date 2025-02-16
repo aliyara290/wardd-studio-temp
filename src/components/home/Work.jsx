@@ -11,7 +11,6 @@ import { EffectCoverflow, Pagination } from "swiper/modules";
 
 const RecentWorks = () => {
   const projectsDetails = [
-    
     {
       date: "2024",
       image:
@@ -60,7 +59,7 @@ const RecentWorks = () => {
       title: "Tajer",
       // services: ["design", "development"],
     },
-    
+
     {
       date: "2024",
       image:
@@ -69,7 +68,7 @@ const RecentWorks = () => {
       title: "Stretchedweb",
       services: ["design", "development"],
     },
-    
+
     {
       date: "2024",
       image:
@@ -77,7 +76,7 @@ const RecentWorks = () => {
       link: "/work/wardd-music",
       title: "Wardd Music",
       services: ["design", "development"],
-    },  
+    },
     {
       date: "2024",
       image:
@@ -94,7 +93,6 @@ const RecentWorks = () => {
       title: "Al Amyal Al chasaa",
       services: ["design", "development"],
     },
-    
   ];
 
   return (

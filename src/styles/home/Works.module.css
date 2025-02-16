@@ -38,6 +38,8 @@
 .projects {
   /* width: max-content; */
   padding-top: 35px;
+  position: relative;
+  z-index: 3456;
 }
 .projects_list {
   /* position: relative; */
