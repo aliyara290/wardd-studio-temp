@@ -24,7 +24,7 @@ const projectsData = [
         "Website Design",
         "Advertising",
       ],
-      websiteLink: null,
+      websiteLink: "https://www.warddmusic.com/",
     },
     video: {
       videoSrc: null,
@@ -185,7 +185,7 @@ const projectsData = [
         "Website Design",
         "Advertising",
       ],
-      websiteLink: null,
+      websiteLink: "https://smiley-dentist.vercel.app/",
     },
     video: {
       videoSrc: null,
@@ -575,7 +575,7 @@ const projectsData = [
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media", "Advertising"],
-      websiteLink: null,
+      websiteLink: "https://www.stretchedweb.com",
     },
     video: {
       videoSrc: null,

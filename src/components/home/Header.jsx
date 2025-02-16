@@ -154,13 +154,13 @@ const Header = () => {
       </div>
       <nav className={style.links} id="navbarMenu">
         <ul>
-          <li onClick={closeMenu} onClick={handleCloseMenuClick}>
-            <Link href={"/agency"} aria-label="Contact page">
+          <li onClick={closeMenu}>
+            <Link href={"/agency"} onClick={handleCloseMenuClick} aria-label="Contact page">
               <p>Agency</p>
             </Link>
           </li>
-          <li onClick={closeMenu} onClick={handleCloseMenuClick}>
-            <Link href={"/work"} aria-label="Contact page">
+          <li onClick={closeMenu}>
+            <Link href={"/work"} onClick={handleCloseMenuClick} aria-label="Contact page">
               <p>Work</p>
             </Link>
           </li>
@@ -224,7 +224,7 @@ const Header = () => {
             </div>
           </li>
           <li onClick={closeMenu}>
-            <Link href={"/contact"} aria-label="Contact page">
+            <Link href={"/contact"} onClick={handleCloseMenuClick} aria-label="Contact page">
               <p>Contact</p>
             </Link>
           </li>
@@ -234,6 +234,7 @@ const Header = () => {
               data-cal-link="wardd-studio/30min"
               data-cal-config='{"layout":"month_view"}'
               className={style.book}
+              onClick={handleCloseMenuClick}
             >
               Book a call
             </button>
