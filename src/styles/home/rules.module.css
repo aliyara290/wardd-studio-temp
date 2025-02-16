@@ -1,107 +1,113 @@
 .content {
-    width: 100%;
-    overflow: hidden;
-    font-family: 'Alexandria';
+  width: 100%;
+  overflow: hidden;
+  font-family: "Alexandria";
 }
 .container {
-    width: 94%;
-    margin: 0 auto;
-    position: relative;
+  width: 94%;
+  margin: 0 auto;
+  position: relative;
 }
 .rules_cards {
-    width: 100%;
-    padding-top: 60px;
+  width: 100%;
+  padding-top: 60px;
 }
 .rules_cards__content {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    align-items: center;
-    gap:40px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: center;
+  gap: 40px;
 }
 .rule_card {
-    background-color: #282727;
-    color: var(--dark);
-    padding: 30px;
-    /* height: 350px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 40px;
-    position: relative;
-    border-radius: 10px;
-    transition: transform .4s ease;
-    overflow: hidden;
-    position: relative;
+  background-color: #282727;
+  color: var(--dark);
+  padding: 30px;
+  /* height: 350px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+  overflow: hidden;
+  position: relative;
 }
 .rule_card:hover .o_spider {
-    top: 0;
+  top: 0;
 }
 .o_spider {
-    position: absolute;
-    top: -100%;
-    right: 10%;
-    opacity: .3;
-    z-index: 4;
-    transition: top .2s ease;
+  position: absolute;
+  top: -100%;
+  right: 10%;
+  opacity: 0.3;
+  z-index: 4;
+  transition: top 0.2s ease;
 }
 .rule_id {
-    padding-bottom: 15px;
-    font-size: var(--fz-xs);
-    font-weight: var(--semi-bold);
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    color: var(--white);
+  padding-bottom: 15px;
+  font-size: var(--fz-xs);
+  font-weight: var(--semi-bold);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  color: var(--white);
 }
 
 .rule_number {
-    /* color: var(--dark-grey); */
-    font-weight: var(--white);
-    padding-left: 5px;
+  /* color: var(--dark-grey); */
+  font-weight: var(--white);
+  padding-left: 5px;
 }
 .point {
-    display: block;
-    width: 5px;
-    height: 5px;
-    background-color: var(--blue);
-    border-radius: var(--radius-circle);
-    margin-right: 10px;
-    position: relative;
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: var(--blue);
+  border-radius: var(--radius-circle);
+  margin-right: 10px;
+  position: relative;
 }
 .point::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 10px;
-    height: 10px;
-    border-radius: var(--radius-circle);
-    border: 1px solid var(--white);
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-circle);
+  border: 1px solid var(--white);
 }
 .rule_title {
-    /* width: 50%; */
-    font-size: 25px;
-    font-weight: var(--bold);
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: var(--white);
+  /* width: 50%; */
+  font-size: 25px;
+  font-weight: var(--bold);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--white);
 }
 .rule_description {
-    font-size: var(--fz-md);
-    color: var(--white);
+  font-size: var(--fz-md);
+  color: var(--white);
 }
 
-
-@media (max-width:  570px) {
-    .content {
-        padding-top: 30px;
-        padding-bottom: 100px;
-    }
+@media (max-width: 570px) {
+  .rules_cards__content {
+    gap: 20px;
   }
-@media (max-width:  400px) {
-      .rule_title {
-        font-size: 30px;
-    }
+  .rules_cards {
+    width: 100%;
+    padding-top: 40px;
   }
+  .rule_card {
+    padding: 20px;  
+    gap: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .rule_title {
+    font-size: 30px;
+  }
+}

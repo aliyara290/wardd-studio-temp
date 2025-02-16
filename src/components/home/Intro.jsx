@@ -9,23 +9,11 @@ const Intro = () => {
         <div className={style.cards}>
           <div className={style.colOne}>
             <div className={style.rowOne}>
-              <div className={style.details}>
-                <div className={style.title}>
-                  <h3>
-                    <span>Responsive</span> for every device and browser!
-                  </h3>
-                </div>
-                <div className={style.description}>
-                  <p>
-                    We make sure that your website is available for every device
-                    user!
-                  </p>
-                </div>
+              <div className={style.bgImg}>
+                <img src="https://res.cloudinary.com/decjm9mmr/image/upload/q_40,f_auto/banner_ijonz9.jpg" alt="mockup" />
               </div>
-              <div className={style.mockup}>
-                <img src="/images/bg/phone.avif" alt="mockup" />
-                
-
+              <div className={style.detImg}>
+                <img src="https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/Asset_2_zstra7.png" alt="" />
               </div>
             </div>
             <div className={style.rowTwo}>
@@ -61,14 +49,14 @@ const Intro = () => {
               <div className={style.card}>
                 <div className={style.detailes}>
                   <div className={style.numbers}>
-                    <h3>50+</h3>
+                    <h3>100+</h3>
                   </div>
                   <div className={style.description}>
                     <p>Successfully launched projects</p>
                   </div>
-                  <div className={style.button}>
+                  {/* <div className={style.button}>
                     <button>Book a call</button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

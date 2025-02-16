@@ -7,9 +7,9 @@ function Brands() {
     <div className={style.content}>
       <div className={style.container}>
         <Heading
-          topHeading={"We create brands not only"}
-          botHeading={"for others, but also for"}
-          thirdHeading={"ourselves."}
+          topHeading={"We create brands not"}
+          botHeading={"only for others, but"}
+          thirdHeading={"also for ourselves."}
           showThirdHeading={true}
           centerHeading={false}
           showSubHeading={false}

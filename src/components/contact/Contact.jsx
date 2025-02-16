@@ -36,7 +36,7 @@ const Contact = () => {
             <h1>Contact</h1>
           </div>
           <div className={`${style.cta} row_animation`}>
-            <a href="mailto:">
+            <a href="mailto:warddstudio@gmail.com">
               <div className={style.pic}>
                 <Image
                   src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/Artboard_1_fnw90d.jpg"}
@@ -91,7 +91,7 @@ const Contact = () => {
                 </span>
                 <span>Call</span>
               </a>
-              <a href="mailto:contact@warddstudio" className={style.box}>
+              <a href="mailto:warddstudio@gmail.com" className={style.box}>
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ const Contact = () => {
                 </span>
                 <span>Email</span>
               </a>
-              <a href="" className={style.box}>
+              <a href="https://maps.app.goo.gl/yq19Qw1gCc96gs8K8" className={style.box}>
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -184,6 +184,7 @@ const Contact = () => {
               </div>
               <div className={style.det}>
                 <a href="mailto:contact@warddstudio">contact@warddstudio.com</a>
+                <a href="mailto:warddstudio@gmail.com">warddstudio@gmail.com</a>
               </div>
             </div>
             <div className={`${style.frow} row_animation`}>

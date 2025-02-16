@@ -121,7 +121,7 @@ const Footer = () => {
             <div className={style.social}>
               <ul>
                 <li>
-                  <a href="">
+                  <a href="https://www.instagram.com/warddstudios/">
                     <svg
                       id="Layer_1"
                       data-name="Layer 1"
@@ -148,7 +148,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="">
+                  <a href="https://www.linkedin.com/company/warddstudios">
                     <svg
                       id="Layer_1"
                       data-name="Layer 1"
@@ -217,41 +217,19 @@ const Footer = () => {
               <div className={style.links}>
                 <ul>
                   <li>
-                    <a href="">Studio</a>
+                    <a href="/agency">Agency</a>
                   </li>
                   <li>
-                    <a href="">Works</a>
+                    <a href="/works">Works</a>
                   </li>
+                 
                   <li>
-                    <a href="">Services</a>
-                  </li>
-                  <li>
-                    <a href="">Contact</a>
+                    <a href="/contact">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
-            {/* <div className={style.list}>
-              <div className={style.heading}>
-                <h4>Projects</h4>
-              </div>
-              <div className={style.links}>
-                <ul>
-                  <li>
-                    <a href="">Sulaiman Lawyer</a>
-                  </li>
-                  <li>
-                    <a href="">Smiley Dentist</a>
-                  </li>
-                  <li>
-                    <a href="">Crip</a>
-                  </li>
-                  <li>
-                    <a href="">Altajir</a>
-                  </li>
-                </ul>
-              </div>
-            </div> */}
+           
           </div>
           <div className={style.col}>
             <div className={style.list}>
@@ -261,16 +239,16 @@ const Footer = () => {
               <div className={style.links}>
                 <ul>
                   <li>
-                    <a href="">UI/UX Design</a>
+                    <a href="/services/web-development-and-digital-solution">Development & Digital Solutions</a>
                   </li>
                   <li>
-                    <a href="">Web Development</a>
+                    <a href="/services/creative-design-and-branding">Creative Design & Branding</a>
                   </li>
                   <li>
-                    <a href="">Marketing Digital</a>
+                    <a href="/services/audiovisual-and-motion-graphics">Audiovisual & Motion Graphics</a>
                   </li>
                   <li>
-                    <a href="">Branding</a>
+                    <a href="/services/marketing-and-print-solutions">Marketing & Print Solutions</a>
                   </li>
                 </ul>
               </div>
@@ -282,9 +260,15 @@ const Footer = () => {
                 <div className={style.heading}>
                   <h4>Contact us</h4>
                 </div>
+                <div className="flex flex-col gap-1">
+
                 <a href="mailto:contact@warddstudio.com">
                   contact@warddstudio.com
                 </a>
+                <a href="mailto:warddstudio@gmail.com">
+                warddstudio@gmail.com
+                </a>
+                </div>
               </div>
               <div className={style.list_col}>
                 <div className={style.list_col_row}>
@@ -296,7 +280,7 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className={style.direction}>
-                  <a href="#">
+                  <a target="_blank" href="https://maps.app.goo.gl/yq19Qw1gCc96gs8K8">
                     <button>
                       <span>
                         <svg
@@ -385,7 +369,7 @@ const Footer = () => {
               Copyright&copy; 2024 Wardd Studio <sup>TM</sup>
             </p>
           </div>
-          <div className={style.privacy}>
+          {/* <div className={style.privacy}>
             <ul>
               <li>
                 <a href="">Cookies</a>
@@ -397,7 +381,7 @@ const Footer = () => {
                 <a href="">Terms of service</a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         {/* <div className={style.picture}>
           <img src="/images/bg/logo-waw.png" alt="" />

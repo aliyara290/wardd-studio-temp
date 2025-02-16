@@ -55,7 +55,7 @@ const Partnership = () => {
               
               style={{
                 opacity: hoveredIndex === null || hoveredIndex === index ? 1 : 0.3, // Highlight or dim
-                cursor: "pointer", // Indicate interactivity
+                cursor: "pointer",
               }}
             >
               <Image

@@ -1,204 +1,228 @@
 .content {
-    width: 100%;
+  width: 100%;
 }
 .container {
-    width: 94%;
-    margin: 0 auto;
+  width: 94%;
+  margin: 0 auto;
 }
 .cards {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr;
-    gap: 30px;
-
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
+  gap: 30px;
 }
 
 .colOne {
-    grid-column: span 8 / span 8;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
+  grid-column: span 8 / span 8;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
 }
 .rowOne {
-    background-color: var(--dark);
-    height: 350px;
-    border-radius: 15px;
-    padding: 30px;
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
+  background-color: var(--dark);
+  height: 350px;
+  border-radius: 15px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.bgImg {
+  width: 100%;
+  height: 100%;
+}
+.rowOne .bgImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+.detImg {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  z-index: 456;
+}
+.detImg img {
+  width: 350px;
 }
 .rowOne .title {
-    width: 90%;
-    line-height: 1.2;
-    color: var(--white);
-    font-weight: 600;
-    font-size: var(--fz-3xl);
-    margin-bottom: 30px;
-    font-family: 'Suisseintl';
+  width: 90%;
+  line-height: 1.2;
+  color: var(--white);
+  font-weight: 600;
+  font-size: var(--fz-3xl);
+  margin-bottom: 30px;
+  font-family: "Suisseintl";
 }
 .rowOne .title span {
-    color: var(--blue);
+  color: var(--blue);
 }
 .rowOne .description {
-    width: 70%;
-    font-size: var(--fz-lg);
-    color: var(--white);
+  width: 70%;
+  font-size: var(--fz-lg);
+  color: var(--white);
 }
 .rowTwo {
-    height: 350px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
 .rowTwo .card {
-    padding: 30px;
+  padding: 30px;
 }
 .card:first-child {
-    background-color: var(--blue);
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .rowTwo .card:first-child .heading {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .rowTwo .card:first-child .title {
-    width: 90%;
+  width: 90%;
+  line-height: 1.2;
+  color: var(--white);
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 30px;
+  font-family: "Suisseintl";
+}
+.rowTwo .card:first-child .title span {
+  color: var(--dark);
+}
+.rowTwo .card:first-child .description {
+  width: 100%;
+  font-size: var(--fz-xl);
+  color: var(--white);
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.card:last-child {
+  background-color: var(--dark);
+}
+
+.card:last-child .detailes {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+.card:last-child .detailes .numbers {
+  font-size: var(--fz-4xl);
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1;
+  font-family: "Suisseintl";
+}
+.card:last-child .detailes .description {
+  width: 100%;
+  font-size: var(--fz-xl);
+  font-weight: 600;
+  color: var(--white);
+}
+.card:last-child .detailes .button button {
+  padding: 12px 20px;
+  background-color: var(--white);
+  border-radius: 10px;
+  color: var(--dark);
+  font-weight: 600;
+}
+.colTwo {
+  grid-column: span 4 / span 4;
+  background-color: var(--dark);
+  height: 730px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.colTwo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.colTwo .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+  color: var(--white);
+  font-weight: 600;
+  font-size: var(--fz-3xl);
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1050px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+  }
+  .colTwo {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .content {
+    padding: 0;
+  }
+}
+@media (max-width: 700px) {
+  .rowOne {
+    height: 250px;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+    /* padding-top: 50px; */
+  }
+  .rowOne .bgImg img {
+    object-position: 70% 0;
+  }
+  .rowOne .detImg {
+    bottom: 10px;
+    left: 10px;
+  }
+  /* .rowOne .detImg img {
+        width: 300px;
+    } */
+
+  .rowOne .title {
+    width: 100%;
     line-height: 1.2;
     color: var(--white);
     font-weight: 600;
     font-size: 35px;
     margin-bottom: 30px;
-    font-family: 'Suisseintl';
-}
-.rowTwo .card:first-child .title span {
-    color: var(--dark);
-}
-.rowTwo .card:first-child .description {
-    width: 100%;
-    font-size: var(--fz-xl);
-    color: var(--white);
-}
-
-.card {
-    border-radius: 15px;
-}
-
-.card:last-child {
-    background-color: var(--dark);
-}
-
-.card:last-child .detailes {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 25px;
-}
-.card:last-child .detailes .numbers {
-    font-size: var(--fz-4xl);
-    font-weight: 700;
-    color: var(--white);
-    line-height: 1;
-    font-family: 'Suisseintl';
-}
-.card:last-child .detailes .description {
-    width: 100%;
-    font-size: var(--fz-xl);
-    font-weight: 600;
-    color: var(--white);
-}
-.card:last-child .detailes .button button {
-    padding: 12px 20px;
-    background-color: var(--white);
-    border-radius: 10px;
-    color: var(--dark);
-    font-weight: 600;
-}
-.colTwo {
-    grid-column: span 4 / span 4;
-    background-color: var(--dark);
-    height: 730px;
-    border-radius: 15px;
-    overflow: hidden;
-}
-.colTwo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.colTwo .heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.2;
-    color: var(--white);
-    font-weight: 600;
-    font-size: var(--fz-3xl);
-    margin-bottom: 30px;
-}
-
-@media (max-width: 1050px) {
-    .cards {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        gap: 30px;
-    
-    }
-    .colTwo {
-        display: none;
-    }
-}
-@media (max-width: 900px) {
-    .content {
-      padding: 0;
-    }
-    
   }
-@media (max-width: 700px) {
-    .rowOne {
-        flex-direction: column;
-        gap: 40px;
-        height: auto;
-        align-items: center;
-        text-align: center;
-        padding-top: 50px;
-    }
-    
-    .mockup {
-        height: 280px;
-    }
-    .rowOne .title {
-        width: 100%;
-        line-height: 1.2;
-        color: var(--white);
-        font-weight: 600;
-        font-size:  35px;
-        margin-bottom: 30px;
-    }
-    .rowOne .title span {
-        color: var(--blue);
-    }
-    .rowOne .description {
-        width: 90%;
-        margin: 0 auto;
-        font-size: var(--fz-lg);
-        color: var(--white);
-    }
+  .rowOne .title span {
+    color: var(--blue);
+  }
+  .rowOne .description {
+    width: 90%;
+    margin: 0 auto;
+    font-size: var(--fz-lg);
+    color: var(--white);
+  }
 }
 @media (max-width: 650px) {
-    
-    .rowTwo {
-        grid-template-columns: 1fr;
-        height: auto;
-    }
-    .rowTwo .card:last-child .detailes {
-        align-items: center;
-        text-align: center;
-    }
+  .rowTwo {
+    grid-template-columns: 1fr;
+    height: auto;
+    gap: 20px;
+  }
+  .colOne {
+    gap: 20px;
+  }
+  .rowTwo .card:last-child .detailes {
+    align-items: center;
+    text-align: center;
+  }
 }

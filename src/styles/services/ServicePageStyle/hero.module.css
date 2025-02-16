@@ -3,7 +3,7 @@
   height: 120svh;
   position: relative;
   font-family: "Alexandria";
-
+  overflow: hidden;
 }
 .container {
   width: 100%;
@@ -153,6 +153,9 @@
 @media (max-width: 600px) {
   .absolute_text h1 {
     font-size: 7rem;
+  }
+  .ticker ul li {
+    font-size: var(--fz-4xl);
   }
 }
 @media (max-width: 500px) {

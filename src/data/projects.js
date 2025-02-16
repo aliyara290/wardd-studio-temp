@@ -685,8 +685,8 @@ const projectsData = [
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_h87oro.png",
     },
     mockups: [
-      { src: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/mockup_eget0n.png", alt: "Mockup Image 1" },
       { src: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/mockup-2_uj4wdq.png", alt: "Mockup Image 2" },
+      { src: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/mockup_eget0n.png", alt: "Mockup Image 1" },
     ],
   },
   {

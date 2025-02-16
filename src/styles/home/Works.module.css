@@ -116,14 +116,14 @@
 .link {
   position: absolute;
   top: -1px;
-  right: -1px;
+  left: -1px;
   z-index: 20;
 }
 .link a {
   padding: 11px 20px;
   color: var(--white);
   background-color: var(--dark);
-  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
   /* text-transform: capitalize;   */
   font-weight: 400;
 }
@@ -140,7 +140,8 @@
 }
 @media (max-width: 600px) {
   .container {
-    /* padding-bottom:  20px; */
+    width: 100%;
+    border-radius: 0;
   }
   .projects_list {
     position: relative;
@@ -173,4 +174,9 @@
     padding: 25px;
     padding-bottom: 0;
   }
+  .container {
+    
+    padding-bottom: 25px;
+  }
+  
 }

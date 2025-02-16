@@ -81,7 +81,7 @@ const StudioHero = () => {
         <div className={style.description}>
           <h5>Who Are We ?</h5>
           <p>
-          At WARDD STUDIOS AGENCY, we are architects of creativity, storytellers of bold ideas, and builders of exceptional experiences. Our mission is simple: to defy expectations, transcend boundaries, and create impactful solutions that leave a mark. WARDD is where imagination meets precision, and your vision becomes reality.
+          At Wardd Studio, we are architects of creativity, storytellers of bold ideas, and builders of exceptional experiences. Our mission is simple: to defy expectations, transcend boundaries, and create impactful solutions that leave a mark. WARDD is where imagination meets precision, and your vision becomes reality.
           </p>
         </div>
         <div className={style.cross_line}></div>

@@ -65,3 +65,9 @@
     transform: translateX(calc(-100% - var(--gap)));
   }
 }
+
+@media (max-width: 600px) {
+  .ticker ul li {
+    font-size: var(--fz-4xl);
+  }
+}
