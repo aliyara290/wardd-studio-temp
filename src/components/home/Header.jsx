@@ -68,6 +68,10 @@ const Header = () => {
     const menu = document.querySelector("#navbarMenu");
     menu.classList.toggle("open");
   };
+  const handleCloseMenuClick = () => {
+    const menu = document.querySelector("#navbarMenu");
+    menu.classList.remove("open");
+  };
 
   return (
     <header className={style.header} ref={headerRef}>
@@ -150,12 +154,12 @@ const Header = () => {
       </div>
       <nav className={style.links} id="navbarMenu">
         <ul>
-          <li onClick={closeMenu}>
+          <li onClick={closeMenu} onClick={handleCloseMenuClick}>
             <Link href={"/agency"} aria-label="Contact page">
               <p>Agency</p>
             </Link>
           </li>
-          <li onClick={closeMenu}>
+          <li onClick={closeMenu} onClick={handleCloseMenuClick}>
             <Link href={"/work"} aria-label="Contact page">
               <p>Work</p>
             </Link>
@@ -180,7 +184,7 @@ const Header = () => {
             </div>
             <div className={style.hiddenLink}>
               <div className={style.hiddenLinksContent}>
-                <div className={style.hidLink}>
+                <div className={style.hidLink} onClick={handleCloseMenuClick}>
                   <Link
                     onClick={closeMenu}
                     href="/services/web-development-and-digital-solution"
@@ -189,7 +193,7 @@ const Header = () => {
                     Development & Digital Solutions
                   </Link>
                 </div>
-                <div className={style.hidLink}>
+                <div className={style.hidLink} onClick={handleCloseMenuClick}>
                   <Link
                     onClick={closeMenu}
                     href="/services/creative-design-and-branding"
@@ -198,7 +202,7 @@ const Header = () => {
                     Creative Desgin & Branding
                   </Link>
                 </div>
-                <div className={style.hidLink}>
+                <div className={style.hidLink} onClick={handleCloseMenuClick}>
                   <Link
                     onClick={closeMenu}
                     href="/services/audiovisual-and-motion-graphics"
@@ -207,7 +211,7 @@ const Header = () => {
                     Audiovisual & Motion Graphics
                   </Link>
                 </div>
-                <div className={style.hidLink}>
+                <div className={style.hidLink} onClick={handleCloseMenuClick}>
                   <Link
                     onClick={closeMenu}
                     href="/services/marketing-and-print-solutions"

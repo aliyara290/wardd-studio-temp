@@ -185,14 +185,15 @@
   }
   .rowOne .bgImg img {
     object-position: 70% 0;
+
   }
   .rowOne .detImg {
-    bottom: 10px;
-    left: 10px;
+    bottom: 15px;
+    left: 15px;
   }
-  /* .rowOne .detImg img {
-        width: 300px;
-    } */
+  .rowOne .detImg img {
+        width: 250px;
+    }
 
   .rowOne .title {
     width: 100%;
