@@ -72,6 +72,7 @@
   }
   .right {
     flex-direction: row;
+    flex-wrap: wrap;
     
     padding: 150px 0;
   }
