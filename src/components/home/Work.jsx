@@ -134,6 +134,7 @@ const RecentWorks = () => {
               }}
               modules={[EffectCoverflow, Pagination]}
               className={style.myswipper}
+              style={{overflow: "visible"}}
             >
               {projectsDetails.map((project, index) => (
                 <SwiperSlide style={{width: "max-content", overflow: "auto"}} className={style.swipper} key={index}>
