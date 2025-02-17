@@ -56,14 +56,13 @@
 .myswipper {
   overflow: visible;
 }
-.swipper {
-  width: 390px;
-  height: 510px;
-  border-radius: 15px;
+/* .swipper { */
+  /* width: 390px;
+  height: 510px; */
+  /* border-radius: 15px;
   overflow: hidden;
-  background-color: var(--darken);
-}
-
+  background-color: var(--darken); */
+/* } */
 
 .picture {
   position: absolute;
@@ -72,7 +71,7 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-
+  background-color: var(--darken);
   border-radius: 15px;
   border-top-left-radius: 0;
 }

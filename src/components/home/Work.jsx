@@ -126,7 +126,7 @@ const RecentWorks = () => {
               className={style.myswipper}
             >
               {projectsDetails.map((project, index) => (
-                <SwiperSlide className={style.swipper} key={index}>
+                <SwiperSlide style={{width: 390, height: 510, borderRadius: 15, overflow: 'hidden'}} className={style.swipper} key={index}>
                   <li className={style.projects_item}>
                     <div className={style.picture}>
                       <img

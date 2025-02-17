@@ -42,6 +42,7 @@ const Home = () => {
         <Intro />
         <RecentWorks />
         <Pathway />
+        <Team />
         <OurRules
           cardDedtails={cardDetails}
             
@@ -49,7 +50,6 @@ const Home = () => {
           sHeading={"Toward Achieving"}
           tHeading={"Success"}
         />
-        <Team />
         <Partnership />
         <Testimonial />
         <Cta />

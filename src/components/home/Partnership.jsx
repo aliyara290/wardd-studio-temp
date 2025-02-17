@@ -19,12 +19,12 @@ const Partnership = () => {
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/7_o0ytu1.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/6_aqhxqm.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/4_psnnm8.png" },
-    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/5_njghr3.png" },
-    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/FRMJ_4x_vyrlhi.png" },
-    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/2_keklki.png" },
-    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/3_rkubwi.png" },
-    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/1_eefceu.png" },
-    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/wafa_pxydvs.png" },
+    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/5_njghr3.png" },
+    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/FRMJ_4x_vyrlhi.png" },
+    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/2_keklki.png" },
+    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/3_rkubwi.png" },
+    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/1_eefceu.png" },
+    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/wafa_pxydvs.png" },
 
   ];
 
