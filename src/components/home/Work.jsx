@@ -94,6 +94,16 @@ const RecentWorks = () => {
       services: ["design", "development"],
     },
   ];
+  const boxStyle = {
+    width: 390,
+    height: 510,
+    borderRadius: 15,
+    overflow: "hidden",
+    "@media (max-width: 600px)": {
+      width: 340,
+      height: 400
+    },
+  };
 
   return (
     <section className={style.content}>
@@ -126,8 +136,8 @@ const RecentWorks = () => {
               className={style.myswipper}
             >
               {projectsDetails.map((project, index) => (
-                <SwiperSlide style={{width: 390, height: 510, borderRadius: 15, overflow: 'hidden'}} className={style.swipper} key={index}>
-                  <li className={style.projects_item}>
+                <SwiperSlide style={{width: "max-content"}} className={style.swipper} key={index}>
+                  <li style={boxStyle} className={style.projects_item}>
                     <div className={style.picture}>
                       <img
                         src={project.image}

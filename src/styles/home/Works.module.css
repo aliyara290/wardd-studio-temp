@@ -43,7 +43,6 @@
 }
 .projects_list {
   /* position: relative; */
-  height: 500px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -56,13 +55,6 @@
 .myswipper {
   overflow: visible;
 }
-/* .swipper { */
-  /* width: 390px;
-  height: 510px; */
-  /* border-radius: 15px;
-  overflow: hidden;
-  background-color: var(--darken); */
-/* } */
 
 .picture {
   position: absolute;
@@ -146,7 +138,6 @@
   }
   .projects_list {
     position: relative;
-    height: 450px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -156,10 +147,7 @@
     align-items: center; */
     gap: 15px;
   }
-  .swipper {
-    width: 350px;
-    height: 450px;
-  }
+  
   .title {
     font-size: 25px;
     line-height: 1;
