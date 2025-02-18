@@ -34,12 +34,12 @@ export const metadata = {
     siteName: "Wardd ",
     images: [
       {
-        url: "https://stretchedweb.com/images/og/og-bg.jpg",
+        url: "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/og-bg_whldbv.jpg",
         width: 800,
         height: 600,
       },
       {
-        url: "https://stretchedweb.com/images/og/og-bg.jpg",
+        url: "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/og-bg_whldbv.jpg",
         width: 1800,
         height: 1600,
         alt: "Picture",
