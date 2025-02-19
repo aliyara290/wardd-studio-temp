@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import Layout from "@/components/layout";
+
 export const metadata = {
   description:
     "A 360° agency crafting exceptional branding, design, marketing, and audiovisual experiences to take your brand to the next level.",
