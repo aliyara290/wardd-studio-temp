@@ -5,12 +5,12 @@ const projectsData = [
     hero: {
       title: "Wardd Music",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "Wardd Music is a platform for discovering, sharing, and promoting music content.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/wardd_music_3_tggbyr.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Wardd Music is a platform dedicated to discovering, promoting, and sharing music content. Whether you’re an artist, producer, or music enthusiast, Wardd Music provides a space to showcase talent, connect with the community, and explore new sounds.",
       highlights: [
         "Creative Design",
         "Responsive Layout",
