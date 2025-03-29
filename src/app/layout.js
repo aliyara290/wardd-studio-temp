@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import Layout from "@/components/layout";
+import { Analytics } from "@vercel/analytics/react"
 export const metadata = {
   description:
     "A 360° agency crafting exceptional branding, design, marketing, and audiovisual experiences to take your brand to the next level.",
@@ -54,6 +55,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+      <Analytics/>
         <Layout>{children}</Layout>
       </body>
     </html>
