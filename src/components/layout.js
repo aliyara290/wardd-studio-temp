@@ -5,10 +5,18 @@ import Preload from "@/components/Preload";
 import Head from "next/head";
 import Script from "next/script";
 import SmoothScroll from "./SmoothScroll";
+import { usePathname } from "next/navigation";
 
 const GA_TRACKING_ID = "G-KH7VSJXRZC"; // Replace with your actual Google Analytics ID
 
 export default function Layout({ children }) {
+  const pathname = usePathname();
+
+  // Scroll to top when pathname changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <Head>

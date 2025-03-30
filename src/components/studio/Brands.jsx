@@ -36,9 +36,7 @@ function Brands() {
               </div>
               <div className={style.description}>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Provident ab vero voluptatem, distinctio voluptas doloribus
-                  aspernatur accusamus est sapiente similique!
+                Wardd Music is a pro studio for recording, mixing, and production, helping artists create with top-quality support.
                 </p>
               </div>
               <div className={style.lien}>
