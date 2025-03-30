@@ -176,6 +176,7 @@ const Contact = () => {
               </div>
               <div className={style.det}>
                 <a href="tel:+212611681099">+212611681099</a>
+                <a href="tel:+212537373707">+212537373707</a>
               </div>
             </div>
             <div className={`${style.frow} row_animation`}>
