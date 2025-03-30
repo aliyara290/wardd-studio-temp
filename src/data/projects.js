@@ -5,12 +5,12 @@ const projectsData = [
     hero: {
       title: "Wardd Music",
       description:
-        "Wardd Music is a platform for discovering, sharing, and promoting music content.",
+        "A dynamic digital platform revolutionizing how artists connect with audiences through intuitive design and powerful functionality.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/wardd_music_3_tggbyr.jpg",
     },
     details: {
       description:
-        "Wardd Music is a platform dedicated to discovering, promoting, and sharing music content. Whether you’re an artist, producer, or music enthusiast, Wardd Music provides a space to showcase talent, connect with the community, and explore new sounds.",
+        "Wardd Music is a platform dedicated to discovering, promoting, and sharing music content. Whether you're an artist, producer, or music enthusiast, Wardd Music provides a space to showcase talent, connect with the community, and explore new sounds.",
       highlights: [
         "Creative Design",
         "Responsive Layout",
@@ -30,9 +30,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Creating a Digital Stage for Musical Innovation",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "Our vision for Wardd Music was to create more than just another streaming platform. We designed a digital ecosystem where artists and listeners connect without barriers, where creative expression finds its audience, and where music discovery becomes an adventure rather than an algorithm.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/wardd_music_1_aek4u8.jpg",
@@ -48,12 +48,12 @@ const projectsData = [
     hero: {
       title: "Chance Coffee",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "Brewing a bold brand identity for a specialty coffee roaster that combines artisanal quality with contemporary design sensibilities.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/hero-banner_zhzarn.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Chance Coffee needed a brand that reflected both their artisanal approach to coffee roasting and their modern business ethos. We developed a complete visual identity that appeals to discerning coffee enthusiasts while establishing a distinctive presence in a competitive market.",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media"],
       websiteLink: null,
@@ -62,9 +62,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Crafting a Distinctive Coffee Experience",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "Our approach to the Chance Coffee brand centered on capturing the essence of their meticulous roasting process and translating it into a visual language that evokes both craftsmanship and contemporary style. The result is a brand that stands out in the specialty coffee landscape.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_ioob5z.jpg",
@@ -80,12 +80,12 @@ const projectsData = [
     hero: {
       title: "Al Amyal Al chasaa",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A comprehensive brand identity that bridges traditional values with contemporary design for an established educational institution.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/hero-banner_klhbvm.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Al Amyal Al chasaa sought to revitalize their brand while honoring their rich educational heritage. Our solution balanced respect for tradition with forward-thinking design elements, creating a cohesive identity system that resonates with students, parents, and faculty alike.",
       highlights: [
         "Creative Design",
         "Responsive Layout",
@@ -105,9 +105,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Education Reimagined Through Strategic Design",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "Our work with Al Amyal Al chasaa demonstrates how thoughtful design can transform an educational brand. By honoring the institution's values while introducing contemporary visual elements, we created a brand identity that inspires confidence and reflects academic excellence.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_rc33u2.jpg",
@@ -117,61 +117,18 @@ const projectsData = [
       { src: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/mockup-2_tbb2hg.jpg", alt: "Mockup Image 2" },
     ],
   },
-  // {
-  //   id: "sulaimane-lawyer",
-  //   poster: "/images/posts/lawyer.jpg",
-  //   hero: {
-  //     title: "sulaimane lawyer",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-  //     image: "/images/bg/hero_test.jpg",
-  //   },
-  //   details: {
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-  //     highlights: [
-  //       "Creative Design",
-  //       "Responsive Layout",
-  //       "Fast Performance",
-  //       "Secure Platform",
-  //     ],
-  //     services: [
-  //       "Website",
-  //       "Branding & Design",
-  //       "Social Media",
-  //       "Website Design",
-  //       "Advertising",
-  //     ],
-  //     websiteLink: null,
-  //   },
-  //   video: {
-  //     videoSrc: null,
-  //   },
-  //   richtext: {
-  //     title: "Lorem ipsum dolor sit amet consectetur.",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-  //   },
-  //   banner: {
-  //     image: "/images/bg/banner_test.jpeg",
-  //   },
-  //   mockups: [
-  //     { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-  //     { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-  //   ],
-  // },
   {
     id: "smiley",
     poster: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/post_gyz5fk.png",
     hero: {
       title: "Smiley",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A vibrant digital presence for a dental practice that transforms clinical expertise into a warm, approachable patient experience.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/smiley_2_nsmub2.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Smiley Dental Clinic needed a website that would both showcase their professional expertise and create a welcoming atmosphere for patients. We developed a digital solution that combines intuitive navigation with engaging visuals to reduce anxiety and build trust with their audience.",
       highlights: [
         "Creative Design",
         "Responsive Layout",
@@ -191,9 +148,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Designing a Digital Experience That Puts Patients at Ease",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "For Smiley, we focused on creating a digital experience that addresses the common anxiety around dental visits. Through thoughtful UX design, warm visuals, and accessible information architecture, we developed a website that helps patients feel comfortable before they even step into the practice.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/smiley_1_jdoqc3.jpg",
@@ -203,104 +160,18 @@ const projectsData = [
       { src: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/mockup_mih2dk.jpg", alt: "Mockup Image 2" },
     ],
   },
-  // {
-  //   id: "gourmet-grove",
-  //   poster: "/images/social-media/real-estat-05.jpg",
-  //   hero: {
-  //     title: "Gourmet Grove",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-  //     image: "/images/bg/hero_test.jpg",
-  //   },
-  //   details: {
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-  //     highlights: [
-  //       "Creative Design",
-  //       "Responsive Layout",
-  //       "Fast Performance",
-  //       "Secure Platform",
-  //     ],
-  //     services: [
-  //       "Website",
-  //       "Branding & Design",
-  //       "Social Media",
-  //       "Website Design",
-  //       "Advertising",
-  //     ],
-  //     websiteLink: null,
-  //   },
-  //   video: {
-  //     videoSrc: null,
-  //   },
-  //   richtext: {
-  //     title: "Lorem ipsum dolor sit amet consectetur.",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-  //   },
-  //   banner: {
-  //     image: "/images/bg/banner_test.jpeg",
-  //   },
-  //   mockups: [
-  //     { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-  //     { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-  //   ],
-  // },
-  // {
-  //   id: "modavista",
-  //   poster: "/images/branding/art-4-min.jpg",
-  //   hero: {
-  //     title: "Modavista",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-  //     image: "/images/bg/hero_test.jpg",
-  //   },
-  //   details: {
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-  //     highlights: [
-  //       "Creative Design",
-  //       "Responsive Layout",
-  //       "Fast Performance",
-  //       "Secure Platform",
-  //     ],
-  //     services: [
-  //       "Website",
-  //       "Branding & Design",
-  //       "Social Media",
-  //       "Website Design",
-  //       "Advertising",
-  //     ],
-  //     websiteLink: null,
-  //   },
-  //   video: {
-  //     videoSrc: null,
-  //   },
-  //   richtext: {
-  //     title: "Lorem ipsum dolor sit amet consectetur.",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-  //   },
-  //   banner: {
-  //     image: "/images/bg/banner_test.jpeg",
-  //   },
-  //   mockups: [
-  //     { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-  //     { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-  //   ],
-  // },
   {
     id: "fedaki",
     poster: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/post_rwbt0g.jpg",
     hero: {
       title: "Fedaki",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A powerful visual identity for a charitable organization that communicates compassion, impact, and trust through strategic design.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/mockup-2_s537w8.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Fedaki needed a brand identity that would inspire donors and effectively communicate their mission. Our comprehensive branding solution includes a distinctive visual system, messaging framework, and promotional materials that help them stand out in the nonprofit sector.",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media", "Advertising"],
       websiteLink: null,
@@ -309,9 +180,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Building Trust Through Authentic Brand Design",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "Our work with Fedaki demonstrates how thoughtful branding can amplify a charitable mission. By developing a visual identity that communicates both compassion and credibility, we've helped them connect with donors and beneficiaries on a deeper level, facilitating their important work.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/logo_vro8c9.jpg",
@@ -321,59 +192,18 @@ const projectsData = [
       { src: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/mockup_v5vilf.jpg", alt: "Mockup Image 2" },
     ],
   },
-  // {
-  //   id: "thaqafa",
-  //   poster: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/post_pecemo.jpg",
-  //   hero: {
-  //     title: "Thaqafa",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-  //     image: "/images/bg/hero_test.jpg",
-  //   },
-  //   details: {
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-  //     highlights: [
-  //       "Creative Design",
-  //       "Responsive Layout",
-  //       "Fast Performance",
-  //       "Secure Platform",
-  //     ],
-  //     services: [
-  //       "Branding & Design",
-  //       "Social Media",
-  //       "Advertising",
-  //     ],
-  //     websiteLink: null,
-  //   },
-  //   video: {
-  //     videoSrc: null,
-  //   },
-  //   richtext: {
-  //     title: "Lorem ipsum dolor sit amet consectetur.",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-  //   },
-  //   banner: {
-  //     image: "/images/bg/banner_test.jpeg",
-  //   },
-  //   mockups: [
-  //     { src: "/images/bg/mockup_test.jpg", alt: "Mockup Image 1" },
-  //     { src: "/images/bg/mockup_test_2.jpg", alt: "Mockup Image 2" },
-  //   ],
-  // },
   {
     id: "waed-school",
     poster: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/post_fbt1f2.jpg",
     hero: {
-      title: "waed School",
+      title: "Waed School",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A comprehensive brand identity for an educational institution that balances academic rigor with creative development.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/hero-banner_c4ysdt.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Waed School sought a brand that would reflect their innovative teaching methodology while appealing to both parents and students. We created a distinctive visual identity and communication system that conveys educational excellence with a forward-thinking approach.",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media"],
       websiteLink: null,
@@ -382,9 +212,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Creating a Visual Language for Educational Excellence",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "Our approach to Waed School's brand identity focused on creating a visual system that communicates their unique educational philosophy. Through thoughtful design choices and strategic messaging, we've helped them establish a strong presence in the competitive education market.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/post_fbt1f2.jpg",
@@ -400,12 +230,12 @@ const projectsData = [
     hero: {
       title: "Tajer",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A sophisticated brand identity for a retail business that combines elegant aesthetics with strategic market positioning.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/mockup_qjt86j.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Tajer needed a brand that would distinguish them in a competitive retail landscape. Our solution delivered a comprehensive identity system that combines distinctive visual elements with strategic positioning, helping them connect with their target audience and build market presence.",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media", "Advertising"],
       websiteLink: null,
@@ -414,9 +244,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Elevating Retail Through Strategic Brand Design",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "For Tajer, we focused on creating a brand that stands out in the competitive retail market. By combining distinctive visual elements with strategic positioning, we've helped them build a strong market presence that resonates with their target audience and supports their business growth.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_vndbzk.jpg",
@@ -432,12 +262,12 @@ const projectsData = [
     hero: {
       title: "Okez",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A dynamic brand identity for a forward-thinking tech company that balances innovation with reliability and trust.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/hero-banner_a2e876.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Okez required a brand identity that would communicate their technological innovation while building trust with their audience. We developed a comprehensive visual system and messaging framework that positions them at the cutting edge of their industry while maintaining approachability.",
       highlights: [
         "Creative Design",
         "Responsive Layout",
@@ -453,9 +283,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Crafting a Visual Language for Innovation",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "Our work with Okez demonstrates how thoughtful design can communicate complex technological concepts. Through strategic visual elements and clear messaging, we've helped them establish a brand that represents innovation while building trust with their audience.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_sgq4mb.jpg",
@@ -471,12 +301,12 @@ const projectsData = [
     hero: {
       title: "BonApp",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A mouthwatering digital platform for a culinary brand that transforms food experiences through strategic design and functionality.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_upbi4d.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "BonApp needed a digital presence that would tantalize taste buds and streamline the food ordering experience. We crafted a solution that combines appetizing visuals with intuitive functionality, creating a platform that enhances their culinary offerings and builds customer loyalty.",
       highlights: ["Creative Design", "Responsive Layout", "Fast Performance"],
       services: ["Branding & Design", "Social Media", "Advertising"],
       websiteLink: null,
@@ -485,9 +315,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Satisfying Digital Appetites Through Exceptional Design",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "Our approach to BonApp focused on creating a digital experience as delightful as their culinary offerings. By combining mouth-watering visuals with intuitive user flows, we've developed a platform that enhances their brand and simplifies the customer journey from browsing to ordering.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_upbi4d.jpg",
@@ -503,12 +333,12 @@ const projectsData = [
     hero: {
       title: "Molhim Podcast",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A captivating brand identity for an inspirational podcast that connects with audiences through authentic storytelling and bold design.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/hero-banner_qxa5x5.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Molhim Podcast needed a visual identity that would capture the essence of their thought-provoking content. We developed a distinctive brand system that combines powerful imagery with versatile design elements, creating a recognizable presence across digital and traditional media platforms.",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media", "Advertising"],
       websiteLink: null,
@@ -517,9 +347,9 @@ const projectsData = [
       videoSrc: "https://res.cloudinary.com/decjm9mmr/video/upload/q_60,f_auto/molhim-video_qs8xfb.mp4",
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Amplifying Voices Through Strategic Brand Design",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "For Molhim Podcast, we focused on creating a brand that would amplify their unique voice. Through strategic visual elements and consistent application across platforms, we've helped them build a distinctive presence in the crowded podcast landscape, connecting with listeners on a deeper level.",
     },
     banner: {
       image: null,
@@ -535,12 +365,12 @@ const projectsData = [
     hero: {
       title: "My Scarf",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "An elegant brand identity for a fashion accessory line that balances timeless sophistication with contemporary style.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/hero-banner_wjd60m.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "My Scarf needed a brand that would showcase their exquisite accessories while appealing to style-conscious consumers. Our solution delivered a refined visual identity that highlights product craftsmanship and positions the brand as both luxurious and accessible.",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media", "Advertising"],
       websiteLink: null,
@@ -549,9 +379,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Wrapping Elegance in Strategic Brand Design",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "Our approach to My Scarf focused on creating a brand experience as refined as their products. Through sophisticated visual elements and strategic positioning, we've helped them establish a distinctive presence in the fashion accessory market that resonates with their target audience.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_hzuk0q.jpg",
@@ -567,12 +397,12 @@ const projectsData = [
     hero: {
       title: "Stretchedweb",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A dynamic digital identity for a web development agency that showcases technical expertise through innovative design and functionality.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/stretched_02_dgzf1l.jpg",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Stretchedweb required a brand and website that would demonstrate their web development expertise firsthand. We created a digital presence that balances technical sophistication with accessibility, showcasing their capabilities while effectively communicating their service offerings.",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media", "Advertising"],
       websiteLink: "https://www.stretchedweb.com",
@@ -581,9 +411,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Designing a Digital Showcase of Technical Excellence",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "For Stretchedweb, we focused on creating a digital presence that serves as both a portfolio and proof of concept. Through innovative design elements and flawless functionality, their website demonstrates their capabilities to potential clients before a single word is exchanged.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/stretched_01_jfrftt.jpg",
@@ -593,50 +423,18 @@ const projectsData = [
       { src: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/Stretched_4_kae6ld.jpg", alt: "Mockup Image 2" },
     ],
   },
-  // {
-  //   id: "uit",
-  //   poster: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_autoq_10,f_auto/post_atee32.png",
-  //   hero: {
-  //     title: "UIT",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
-  //     image: "/images/projects/my-iscrfi/hero-banner.jpg",
-  //   },
-  //   details: {
-  //     description:
-  //       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
-  //     highlights: ["Creative Design", "Responsive Layout"],
-  //     services: ["Branding & Design", "Social Media", "Advertising"],
-  //     websiteLink: null,
-  //   },
-  //   video: {
-  //     videoSrc: null,
-  //   },
-  //   richtext: {
-  //     title: "Lorem ipsum dolor sit amet consectetur.",
-  //     description:
-  //       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
-  //   },
-  //   banner: {
-  //     image: "/images/projects/my-iscrfi/banner.jpg",
-  //   },
-  //   mockups: [
-  //     { src: "/images/projects/my-iscrfi/mockup.jpg", alt: "Mockup Image 1" },
-  //     { src: "/images/projects/my-iscrfi/mockup-2.jpg", alt: "Mockup Image 2" },
-  //   ],
-  // },
   {
     id: "van-log",
     poster: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/post_jfbbzh.png",
     hero: {
       title: "Van Log",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A powerful digital solution for a logistics company that streamlines operations while establishing a trustworthy market presence.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/hero-banner_szwf5q.png",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Van Log needed a brand and digital platform that would build trust with customers while optimizing their logistics operations. We delivered a comprehensive solution combining distinctive visuals with intuitive functionality, positioning them as both reliable and innovative in their field.",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media", "Advertising"],
       websiteLink: null,
@@ -645,9 +443,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Delivering Excellence Through Strategic Digital Design",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "Our approach to Van Log focused on creating a digital presence that communicates reliability and efficiency. Through thoughtful UX design and distinctive visual elements, we've helped them establish a brand that instills confidence in their logistics services across all customer touchpoints.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_mruvhw.png",
@@ -663,12 +461,12 @@ const projectsData = [
     hero: {
       title: "Wafa Assurance",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A trusted digital presence for an insurance leader that balances corporate professionalism with customer approachability.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/hero-banner_tbjn09.png",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Wafa Assurance required a digital platform that would reinforce their market leadership while simplifying complex insurance offerings for customers. We created a solution that balances corporate credibility with user-friendly navigation, enhancing both their brand authority and customer experience.",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media", "Advertising"],
       websiteLink: null,
@@ -677,9 +475,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Building Digital Trust Through Strategic Design",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "For Wafa Assurance, we focused on creating a digital experience that transforms complex insurance products into accessible customer journeys. Through intuitive information architecture and reassuring design elements, we've helped them strengthen customer relationships and streamline service delivery.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_h87oro.png",
@@ -695,12 +493,12 @@ const projectsData = [
     hero: {
       title: "Rayan Immoblie",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, labore?",
+        "A sophisticated digital platform for a real estate company that enhances property visualization and streamlines the customer journey.",
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/hero-banner_b2hucf.png",
     },
     details: {
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vitae temporibus assumenda...",
+        "Rayan Immoblie needed a digital solution that would showcase their properties while simplifying the real estate process for clients. We developed a platform that combines stunning visual presentation with intuitive navigation, creating an engaging experience that converts browsers into buyers.",
       highlights: ["Creative Design", "Responsive Layout"],
       services: ["Branding & Design", "Social Media", "Advertising"],
       websiteLink: null,
@@ -709,9 +507,9 @@ const projectsData = [
       videoSrc: null,
     },
     richtext: {
-      title: "Lorem ipsum dolor sit amet consectetur.",
+      title: "Building Digital Homes for Real Estate Excellence",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet asperiores quae reiciendis...",
+        "Our approach to Rayan Immoblie's platform focused on creating digital experiences that capture the essence of physical spaces. Through immersive visuals and streamlined user journeys, we've helped them transform property browsing into an engaging process that highlights the unique value of each listing.",
     },
     banner: {
       image: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/banner_kvqk6b.png",
@@ -720,7 +518,6 @@ const projectsData = [
       { src: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/mockup-2_rduk7i.png", alt: "Mockup Image 1" },
       { src: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/mockup_dy2kat.png", alt: "Mockup Image 2" },
     ],
-
   },
 ];
 export default projectsData;
