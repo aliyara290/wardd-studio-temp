@@ -40,7 +40,7 @@ function Brands() {
                 </p>
               </div>
               <div className={style.lien}>
-                <a href="">
+                <a href="https://www.warddmusic.com/" target="_blank" rel="noopener noreferrer">
                   <span>View Website</span>
                   <span>
                     <svg

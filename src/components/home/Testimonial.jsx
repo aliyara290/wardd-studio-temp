@@ -30,18 +30,18 @@ const Testimonial = () => {
 
   const reviews = [
     {
-      client: "Ossama, CEO / Wardd studio",
-      feedback: `The website your agency developed for us is fantastic! It's sleek, easy to navigate, and has already attracted positive attention from our customers. Great job!`,
+      client: "Nacer, PDG / Rayan Immoblie",
+      feedback: `Working with your creative team was a pleasure. The print materials and designs you delivered exceeded our expectations with their professional look and impact.`,
       picture: "/images/clients/My-photo.jpg",
     },
     {
-      client: "Sulaiman, CEO / Sulainman Lawyer",
-      feedback: `Absolutely thrilled with the website your team created for us! It perfectly captures our brand's essence and is so user-friendly. Thanks for the stellar work!`,
+      client: "Mariem Liouaeddine , TDD / Ibn Tofail",
+      feedback: `We were impressed by your agency's creative vision in developing unique concepts and producing high-quality video coverage for our UIT job fair at Ibn Tofail.`,
       picture: "/images/clients/My-photo.jpg",
     },
     {
-      client: "Mustafa, CEO / Smiley",
-      feedback: `Thanks to your SEO expertise, our website is now ranking higher in search engine results. We've noticed a significant increase in organic traffic, which has translated into more leads. Keep up the good work!`,
+      client: "Siham, CEO / Kuftan couture ",
+      feedback: `The dev team created a beautiful website that perfectly showcases our kuftan collection with an intuitive shopping experience that delights our customers.`,
       picture: "/images/clients/My-photo.jpg",
     },
     {

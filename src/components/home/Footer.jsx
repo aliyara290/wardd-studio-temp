@@ -366,7 +366,7 @@ const Footer = () => {
         <div className={style.bottom}>
           <div className={style.copyright}>
             <p>
-              Copyright&copy; 2024 Wardd Studio <sup>TM</sup>
+              Copyright&copy; 2025 Wardd Studio <sup>TM</sup>
             </p>
           </div>
           {/* <div className={style.privacy}>
