@@ -114,8 +114,9 @@ const Footer = () => {
             </div>
             <div className={style.description}>
               <p>
-                We make sure that your website is available for every device
-                user!
+              Marketing, Branding & Design  Audiovisual Production
+              Web Development & UI/UX | Events, Print 
+              No Limits. Just Results.
               </p>
             </div>
             <div className={style.social}>
