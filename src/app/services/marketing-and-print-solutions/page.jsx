@@ -7,50 +7,43 @@ import Explore from "@/components/services/ServicePageComponents/explore";
 import Intro from "@/components/services/ServicePageComponents/Intro";
 
 export const metadata = {
-  description: "Building robust and scalable websites tailored to your needs, we ensure a seamless user experience across all devices.",
-  title: 'Website Development - Stretchedweb',
+  description: "Elevate your brand with premium print materials and marketing collateral that make a lasting impression, from business cards to large-format displays.",
+  title: 'Marketing & Print Solutions - WARDD Studios',
 };
 
-const BrandingPage = () => {
+const MarketingPrintPage = () => {
   const cardDedtails = [
     {
       number: "01",
       title: "Business Cards",
       description:
-        "Create custom business cards designed to reflect your brand's professionalism and identity, ensuring every interaction leaves a lasting impression and builds credibility.",
+        "We design business cards that aren't just exchanged—they're remembered. Our custom designs blend sophisticated aesthetics with strategic branding elements to create powerful first impressions. With premium materials and meticulous attention to detail, we ensure your cards become powerful ambassadors for your professional identity.",
     },
     {
       number: "02",
       title: "Flyers and Brochures",
       description:
-        "Design and produce impactful flyers and brochures that convey your message effectively, combining stunning visuals and engaging content to captivate your audience.",
+        "Our flyers and brochures transform information into experiences. We craft each piece with a perfect balance of compelling visuals and persuasive messaging that commands attention and drives action. From concept to distribution, we ensure your print materials become effective tools for engagement and conversion.",
     },
     {
       number: "03",
       title: "Posters and Banners",
       description:
-        "Develop eye-catching posters and banners with high-quality designs and prints that grab attention and communicate your campaign’s purpose with maximum impact.",
+        "Make a bold statement with our large-format designs that demand attention. Our posters and banners combine striking visuals, strategic messaging, and premium printing to create high-impact displays. Whether for events, retail environments, or promotional campaigns, we create eye-catching materials that make your message unmissable.",
     },
   ];
 
-
   return (
     <div className="page__content">
-   
       <ServiceHero
        src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/BANNER_solution_wepqbc.jpg"}
       />
       <Intro />
-      {/* <ServiceProjects
-        projectsGallery={projectsGallery}
-        heading={"web development"}
-      /> */}
-      <OurRules cardDedtails={cardDedtails} fHeading={'Whate We'} sHeading={'Offer'} />
-
+      <OurRules cardDedtails={cardDedtails} fHeading={'What We'} sHeading={'Offer'} />
       <Explore />
       <Footer />
     </div>
   );
 };
 
-export default BrandingPage;
+export default MarketingPrintPage;

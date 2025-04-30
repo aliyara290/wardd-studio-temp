@@ -38,12 +38,12 @@ const Intro = () => {
         <div className={style.bottom_text}>
           <div className={`${style.bio} studio_bio`}>
             <div className="overflow-hidden">
-              <div className={`${style.bio__text_one} ebi_48`}>Wyh us</div>
+              <div className={`${style.bio__text_one} ebi_48`}>Why Choose WARDD</div>
             </div>
             <div className="overflow-hidden">
               <div className={`${style.bio__text} ebi_48`}>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis necessitatibus molestias eligendi dolorum deserunt nemo! Deserunt repellendus laudantium, recusandae distinctio repudiandae placeat aperiam nobis quod quos blanditiis voluptas hic voluptatibus nulla provident sequi ipsa ab odio esse animi ducimus a.
+                  Choose WARDD Studios for uncompromising creativity and results-driven excellence. We don't just meet expectations—we shatter them. Our team of visionaries, strategists, and creators brings diverse expertise to every project, ensuring solutions that are both innovative and effective. We approach each challenge with fresh perspective, dedicated craftsmanship, and the bold confidence to transform your vision into extraordinary reality.
                 </p>
               </div>
             </div>

@@ -23,32 +23,32 @@ const Pathway = () => {
     {
       id: "01",
       title: ["projects", "strategy"],
-      description: `Every project is a canvas where we blend creative vision with strategic foresight. From the initial spark of an idea to the final flourish of execution, our seasoned strategists work hand-in-hand with your team to define goals, streamline processes, and chart a course to success`,
+      description: `Every masterpiece begins with vision and strategy. Our journey together starts with deep discovery - understanding your goals, audience, and unique challenges. We blend creative vision with strategic foresight, working hand-in-hand with your team to define objectives and chart a course to extraordinary results.`,
     },
     {
       id: "02",
       title: ["design", "motion"],
-      description: `Our team is a collective of artists, visionaries, and technophiles, all dedicated to creating immersive experiences that transcend boundaries. We blend cutting-edge technology with artistic finesse to create visuals that not only captivate but also communicate messages with impact`,
+      description: `This is where imagination takes flight. Our team of artists, visionaries, and creative technologists craft the visual language of your brand. We blend cutting-edge design trends with timeless principles to create experiences that captivate and communicate with impact and intention.`,
     },
     {
       id: "03",
       title: ["smooth", "development"],
-      description: `We take pride in our meticulous approach, ensuring every element of your website functions seamlessly. From responsive design that adapts to any device, to smooth navigation that guides users effortlessly, we ensure your visitors are engaged from the very first click.`,
+      description: `Where concept becomes reality. Our development experts bring designs to life with meticulous attention to functionality and user experience. We pride ourselves on clean code, responsive frameworks, and implementation that ensures your digital product performs flawlessly across all devices.`,
     },
     {
       id: "04",
       title: ["powerful", "marketing"],
-      description: `We're not just marketers; we're storytellers, data analysts, and strategists who thrive on creating connections that drive results. With our arsenal of tools, insights, and creativity, we build campaigns that resonate with your audience and make an impact that lasts.`,
+      description: `Your story deserves to be heard. Our marketing strategists amplify your brand's voice across the right channels to reach and resonate with your audience. Using data-driven insights and creative storytelling, we build campaigns that drive meaningful engagement and conversions.`,
     },
     {
       id: "05",
       title: ["ongoing", "support"],
-      description: `In the ever-evolving digital landscape, your website isn't a static entity; it's a living, breathing representation of your brand. At Stretchedweb, we understand that consistent, reliable support is essential to ensure your online presence remains dynamic and impactful.`,
+      description: `Your success journey doesn't end at launch. We provide ongoing expertise and support to ensure your digital presence continues to evolve and excel. From technical maintenance to performance optimization, our team remains your dedicated partner in growth.`,
     },
     {
       id: "06",
       title: ["future", "evolution"],
-      description: `From immersive user experiences to AI-driven personalization, we're your digital architects for the future. Embracing change is key, and we're here to guide you. With Stretchedweb, it's not just a website; it's an evolution that keeps your brand relevant and remarkable.`,
+      description: `The digital landscape never stands still, and neither do we. As your partner in long-term success, we continuously analyze performance, adapt to emerging trends, and implement innovations that keep your brand at the forefront. WARDD ensures your vision matures alongside your business.`,
     },
   ];
   return (

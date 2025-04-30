@@ -114,8 +114,9 @@ const Footer = () => {
             </div>
             <div className={style.description}>
               <p>
-                We make sure that your website is available for every device
-                user!
+              Marketing, Branding & Design  Audiovisual Production
+              Web Development & UI/UX | Events, Print 
+              No Limits. Just Results.
               </p>
             </div>
             <div className={style.social}>
@@ -366,7 +367,7 @@ const Footer = () => {
         <div className={style.bottom}>
           <div className={style.copyright}>
             <p>
-              Copyright&copy; 2024 Wardd Studio <sup>TM</sup>
+              Copyright&copy; 2025 Wardd Studio <sup>TM</sup>
             </p>
           </div>
           {/* <div className={style.privacy}>

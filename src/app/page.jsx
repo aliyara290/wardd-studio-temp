@@ -16,23 +16,23 @@ const Home = () => {
     {
       heading: "rule",
       number: 1,
-      title: "descipline",
+      title: "discipline",
       description:
-        "In our journey to success, discipline is our guiding principle. It's the unwavering commitment to our craft, the dedication to honing our skills, and the persistence to overcome challenges. With discipline, we strive for excellence in every project we undertake.",
+        "At WARDD Studios, discipline is our foundation. It's our unwavering commitment to creative excellence, the meticulous attention we give to every detail, and our relentless drive to exceed expectations. This disciplined approach ensures that every project we deliver stands as a testament to our dedication to your success.",
     },
     {
       heading: "rule",
       number: 2,
       title: "trust",
       description:
-        "At Stretchedweb, trust forms the foundation of our relationships – with our clients, our team, and our partners. We believe in transparent communication, reliability in our work, and fostering trust through actions. It's the cornerstone of our success.",
+        "Trust is the cornerstone of every relationship we build. We earn it through transparent communication, consistent delivery of excellence, and an unwavering commitment to your vision. At WARDD Studios, we believe that the strongest partnerships are built on mutual trust and respect, allowing us to create together without boundaries.",
     },
     {
       heading: "rule",
       number: 3,
       title: "commitment",
       description:
-        "Our commitment drives us forward, fueling our passion and determination to deliver exceptional results. It's the promise we make to our clients to go above and beyond, to stay true to our values, and to relentlessly pursue perfection in every aspect of our work.",
+        "Our commitment to your success drives everything we do. It's not just about meeting deadlines; it's about exceeding expectations at every turn. From concept to completion, we dedicate ourselves fully to your vision, bringing together our expertise, creativity, and passion to deliver results that make an impact and leave a lasting impression.",
     },
   ];
   return (

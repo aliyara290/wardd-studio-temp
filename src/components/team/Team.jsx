@@ -42,10 +42,15 @@ function Team() {
       name: "Oussama Mounaji",
       position: "Chief Operations Officer, Founder",
     },
+    // {
+    //   pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/moustafa_llilby.jpg",
+    //   name: "Elmostapha Aamre",
+    //   position: "Chief Executive Officer, Founder",
+    // },
     {
-      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/moustafa_llilby.jpg",
-      name: "Elmostapha Aamre",
-      position: "Chief Executive Officer, Founder",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/sugar_bijzyz.jpg",
+      name: "Mohamed Sekkar",
+      position: "Head of Development",
     },
     {
       pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/guarouani_eeu8e9.jpg",
@@ -53,10 +58,11 @@ function Team() {
       position: "Head of Production",
     },
     {
-      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/sugar_bijzyz.jpg",
-      name: "Mohamed Sekkar",
-      position: "Head of Development",
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/yara_w1dfxn.jpg",
+      name: "Ali Yara",
+      position: "Full Stack Developer",
     },
+    
     {
       pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/ghada_yetpsh.jpg",
       name: "Ghada Naji",
@@ -68,20 +74,16 @@ function Team() {
       position: "Chief Design Officer",
     },
     {
-      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/yara_w1dfxn.jpg",
-      name: "Ali Yara",
-      position: "Full Stack Developer",
-    },
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/abdalhadi_y6yzlm.jpg",
+      name: "Abdelhadi Bouchrouaat",
+      position: "Visual Identity Designer",
+    },  
     {
       pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/imran_kio94h.jpg",
       name: "Imrane El Fakyr",
       position: "Sound Engineer | Producer",
     },
-    {
-      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/abdalhadi_y6yzlm.jpg",
-      name: "Abdelhadi Bouchrouaat",
-      position: "Visual Identity Designer",
-    },
+    
   ];
   return (
     <div className={style.content}>
