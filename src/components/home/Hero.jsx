@@ -28,14 +28,14 @@ const Hero = () => {
             playsInline={true}
             autoPlay={true}
             muted={true}
-            loop={true}
-            src="https://kinescope.io/wLpvmBiSxxsgTxyv42f6zo/1080p#t=0.001"
+            loop={true} 
+            src="https://res.cloudinary.com/dylpck2et/video/upload/q_90,f_auto/luzvela22at0on2hratu.mp4"
           ></video>
-          <div className={style.boldText}>
+          {/* <div className={style.boldText}>
             <div className={`${style.ticker} hero_ticker`}>
               <ul aria-hidden="true">
                 {Array.from({ length: 7 }, (_, i) => (
-                  <li key={i}>NO LIMITS - JUST RESULTS -</li>
+                   <li key={i}>NO LIMITS - JUST RESULTS -</li>
                 ))}
               </ul>
               <ul>
@@ -44,7 +44,7 @@ const Hero = () => {
                 ))}
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
