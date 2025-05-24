@@ -163,6 +163,7 @@ const VideoComponent = () => {
                 left: 0,
                 width: '100vw',
                 height: '100vh',
+                maxHeight: '100vh',
                 backgroundColor: 'rgba(0,0,0,0.95)',
                 display: 'flex',
                 alignItems: 'center',
@@ -173,18 +174,7 @@ const VideoComponent = () => {
               }}
               onClick={() => closeVideoModal()}
             >
-              <div 
-                onClick={(e) => e.stopPropagation()}
-                style={{ 
-                  width: '90%', 
-                  maxWidth: '1200px',
-                  backgroundColor: '#111',
-                  borderRadius: '8px',
-                  overflow: 'hidden',
-                  position: 'relative'
-                }}
-              >
-                <button 
+              <button 
                   onClick={(e) => {
                     e.stopPropagation();
                     closeVideoModal();
@@ -210,6 +200,19 @@ const VideoComponent = () => {
                 >
                   ×
                 </button>
+              <div 
+                onClick={(e) => e.stopPropagation()}
+                style={{ 
+                  width: '97%', 
+                  height: 'max-content',
+                  maxWidth: '1200px',
+                  backgroundColor: '#111',
+                  borderRadius: '8px',
+                  overflow: 'hidden',
+                  position: 'relative'
+                }}
+              >
+                
                 
                 {/* Container for the video with padding-based aspect ratio */}
                 <div style={{ 
@@ -252,7 +255,7 @@ const VideoComponent = () => {
                 </div>
                 
                 {/* Video info below the player */}
-                <div style={{ 
+                {/* <div style={{ 
                   padding: '20px 30px',
                   display: 'flex',
                   justifyContent: 'space-between',
@@ -269,7 +272,7 @@ const VideoComponent = () => {
                     margin: 0,
                     color: 'rgba(255,255,255,0.7)'
                   }}>// {selectedVideo.director}</p>
-                </div>
+                </div> */}
               </div>
             </div>
           )}
