@@ -25,15 +25,6 @@ const VideoShowcase = () => {
       vimeoId: "1086572392",
       category: "Promotional"
     },
-    // {
-    //   id: "documentary",
-    //   title: "Between here and there",
-    //   client: "doha",
-    //   director: "WARDD STUDIOS",
-    //   thumbnail: "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/post_tleq2p.jpg",
-    //   vimeoId: "1086572392",
-    //   category: "Documentary"
-    // },
     {
       id: "Short Film ",
       title: "Love and Choice ",
@@ -65,7 +56,7 @@ const VideoShowcase = () => {
     },
     {
       id: "Kelma",
-      title: "Kelma -Rachid Goudi",
+      title: "Kelma - Rachid Goudi",
       client: "Rchid Goudi",
       director: "WARDD STUDIOS",
       thumbnail: "https://i.vimeocdn.com/video/1974994049-53d29a452be3c49e53fdfc0280a471d537cfd70fa366c8815a9814a39ef2038b-d_1920x1080?region=us",
