@@ -15,7 +15,6 @@ export const metadata = {
   rating: "General",
   publisher: "Wardd studio", 
   copyright: "© 2024 Warddstudio",
-  themeColor: "#161616",
   icons: {
     icon: [
       { rel: 'apple-touch-icon', sizes: '180x180', url: '/apple-touch-icon.png' },
@@ -25,7 +24,6 @@ export const metadata = {
     manifest: '/site.webmanifest',
     maskIcon: { url: '/safari-pinned-tab.svg', color: '#f15a24' },
   },
-  themeColor: '#ffffff',
   msapplicationTileColor: '#da532c',
   openGraph: {
     title: "Wardd Studio - 360 agency",

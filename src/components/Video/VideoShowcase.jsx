@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect } from "react";
 import style from "@/styles/videoShowcase.module.css";
 import Image from "next/image";
@@ -46,8 +45,8 @@ const VideoShowcase = () => {
     },
     {
       id: "Cuftan/jelabat",
-      title: "Eljami couture",
-      client: "Eljami couture",
+      title: "Eljamai couture",
+      client: "Eljamai couture",
       director: "WARDD STUDIOS",
       thumbnail: "https://res.cloudinary.com/decjm9mmr/image/upload/q_80/banner_ucstdf.jpg",
       cloudinaryId: "Header_Video_2_elhpdi",
@@ -257,7 +256,8 @@ const VideoShowcase = () => {
                   padding: '20px 30px',
                   display: 'flex',
                   justifyContent: 'space-between',
-                  alignItems: 'center'
+                  alignItems: 'center',
+                  color: 'rgba(255,255,255,0.7)'
                 }}>
                   <h2 style={{ 
                     margin: 0, 
