@@ -7,6 +7,7 @@ export const viewport = {
   themeColor: "#000000"
 };
 
+
 export const metadata = {
   title: "Video Portfolio - Wardd Studio",
   description: "Explore our collection of commercial, promotional, and documentary videos showcasing our audiovisual expertise and creative vision.",
