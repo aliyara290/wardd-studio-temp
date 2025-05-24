@@ -21,7 +21,7 @@ const VideoComponent = () => {
       title: "Gitex Best Of",
       client: "Wardd Music",
       director: "WARDD STUDIOS",
-      thumbnail: "/images/bg/gitex.jpg",
+      thumbnail: "https://res.cloudinary.com/dylpck2et/image/upload/v1748107214/gitex_kphjds.jpg",
       vimeoId: "1086572392",
       category: "Promotional"
     },
@@ -147,7 +147,7 @@ const VideoComponent = () => {
                   </div>
                   <div className={style.video_info}>
                     <h3>{video.title.toUpperCase()}</h3>
-                    <p>// {video.director}</p>
+                    {/* <p>// {video.director}</p> */}
                   </div>
                 </div>
               </div>
