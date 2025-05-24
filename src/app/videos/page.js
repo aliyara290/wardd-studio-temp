@@ -1,6 +1,10 @@
 import Header from "@/components/home/Header";
 import Footer from "@/components/home/Footer";
 import VideoShowcase from "@/components/video/VideoShowcase";
+// If your file is VideoShowcase.jsx:
+
+
+// If your file is VideoShowcase.js:
 
 export const viewport = {
   themeColor: "#000000"
