@@ -288,7 +288,7 @@ const Footer = () => {
                 <div className={style.direction}>
                   <a
                     target="_blank"
-                    href="https://maps.app.goo.gl/yq19Qw1gCc96gs8K8"
+                    href="https://maps.app.goo.gl/9F7Cyp97USLyh8Tv6"
                   >
                     <button>
                       <span>

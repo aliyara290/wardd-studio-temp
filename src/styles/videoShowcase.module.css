@@ -1,0 +1,170 @@
+/* Complete video card layout with visible titles */
+.video_card {
+  position: relative;
+  overflow: visible; /* Important: must be visible */
+  border-radius: 0;
+  background-color: transparent;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 80px; /* Space for title section */
+}
+
+/* Even-odd pattern for left-right layout */
+.video_card:nth-child(odd) {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.video_card:nth-child(even) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Inner container - proper sizing and structure */
+.inner_container {
+  width: 800px;
+  max-width: 800px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Thumbnail styling */
+.thumbnail {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.video_card:hover .thumbnail img {
+  transform: scale(1.02);
+}
+
+.play_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.video_card:hover .play_button {
+  opacity: 1;
+}
+
+/* White line separator */
+.video_card .inner_container::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 20px 0 16px 0;
+}
+
+/* Video info section - MUST BE VISIBLE */
+.video_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+}
+
+.video_info h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--white);
+  flex: 1;
+}
+
+.video_info p {
+  margin: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* Remove old separator */
+.video_card::after {
+  display: none;
+}
+/* Add these styles to your videoShowcase.module.css file */
+
+.content {
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Title section styling */
+.bold_text {
+  margin-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.text h1 {
+  font-size: clamp(60px, 8vw, 120px);
+  font-weight: 700;
+  color: var(--white, #ffffff);
+  margin: 0;
+  line-height: 1;
+  text-transform: none;
+}
+
+/* Cross line under title */
+.cross_line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 40px 0 60px 0;
+}
+
+/* Video grid container */
+.video_grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .content {
+    padding: 20px 15px;
+  }
+  
+  .text h1 {
+    font-size: clamp(40px, 10vw, 80px);
+  }
+  
+  .cross_line {
+    margin: 30px 0 40px 0;
+  }
+}
