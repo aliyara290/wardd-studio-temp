@@ -13,7 +13,7 @@ const VideoShowcase = () => {
       title: "OM - SA3A",
       client: "OM",
       director: "Mohamed Guarouani",
-      thumbnail: "/images/bg/sa3a.jpg",
+      thumbnail: "https://img.youtube.com/vi/fWlUmFIdGnA/maxresdefault.jpg",
       vimeoId: "819660205",
       category: "Music Video"
     },
