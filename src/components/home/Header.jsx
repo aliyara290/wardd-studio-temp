@@ -155,13 +155,18 @@ const Header = () => {
       <nav className={style.links} id="navbarMenu">
         <ul>
           <li onClick={closeMenu}>
-            <Link href={"/agency"} onClick={handleCloseMenuClick} aria-label="Contact page">
+            <Link href={"/agency"} onClick={handleCloseMenuClick} aria-label="Agency page">
               <p>Agency</p>
             </Link>
           </li>
           <li onClick={closeMenu}>
-            <Link href={"/work"} onClick={handleCloseMenuClick} aria-label="Contact page">
+            <Link href={"/work"} onClick={handleCloseMenuClick} aria-label="Work page">
               <p>Work</p>
+            </Link>
+          </li>
+          <li onClick={closeMenu}>
+            <Link href={"/videos"} onClick={handleCloseMenuClick} aria-label="Production page">
+              <p>Production</p>
             </Link>
           </li>
           <li
