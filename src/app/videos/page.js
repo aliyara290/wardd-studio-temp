@@ -1,6 +1,6 @@
 import Header from "@/components/home/Header";
 import Footer from "@/components/home/Footer";
-import VideoShowcase from "@/components/video/VideoShowcase";
+import VideoComponent from "@/components/video/VideoComponent";
 // If your file is VideoShowcase.jsx:
 
 
@@ -34,7 +34,7 @@ export default function VideosPage() {
   return (
     <>
       <Header />
-      <VideoShowcase />
+      <VideoComponent />
       <Footer />
     </>
   );
