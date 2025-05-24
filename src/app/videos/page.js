@@ -1,4 +1,4 @@
-import VideoShowcase from "../../components/video/VideoShowcase";
+import VideoShowcase from "@/components/video/VideoShowcase";
 import Header from "@/components/home/Header";
 import Contact from "@/components/contact/Contact";
 import Footer from "@/components/home/Footer";
