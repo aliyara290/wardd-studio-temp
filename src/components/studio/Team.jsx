@@ -18,6 +18,10 @@ function Team() {
       name: "Simo Sekkar",
     },
     {
+      pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/guarouani_eeu8e9.jpg",
+      name: "Mohamed Guarouani",
+    },
+    {
       pic: "https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/ghada_yetpsh.jpg",
       name: "Ghada",
     },
