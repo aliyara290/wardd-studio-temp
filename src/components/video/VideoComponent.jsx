@@ -28,12 +28,21 @@ const VideoComponent = () => {
     // {
     //   id: "documentary",
     //   title: "Between here and there",
-    //   client: "doha",
+    //   client: "Aljazira",
     //   director: "WARDD STUDIOS",
     //   thumbnail: "https://res.cloudinary.com/decjm9mmr/image/upload/q_30,f_auto/post_tleq2p.jpg",
     //   vimeoId: "1086572392",
     //   category: "Documentary"
     // },
+    {
+      id: "sami-documentary",
+      title: "Sami - Le maillot mouillé",
+      client: "sami",
+      director: "WARDD STUDIOS",
+      thumbnail: "https://i.vimeocdn.com/video/1750842986-fee61b89207295534db04c45ec6d03365201b4f8cea4f76ac418d06d1de83d96-d_1920x1080?region=us",
+      vimeoId: "882349084",
+      category: "Documentary"
+    },
     {
       id: "Short Film ",
       title: "Love and Choice ",
