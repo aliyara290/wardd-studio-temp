@@ -54,6 +54,17 @@ const VideoComponent = () => {
       category: "Short Film"
     },
     {
+      id: "Show Reel ",
+      title: "SHOW REEL ",
+      client: "someone",
+      director: "WARDD STUDIOS",
+      thumbnail: "https://res.cloudinary.com/dylpck2et/image/upload/v1748885099/Screenshot_2025-06-02_at_18.23.58_czl52m.png",
+      cloudinaryId: "luzvela22at0on2hratu",
+      cloudName: "dylpck2et",
+      videoType: "cloudinary",
+      category: "Short Film"
+    },
+    {
       id: "Cuftan/jelabat",
       title: "Eljamai couture",
       client: "Eljamai couture",
