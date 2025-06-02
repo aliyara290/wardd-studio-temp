@@ -34,12 +34,15 @@ const ServiceProjects = ({ projectsGallery, deviceType, heading }) => {
           botHeading={"projects"}
           centerHeading={false}
           showSubHeading={true}
+          
         />
         <div className={style.carousel}>
           <Carousel
             responsive={responsive}
             draggable={true}
             customTransition="all .9s ease"
+            itemClass="carousel-item-padding-40-px"
+            
           >
             {projectsGallery.map((card, index) => (
               <div className={style.card} key={index}>

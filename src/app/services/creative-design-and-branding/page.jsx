@@ -31,7 +31,33 @@ const CreativeDesignPage = () => {
       description:
         "In a crowded marketplace, your packaging is your silent salesperson. We design packaging solutions that go beyond protection to create memorable unboxing experiences. Combining strategic thinking with creative innovation, we transform functional necessities into powerful brand moments that influence purchasing decisions and foster lasting customer loyalty.",
     },
+    
   ];
+  const projectsGallery = [
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887809/PET_04_stretched_mgzxiy.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887809/PET_03_stretched_nbcea3.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887809/PET_02_d8tobf.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887808/PET_01_wlfaep.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887808/04_stretched_wjrtdo.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887808/02_stretched_e4ybal.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887808/01_stretched_bp2bks.webp",
+    },
+   
+
+]
 
   return (
     <div className="page__content">
@@ -39,6 +65,7 @@ const CreativeDesignPage = () => {
        src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/BANNER_creative_zlynae.jpg"}
       />
       <Intro />
+      <ServiceProjects projectsGallery={projectsGallery} heading={"Our works"} />
       <OurRules cardDedtails={cardDedtails} fHeading={'What We'} sHeading={'Offer'} />
       <Explore />
       <Footer />

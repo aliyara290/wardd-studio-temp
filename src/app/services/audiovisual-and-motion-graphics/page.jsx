@@ -33,12 +33,39 @@ const AudiovisualServices = () => {
     },
   ];
 
+const projectsGallery = [
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887809/PET_04_stretched_mgzxiy.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887809/PET_03_stretched_nbcea3.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887809/PET_02_d8tobf.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887808/PET_01_wlfaep.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887808/04_stretched_wjrtdo.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887808/02_stretched_e4ybal.webp",
+    },
+    {
+      image: "https://res.cloudinary.com/dylpck2et/image/upload/v1748887808/01_stretched_bp2bks.webp",
+    },
+   
+
+]
+
   return (
     <div className="page__content">
       <ServiceHero
        src={"https://res.cloudinary.com/decjm9mmr/image/upload/q_10,f_auto/BANNER_AUDIO_VISUAL_we15rl.jpg"}
       />
       <Intro />
+      <ServiceProjects projectsGallery={projectsGallery} heading={"Our works"} />
       <OurRules cardDedtails={cardDedtails} fHeading={'What We'} sHeading={'Offer'} />
       <Explore />
       <Footer />
