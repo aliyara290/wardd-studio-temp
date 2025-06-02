@@ -26,7 +26,7 @@ const VideoComponent = () => {
       category: "Promotional"
     },
     {
-      id: "documentary",
+      id: "add",
       title: "Nghma w atay",
       client: "Aljazira",
       director: "WARDD STUDIOS",
