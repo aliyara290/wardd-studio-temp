@@ -30,7 +30,7 @@ const Testimonial = () => {
 
   const reviews = [
     {
-      client: "Nacer, PDG / Rayan Immoblie",
+      client: "Nacer, PDG / El Rayan Immoblier",
       feedback: `Working with your creative team was a pleasure. The print materials and designs you delivered exceeded our expectations with their professional look and impact.`,
       picture: "/images/clients/My-photo.jpg",
     },
@@ -40,7 +40,7 @@ const Testimonial = () => {
       picture: "/images/clients/My-photo.jpg",
     },
     {
-      client: "Siham, CEO / Kuftan couture ",
+      client: "Siham Jami, CEO / Eljamai Couture ",
       feedback: `The dev team created a beautiful website that perfectly showcases our kuftan collection with an intuitive shopping experience that delights our customers.`,
       picture: "/images/clients/My-photo.jpg",
     },
