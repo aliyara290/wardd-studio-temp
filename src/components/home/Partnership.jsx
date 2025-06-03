@@ -9,13 +9,13 @@ const Partnership = () => {
 
   const partnerships = [
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/uit_hgpgve.png" },
-    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/erm_tfdytc.png" },
+    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/erm_tfdytc.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/9_uynpx4.png" },
     // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/factory_klkk0r.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/10_fdumho.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/EL_RAYAN_ycio1a.png" },
-    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/ikea_wnjuv6.png" },
-    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/8_dbov6p.png" },
+     { logo: "https://res.cloudinary.com/dylpck2et/image/upload/v1748984245/infasme_logo_white_300x_go6nlh.png" },
+    // { logo: "https://res.cloudinary.com/dylpck2et/image/upload/v1748984245/white_logo_transparent_background_amtm9u.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/7_o0ytu1.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/6_aqhxqm.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/4_psnnm8.png" },
@@ -23,8 +23,9 @@ const Partnership = () => {
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/FRMJ_4x_vyrlhi.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/2_keklki.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/3_rkubwi.png" },
-    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/1_eefceu.png" },
+   { logo: "https://res.cloudinary.com/dylpck2et/image/upload/v1748985116/gitex-logo-white_sklvau.png " },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/wafa_pxydvs.png" },
+
     
 
   ];
