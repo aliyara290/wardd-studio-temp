@@ -25,6 +25,7 @@ const Partnership = () => {
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/3_rkubwi.png" },
     // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/1_eefceu.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/wafa_pxydvs.png" },
+    
 
   ];
 

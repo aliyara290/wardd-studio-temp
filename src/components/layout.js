@@ -31,7 +31,7 @@ export default function Layout({ children }) {
           property="og:description"
           content="Delivering innovative web design and development with impactful digital marketing campaigns that catapult brands forward."
         />
-        <meta property="og:url" content="https://www.stretchedweb.com" />
+        <meta property="og:url" content="https://www.warddstudios.com" />
         <meta property="og:type" content="website" />
         <meta name="twitter:title" content="Wardd Studio - Creative agency" />
         <meta

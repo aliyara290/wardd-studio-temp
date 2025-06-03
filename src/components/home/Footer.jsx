@@ -285,7 +285,7 @@ const Footer = () => {
                     <h4>Based in</h4>
                   </div>
                   <div className={style.description}>
-                    <p>Kenitra, Al istiqlal.</p>
+                    <p>Kenitra, Morocco.</p>
                   </div>
                 </div>
                 <div className={style.direction}>

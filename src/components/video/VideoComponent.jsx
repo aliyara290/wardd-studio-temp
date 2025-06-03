@@ -8,6 +8,16 @@ const VideoComponent = () => {
   // Video showcase data with Vimeo IDs
   const videoProjects = [
     {
+      id: "showreel-2025",
+      title: "SHOWREEL",
+      client: "WARDD STUDIOS",
+      director: "WARDD STUDIOS",
+      thumbnail: "https://img.youtube.com/vi/2aSshKxZ_uE/maxresdefault.jpg",
+      youtubeId: "2aSshKxZ_uE",
+      videoType: "youtube",
+      category: "Showreel"
+    },
+    {
       id: "OMFLOW",
       title: "OM - SA3A",
       client: "OM",
@@ -53,17 +63,7 @@ const VideoComponent = () => {
       vimeoId: "812091616",
       category: "Short Film"
     },
-    {
-      id: "Show Reel ",
-      title: "SHOW REEL ",
-      client: "someone",
-      director: "WARDD STUDIOS",
-      thumbnail: "https://res.cloudinary.com/dylpck2et/image/upload/v1748885099/Screenshot_2025-06-02_at_18.23.58_czl52m.png",
-      cloudinaryId: "luzvela22at0on2hratu",
-      cloudName: "dylpck2et",
-      videoType: "cloudinary",
-      category: "Short Film"
-    },
+    
     {
       id: "Cuftan/jelabat",
       title: "Eljamai couture",
@@ -92,7 +92,39 @@ const VideoComponent = () => {
       thumbnail: "https://i.vimeocdn.com/video/1974994049-53d29a452be3c49e53fdfc0280a471d537cfd70fa366c8815a9814a39ef2038b-d_1920x1080?region=us",
       vimeoId: "1050359128",
       category: "Music Video"
-    }
+    },
+  
+    {
+      id: "niger",
+      title: "Niger at GITEX Africa 2025",
+      client: "niger",
+      director: "WARDD STUDIOS",
+      thumbnail: "https://img.youtube.com/vi/r_djCb3tfLw/maxresdefault.jpg",
+      youtubeId: "r_djCb3tfLw",
+      videoType: "youtube",
+      category: "Music Video"
+    },
+    {
+      id: "nigerr",
+      title: "Niger at GITEX Africa 2025",
+      client: "niger",
+      director: "WARDD STUDIOS",
+      thumbnail: "https://img.youtube.com/vi/g87rbXRqbS4/maxresdefault.jpg",
+      youtubeId: "g87rbXRqbS4",
+      videoType: "youtube",
+      category: "Music Video"
+    },
+    {
+      id: "niger",
+      title: "Niger at GITEX Africa Morocco 2025 ",
+      client: "Niger",
+      director: "WARDD STUDIOS",
+      thumbnail: "https://img.youtube.com/vi/keeAh0pVCoE/maxresdefault.jpg",
+      youtubeId: "keeAh0pVCoE",
+      videoType: "youtube",
+      category: "Music Video"
+    },
+    
   ];
 
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -248,6 +280,21 @@ const VideoComponent = () => {
                       src={`https://player.cloudinary.com/embed/?cloud_name=${selectedVideo.cloudName}&public_id=${selectedVideo.cloudinaryId}&profile=cld-default`}
                       frameBorder="0" 
                       allow="autoplay; fullscreen; encrypted-media; picture-in-picture" 
+                      allowFullScreen
+                      style={{ 
+                        position: 'absolute', 
+                        top: 0, 
+                        left: 0, 
+                        width: '100%', 
+                        height: '100%' 
+                      }}
+                      title={selectedVideo.title}
+                    ></iframe>
+                  ) : selectedVideo.videoType === 'youtube' ? (
+                    <iframe 
+                      src={`https://www.youtube.com/embed/${selectedVideo.youtubeId}?autoplay=1&rel=0`}
+                      frameBorder="0" 
+                      allow="autoplay; fullscreen; picture-in-picture" 
                       allowFullScreen
                       style={{ 
                         position: 'absolute', 
