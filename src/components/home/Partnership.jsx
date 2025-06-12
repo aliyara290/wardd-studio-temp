@@ -17,13 +17,14 @@ const Partnership = () => {
      { logo: "https://res.cloudinary.com/dylpck2et/image/upload/v1748984245/infasme_logo_white_300x_go6nlh.png" },
     // { logo: "https://res.cloudinary.com/dylpck2et/image/upload/v1748984245/white_logo_transparent_background_amtm9u.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/7_o0ytu1.png" },
-    { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/6_aqhxqm.png" },
+    // { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/6_aqhxqm.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/4_psnnm8.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/5_njghr3.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/FRMJ_4x_vyrlhi.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/2_keklki.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/3_rkubwi.png" },
    { logo: "https://res.cloudinary.com/dylpck2et/image/upload/v1748985116/gitex-logo-white_sklvau.png " },
+   { logo: "https://res.cloudinary.com/dylpck2et/image/upload/v1748984245/white_logo_transparent_background_amtm9u.png" },
     { logo: "https://res.cloudinary.com/decjm9mmr/image/upload/q_20,f_auto/wafa_pxydvs.png" },
 
     
