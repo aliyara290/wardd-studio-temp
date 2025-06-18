@@ -8,7 +8,7 @@ import Intro from "@/components/services/ServicePageComponents/Intro";
 
 export const metadata = {
   description: "Transform your digital presence with powerful, custom-built websites and applications that deliver exceptional user experiences, drive engagement, and achieve your business objectives.",
-  title: 'Web Development & Digital Solutions - WARDD Studios',
+  title: 'WEB DEVELOPMENT & UI/UX - WARDD Studios',
 };
 
 const WebDevelopmentPage = () => {

@@ -8,7 +8,7 @@ import Intro from "@/components/services/ServicePageComponents/Intro";
 
 export const metadata = {
   description: "Transform your brand story through compelling visuals, dynamic motion graphics, and professional video production that captivates your audience and delivers your message with impact.",
-  title: 'Audiovisual & Motion Graphics - WARDD Studios',
+  title: 'AUDIOVISUAL PROD & MOTION GRAPHICS - WARDD Studios',
 };
 
 const AudiovisualServices = () => {

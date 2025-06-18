@@ -10,13 +10,13 @@ function Cta() {
         </div>
         <div className={style.description}>
           <p>
-            Fill our form, book a call or contact us via email and let's see if
+            book a call or contact us via email and let's see if
             we are good fit!
           </p>
         </div>
         <div className={style.button}>
           <a href="#" className={style.link}>
-            <button>Book a call</button>
+            {/* <button>Book a call</button> */}
           </a>
         </div>
       </div>

@@ -8,7 +8,7 @@ import Intro from "@/components/services/ServicePageComponents/Intro";
 
 export const metadata = {
   description: "Elevate your brand with premium print materials and marketing collateral that make a lasting impression, from business cards to large-format displays.",
-  title: 'Marketing & Print Solutions - WARDD Studios',
+  title: 'EVENTS & PRINT SOLUTIONS - WARDD Studios',
 };
 
 const MarketingPrintPage = () => {

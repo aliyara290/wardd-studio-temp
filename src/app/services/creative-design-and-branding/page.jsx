@@ -8,7 +8,7 @@ import Intro from "@/components/services/ServicePageComponents/Intro";
 
 export const metadata = {
   description: "Transform your brand with distinctive visual identities, strategic design systems, and memorable creative solutions that capture your essence and connect with your audience.",
-  title: 'Creative Design & Branding - WARDD Studios',
+  title: 'MARKETING, BRANDING & DESIGN - WARDD Studios',
 };
 
 const CreativeDesignPage = () => {

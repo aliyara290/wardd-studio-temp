@@ -19,7 +19,7 @@ const VideoComponent = () => {
     },
     {
       id: "OMFLOW",
-      title: "OM - SA3A",
+      title: "SA3A - OMFLOW [ OFFICIAL MUSIC VIDEO ]",
       client: "OM",
       director: "Mohamed Guarouani",
       thumbnail: "https://img.youtube.com/vi/fWlUmFIdGnA/maxresdefault.jpg",
@@ -28,7 +28,7 @@ const VideoComponent = () => {
     },
     {
       id: "wardd-music-promo",
-      title: "Gitex Best Of",
+      title: "INFASME AT GITEX AFRICA MOROCCO 2025 – BEST OF GLOBAL",
       client: "Wardd Music",
       director: "WARDD STUDIOS",
       thumbnail: "https://res.cloudinary.com/dylpck2et/image/upload/v1748107214/gitex_kphjds.jpg",
@@ -66,7 +66,7 @@ const VideoComponent = () => {
     
     {
       id: "Cuftan/jelabat",
-      title: "Eljamai couture",
+      title: "ELJAMAI COUTURE DESERT MUSE SS25 LAUNCHING COLLECTION",
       client: "Eljamai couture",
       director: "KAMAL SEKKAR",
       thumbnail: "https://res.cloudinary.com/decjm9mmr/image/upload/q_80/banner_ucstdf.jpg",
@@ -86,7 +86,7 @@ const VideoComponent = () => {
     },
     {
       id: "Kelma",
-      title: "Kelma -Rachid Goudi",
+      title: "KELMA - RACHID GOUDI [ OFFICIAL MUSIC VIDEO ]",
       client: "Rchid Goudi",
       director: "WARDD STUDIOS",
       thumbnail: "https://i.vimeocdn.com/video/1974994049-53d29a452be3c49e53fdfc0280a471d537cfd70fa366c8815a9814a39ef2038b-d_1920x1080?region=us",
@@ -96,7 +96,7 @@ const VideoComponent = () => {
   
     {
       id: "niger",
-      title: "Niger at GITEX Africa 2025",
+      title: "NIGER AT GITEX AFRICA MOROCCO 2025 – BEST OF DAY 1",
       client: "niger",
       director: "WARDD STUDIOS",
       thumbnail: "https://img.youtube.com/vi/r_djCb3tfLw/maxresdefault.jpg",
@@ -106,7 +106,7 @@ const VideoComponent = () => {
     },
     {
       id: "nigerr",
-      title: "Niger at GITEX Africa 2025",
+      title: "NIGER AT GITEX AFRICA MOROCCO 2025 – BEST OF DAY 2",
       client: "niger",
       director: "WARDD STUDIOS",
       thumbnail: "https://img.youtube.com/vi/g87rbXRqbS4/maxresdefault.jpg",
@@ -116,7 +116,7 @@ const VideoComponent = () => {
     },
     {
       id: "niger",
-      title: "Niger at GITEX Africa Morocco 2025 ",
+      title: "NIGER AT GITEX AFRICA MOROCCO 2025 – BEST OF DAY 3 ",
       client: "Niger",
       director: "WARDD STUDIOS",
       thumbnail: "https://img.youtube.com/vi/keeAh0pVCoE/maxresdefault.jpg",

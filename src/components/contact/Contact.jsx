@@ -47,7 +47,7 @@ const Contact = () => {
                 />
               </div>
               <div className={style.bio}>
-              <p>Hi 👋🏼 I'm Oussama and I'm happy to help you with your project request. <span>Just send me an email to </span><span>warddstudio@gmail.com</span><span></span></p>
+              <p>Hi 👋🏼 I'm Oussama and I'm happy to help you with your project request. <span>Just send an email to </span><span>contact@warddstudio.com</span><span></span></p>
               </div>
             </a>
           </div>
@@ -176,7 +176,7 @@ const Contact = () => {
                 <h5>Phone</h5>
               </div>
               <div className={style.det}>
-                <a href="tel:+212611681099">+212611681099</a>
+                <a href="tel:+212611681099">+212640454649</a>
                 <a href="tel:+212537373707">+212537373707</a>
               </div>
             </div>

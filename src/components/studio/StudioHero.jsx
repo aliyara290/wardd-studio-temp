@@ -48,15 +48,11 @@ const StudioHero = () => {
             <div className="overflow-hidden">
               <div className={`${style.bio__text} ebi_48`}>
                 <p>
-                Ward Studios is a creative powerhouse, a team of dreamers and doers dedicated to
-                crafting impactful solutions. We specialize in delivering tailored strategies that
-                resonate, ensuring your story stands out in a crowded world. Our expertise spans
-                multiple industries, and our passion lies in creating moments that inspire, engage,
-                and leave a lasting impression.
-                Whether you
-                are a brand looking to redefine your identity, a visionary entrepreneur
-                with a bold idea, or an organization aiming to connect with your audience, we are
-                here to turn your vision into reality.
+                  Because we don’t just make things look good — we make them unforgettable.<br />
+                  Because we don’t believe in boring.<br />
+                  Because while others are playing safe, we’re out here breaking rules, pushing pixels, flipping scripts, and making noise.<br />
+                  We mix strategy with storytelling, design with disruption, and emotion with impact — until your brand becomes a movement. Choose us if you’re ready to stop blending in and start owning your space.<br />
+                  Let’s build the stuff they’ll talk about tomorrow.
                 </p>
               </div>
             </div>
@@ -81,7 +77,12 @@ const StudioHero = () => {
         <div className={style.description}>
           <h5>Who Are We ?</h5>
           <p>
-          At Wardd Studio, we are architects of creativity, storytellers of bold ideas, and builders of exceptional experiences. Our mission is simple: to defy expectations, transcend boundaries, and create impactful solutions that leave a mark. WARDD is where imagination meets precision, and your vision becomes reality.
+          We’re not your average agency.
+          We are idea rebels, brand architects, and visual troublemakers.
+          We don’t follow trends — we start them.
+          From the first spark of a concept to the final execution that turns heads, we live to create what others only imagine.
+          Born from passion, powered by culture, and driven by chaos (the good kind), we’re the generation of bold.
+          And we’re just getting started.
           </p>
         </div>
         <div className={style.cross_line}></div>

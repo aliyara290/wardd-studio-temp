@@ -242,22 +242,22 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a href="/services/web-development-and-digital-solution">
-                      Development & Digital Solutions
+                      WEB DEVELOPMENT & UI/UX
                     </a>
                   </li>
                   <li>
                     <a href="/services/creative-design-and-branding">
-                      Creative Design & Branding
+                      MARKETING, BRANDING & DESIGN
                     </a>
                   </li>
                   <li>
                     <a href="/services/audiovisual-and-motion-graphics">
-                      Audiovisual & Motion Graphics
+                      AUDIOVISUAL PROD & MOTION GRAPHICS
                     </a>
                   </li>
                   <li>
                     <a href="/services/marketing-and-print-solutions">
-                      Marketing & Print Solutions
+                      EVENTS & PRINT SOLUTIONS
                     </a>
                   </li>
                 </ul>

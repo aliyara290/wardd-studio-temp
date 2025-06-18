@@ -8,7 +8,7 @@ import Brands from "@/components/studio/Brands";
 export const metadata = {
   description:
     "Crafting compelling narratives and engaging experiences. Join us and let's make magic happen.",
-  title: "Stretchedweb - Where Creativity Unleashed",
+  title: "Wardd Studios - Where Creativity Unleashed",
 };
 
 const Studio = () => {
