@@ -9,7 +9,7 @@ const VideoComponent = () => {
   const videoProjects = [
     {
       id: "showreel-2025",
-      title: "SHOWREEL",
+      title: "SHOWREEL [2025]",
       client: "WARDD STUDIOS",
       director: "WARDD STUDIOS",
       thumbnail: "https://img.youtube.com/vi/2aSshKxZ_uE/maxresdefault.jpg",
@@ -37,7 +37,7 @@ const VideoComponent = () => {
     },
     {
       id: "add",
-      title: "Nghma w atay",
+      title: "Nghma w atay [Advertisement]",
       client: "Aljazira",
       director: "WARDD STUDIOS",
       thumbnail: "https://i.vimeocdn.com/video/1978246920-9d651f7afab32556674deafb546cb88647e24e1f83b1049d9972cba333d4c701-d_1920x1080?region=us",
@@ -46,7 +46,7 @@ const VideoComponent = () => {
     },
     {
       id: "sami-documentary",
-      title: "Sami - Le maillot mouillé",
+      title: "Sami - Le maillot mouillé [Portrait]",
       client: "sami",
       director: "WARDD STUDIOS",
       thumbnail: "https://i.vimeocdn.com/video/1750842986-fee61b89207295534db04c45ec6d03365201b4f8cea4f76ac418d06d1de83d96-d_1920x1080?region=us",
@@ -56,7 +56,7 @@ const VideoComponent = () => {
     
     {
       id: "Short Film ",
-      title: "Love and Choice ",
+      title: "Love and Choice [Short movie] ",
       client: "someone",
       director: "Mohamed Guarouani",
       thumbnail: "https://i.vimeocdn.com/video/1767747598-f855930c20d2468902665796fa4360ce908cd5dd4384dbeadf1b367f2bea3678-d_1920x1080?region=us",
