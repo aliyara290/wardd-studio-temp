@@ -301,7 +301,7 @@ const Header = () => {
                     href="/services/web-development-and-digital-solution"
                   >
                     {" "}
-                    Development & Digital Solutions
+                    WEB DEVELOPMENT & UI/UX
                   </Link>
                 </div>
                 <div className={style.pic}>
@@ -322,7 +322,7 @@ const Header = () => {
                     onClick={closeMenu}
                     href="/services/creative-design-and-branding"
                   >
-                    Creative Design & Branding
+                    MARKETING, BRANDING & DESIGN
                   </Link>
                 </div>
                 <div className={style.pic}>
@@ -343,7 +343,7 @@ const Header = () => {
                     onClick={closeMenu}
                     href="/services/audiovisual-and-motion-graphics"
                   >
-                    Audiovisual & Motion Graphics
+                    AUDIOVISUAL PROD & MOTION GRAPHICS
                   </Link>
                 </div>
                 <div className={style.pic}>
@@ -364,7 +364,7 @@ const Header = () => {
                     onClick={closeMenu}
                     href="/services/marketing-and-print-solutions"
                   >
-                    Marketing & Print Solutions
+                    EVENTS & PRINT SOLUTIONS
                   </Link>
                 </div>
                 <div className={style.pic}>
